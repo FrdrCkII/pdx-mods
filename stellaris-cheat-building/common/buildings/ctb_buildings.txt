@@ -1,0 +1,133 @@
+building_ctb_01 = {
+    icon = "building_cradle_sanctum"
+    base_buildtime = 1
+    can_be_ruined = no
+    base_cap_amount = 1
+    exempt_from_ai_planet_specialization = no
+    category = trade
+    
+    allow = {
+        exists = owner
+        owner = { is_ai = no }
+    }
+    
+    building_sets = {
+        urban
+        trade
+        research
+        factory
+        government
+    }
+    
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = yes
+            }
+        }
+        modifier = {
+            planet_crime_mult = -1
+
+            planet_civilians_energy_produces_add = 10
+            planet_civilians_minerals_produces_add = 10
+            planet_civilians_food_produces_add = 10
+            planet_civilians_physics_research_produces_add = 5
+            planet_civilians_society_research_produces_add = 5
+            planet_civilians_engineering_research_produces_add = 5
+            planet_civilians_unity_produces_add = 5
+            planet_civilians_trade_produces_add = 5
+            planet_civilians_consumer_goods_produces_add = 5
+            planet_civilians_alloys_produces_add = 5
+            planet_civilians_volatile_motes_produces_add = 1
+            planet_civilians_exotic_gases_produces_add = 1
+            planet_civilians_rare_crystals_produces_add = 1
+            planet_civilians_sr_living_metal_produces_add = 1
+            planet_civilians_sr_zro_produces_add = 1
+            planet_civilians_sr_dark_matter_produces_add = 1
+            planet_civilians_nanites_produces_add = 1
+            planet_civilians_minor_artifacts_produces_add = 1
+            planet_civilians_astral_threads_produces_add = 1
+            planet_civilians_biomass_produces_add = 1
+            planet_civilians_menace_produces_add = 1
+            planet_civilians_integrity_produces_add = 1
+            planet_civilians_advanced_logic_produces_add = 1
+            planet_civilians_feral_insight_produces_add = 1
+            planet_civilians_entropy_crystals_produces_add = 1
+        }
+    }
+    
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_regular_empire = no
+            }
+        }
+        modifier = {
+            planet_crime_nohappiness_mult = -1
+
+            planet_maintenance_drones_energy_produces_add = 10
+            planet_maintenance_drones_minerals_produces_add = 10
+            planet_maintenance_drones_food_produces_add = 10
+            planet_maintenance_drones_physics_research_produces_add = 5
+            planet_maintenance_drones_society_research_produces_add = 5
+            planet_maintenance_drones_engineering_research_produces_add = 5
+            planet_maintenance_drones_unity_produces_add = 5
+            planet_maintenance_drones_trade_produces_add = 5
+            planet_maintenance_drones_consumer_goods_produces_add = 5
+            planet_maintenance_drones_alloys_produces_add = 5
+            planet_maintenance_drones_volatile_motes_produces_add = 1
+            planet_maintenance_drones_exotic_gases_produces_add = 1
+            planet_maintenance_drones_rare_crystals_produces_add = 1
+            planet_maintenance_drones_sr_living_metal_produces_add = 1
+            planet_maintenance_drones_sr_zro_produces_add = 1
+            planet_maintenance_drones_sr_dark_matter_produces_add = 1
+            planet_maintenance_drones_nanites_produces_add = 1
+            planet_maintenance_drones_minor_artifacts_produces_add = 1
+            planet_maintenance_drones_astral_threads_produces_add = 1
+            planet_maintenance_drones_biomass_produces_add = 1
+            planet_maintenance_drones_menace_produces_add = 1
+            planet_maintenance_drones_integrity_produces_add = 1
+            planet_maintenance_drones_advanced_logic_produces_add = 1
+            planet_maintenance_drones_feral_insight_produces_add = 1
+            planet_maintenance_drones_entropy_crystals_produces_add = 1
+        }
+    }
+    
+    planet_modifier = {
+        planet_stability_add = 100
+        planet_decision_enact_speed_mult = 1
+        planet_orbital_bombardment_damage = -1
+        planet_resettlement_unemployed_mult = -1
+        pop_environment_tolerance = 1
+        
+        planet_housing_add = 5000000
+        planet_amenities_add = 5000000
+        planet_defense_armies_add = 20
+        planet_building_build_speed_mult = 1
+        planet_clear_blocker_time_mult = -1
+
+        planet_jobs_produces_mult = 5
+        planet_jobs_upkeep_mult = -50
+    }
+    
+    country_modifier = {
+        country_resource_max_add = 1000000
+    }
+    
+    army_modifier = {
+        army_starting_experience_add = 1000
+        army_damage_mult = 10
+        army_health = 10
+        army_disengage_chance_mult = 10
+        army_morale = 10
+    }
+    
+    resources = {
+        category = planet_buildings
+        produces = {
+            influence = 10
+        }
+    }
+}
