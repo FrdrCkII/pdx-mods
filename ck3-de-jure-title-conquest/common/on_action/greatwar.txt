@@ -1,0 +1,38 @@
+on_war_started = {
+    on_actions = { de_jure_greatwar_start }
+}
+
+de_jure_greatwar_start = {
+    effect = {
+        if = {
+            limit = {
+                scope:war = {
+                    OR = {
+                        using_cb = empire_de_jure_greatwar
+                        using_cb = kingdom_de_jure_greatwar
+                    }
+                }
+            }
+            scope:war = {
+                every_in_list = {
+                    list = target_titles
+                    custom_tooltip = CONQUEST_CB_TITLE
+                    every_de_jure_county = {
+                        limit = {
+                            exists = holder
+					              }
+						            holder = {
+						                add_to_temporary_list = join_as_defender
+                        }
+                    }
+    			      }
+                every_in_list = {
+                    list = join_as_defender
+                    scope:war = {
+                        add_defender = prev
+                    }
+                }
+            }
+        }
+    }
+}
