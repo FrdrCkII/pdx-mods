@@ -1,0 +1,31 @@
+ABS_resource_title = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { custom_tooltip = ABS_resource_tt }
+}
+
+ABS_pay_all = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { seff_ABS_pay = yes }
+}
+ABS_pay_minerals = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { seff_ABS_pay_minerals = yes }
+}
+ABS_pay_alloys = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { seff_ABS_pay_alloys = yes }
+}
+ABS_pay_influence = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { seff_ABS_pay_influence = yes }
+}
+ABS_pay_rare_crystals = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { seff_ABS_pay_rare_crystals = yes }
+}

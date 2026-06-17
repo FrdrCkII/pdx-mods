@@ -1,0 +1,13 @@
+auto_build_starbase = {
+    length = -1
+    icon = "GFX_edict_type_policy"
+    ai_weight = { weight = 0 }
+    potential = {
+        is_ai = no
+        is_nomadic = no
+    }
+    allow = { NOT = { has_edict = auto_build_starbase } }
+    effect = {
+        country_event = { id = ABS.100 }
+    }
+}

@@ -1,0 +1,330 @@
+namespace = ABS
+
+# Root = Country
+# From = system
+# FromFrom = Fleet of the science ship that surveyed it, if any
+
+country_event = {
+    id = ABS.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    pre_triggers = {
+        is_ai = no
+    }
+
+    trigger = {
+        from = {
+            NOT = { exists = starbase }
+        }
+        root = {
+            stri_ABS_is_auto_build_on = yes
+        }
+    }
+
+    immediate = {
+        if = {
+            limit = { stri_ABS_is_auto_build_on_subject = yes }
+            from = { save_event_target_as = ABSSystem }
+            root = { save_event_target_as = ABSSubject }
+            root.overlord = { save_event_target_as = ABSCountry }
+        }else = {
+            from = { save_event_target_as = ABSSystem }
+            root = { save_event_target_as = ABSCountry }
+        }
+        seff_ABS_auto_build = yes
+    }
+}
+
+starbase_event = {
+    id = ABS.2
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        from = {
+            is_ai = no
+            has_country_flag = flag_ABS_auto_build_starbases_stations
+        }
+    }
+    immediate = {
+        this.solar_system = { save_event_target_as = ABSSystem }
+        from = { save_event_target_as = ABSCountry }
+        seff_ABS_build_station = yes
+    }
+}
+
+event = {
+    id = ABS.3
+    hide_window = yes
+    is_triggered_only = yes
+    fire_only_once = yes
+    immediate = {
+        set_global_flag = flag_ABS_mod
+        random_country = {
+            limit = {
+                is_country_type = fallen_empire
+                has_ethic = ethic_fanatic_xenophobe
+            }
+            save_global_event_target_as = ABSFallen
+        }
+    }
+}
+
+country_event = { #debug
+    id = ABS.4
+    is_triggered_only = yes
+    title = ABS.4.title
+    desc = ABS.4.desc
+    picture = GFX_evt_crashed_station
+
+    option = {
+        name = debug_on
+        trigger = {
+            has_country_flag = flag_ABS_debug
+        }
+        remove_country_flag = flag_ABS_debug
+    }
+    option = {
+        name = debug_off
+        trigger = {
+            NOT = {
+                has_country_flag = flag_ABS_debug
+            }
+        }
+        set_country_flag = flag_ABS_debug
+    }
+}
+
+# country_event = {
+#     id = ABS.4
+#     hide_window = yes
+#     is_triggered_only = yes
+#     trigger = {
+
+#     }
+#     immediate = {
+#         seff_ABS_pay = yes
+#     }
+# }
+
+country_event = { # mod settings
+    id = ABS.100
+    diplomatic = yes
+    custom_gui = ABS_settings
+    is_triggered_only = yes
+    title = ABS.100.title
+
+    desc = {
+        trigger = {
+            NOT = { has_ethic = ethic_gestalt_consciousness }
+        }
+        text = ABS.100.desc
+    }
+    desc = {
+        trigger = {
+            has_ethic = ethic_gestalt_consciousness
+        }
+        text = ABS.100.desc.gestalt
+    }
+
+    immediate = {
+        seff_ABS_init = yes
+        save_event_target_as = ABSCountry
+    }
+
+    option = {
+        name = ABS.esc
+    }
+
+    # 1.2 GUI
+    # option = {
+    #     name = ABS.100.a1
+    #     trigger = { NOT = { has_country_flag = flag_ABS_build_starbase_on } }
+    #     custom_tooltip = ABS_build_starbase_tt
+    #     set_country_flag = flag_ABS_build_starbase_on
+    # }
+    # option = {
+    #     name = ABS.100.a2
+    #     trigger = { has_country_flag = flag_ABS_build_starbase_on }
+    #     custom_tooltip = ABS_build_starbase_tt
+    #     remove_country_flag = flag_ABS_build_starbase_on
+    # }
+    # option = {
+    #     name = ABS.100.b1
+    #     trigger = { NOT = { has_country_flag = flag_ABS_auto_build_starbases_stations } }
+    #     custom_tooltip = ABS_build_station_tt
+    #     set_country_flag = flag_ABS_auto_build_starbases_stations
+    # }
+    # option = {
+    #     name = ABS.100.b2
+    #     trigger = { has_country_flag = flag_ABS_auto_build_starbases_stations }
+    #     custom_tooltip = ABS_build_station_tt
+    #     remove_country_flag = flag_ABS_auto_build_starbases_stations
+    # }
+    # option = {
+    #     name = ABS.100.c1
+    #     trigger = { NOT = { has_country_flag = flag_ABS_auto_build_starbases_notice } }
+    #     custom_tooltip = ABS_ask_tt
+    #     set_country_flag = flag_ABS_auto_build_starbases_notice
+    # }
+    # option = {
+    #     name = ABS.100.c2
+    #     trigger = { has_country_flag = flag_ABS_auto_build_starbases_notice }
+    #     custom_tooltip = ABS_ask_tt
+    #     remove_country_flag = flag_ABS_auto_build_starbases_notice
+    # }
+    # # 1.1 subject
+    # option = {
+    #     name = ABS.100.d1
+    #     trigger = {
+    #         NOT = {
+    #             has_country_flag = flag_ABS_subject_always
+    #             has_country_flag = flag_ABS_subject_limited
+    #         }
+    #     }
+    #     custom_tooltip = ABS_subject_tt
+    #     set_country_flag = flag_ABS_subject_always
+    # }
+    # option = {
+    #     name = ABS.100.d2
+    #     trigger = { has_country_flag = flag_ABS_subject_always }
+    #     custom_tooltip = ABS_subject_tt
+    #     remove_country_flag = flag_ABS_subject_always
+    #     set_country_flag = flag_ABS_subject_limited
+    # }
+    # option = {
+    #     name = ABS.100.d3
+    #     trigger = { has_country_flag = flag_ABS_subject_limited }
+    #     custom_tooltip = ABS_subject_tt
+    #     remove_country_flag = flag_ABS_subject_limited
+    # }
+    # option = {
+    #     name = ABS.100.e1
+    #     trigger = { NOT = { has_country_flag = flag_ABS_auto_build_starbases_notice } }
+    #     custom_tooltip = ABS_subject_ask_tt
+    #     set_country_flag = flag_ABS_auto_build_starbases_notice
+    # }
+    # option = {
+    #     name = ABS.100.e2
+    #     trigger = { has_country_flag = flag_ABS_auto_build_starbases_notice }
+    #     custom_tooltip = ABS_subject_ask_tt
+    #     remove_country_flag = flag_ABS_auto_build_starbases_notice
+    # }
+
+    # option = {
+    #     name = ABS.100.debug1
+    #     trigger = { NOT = { has_country_flag = flag_ABS_debug } }
+    #     custom_tooltip = ABS_debug_tt
+    #     set_country_flag = flag_ABS_debug
+    # }
+    # option = {
+    #     name = ABS.100.debug2
+    #     trigger = { has_country_flag = flag_ABS_debug }
+    #     custom_tooltip = ABS_debug_tt
+    #     remove_country_flag = flag_ABS_debug
+    # }
+
+    # option = {
+    #     name = ABS.100.aa
+    #     custom_tooltip = ABS_aa_tt
+    #     every_system = {
+    #         limit = {
+    #             stri_ABS_can_build_starbase = yes
+    #             is_surveyed = {
+    #                 who = event_target:ABSCountry
+    #                 status = yes
+    #             }
+    #         }
+    #         save_event_target_as = ABSSystem
+    #         seff_ABS_build_starbase = yes
+    #     }
+    # }
+    # option = {
+    #     name = ABS.100.ab
+    #     custom_tooltip = ABS_ab_tt
+    #     every_system = {
+    #         limit = { is_owned_by = root }
+    #         starbase = { seff_ABS_build_station = yes }
+    #     }
+    # }
+
+    # option = {
+    #     name = ABS.100.ba
+    #     custom_tooltip = ABS_ba_tt
+    #     seff_ABS_pay = yes
+    # }
+
+
+    # option = {
+    #     name = ABS.esc
+    #     set_country_flag = flag_ABS_esc
+    # }
+    # after = {
+    #     hidden_effect = {
+    #         if = {
+    #             limit = { has_country_flag = flag_ABS_esc }
+    #             remove_country_flag = flag_ABS_esc
+    #         }else = {
+    #             country_event = { id = ABS.100 }
+    #         }
+    #     }
+    # }
+}
+
+country_event = { # ask
+    id = ABS.101
+    diplomatic = yes
+    custom_gui = ABS_notice
+    location = event_target:ABSSystem
+    is_triggered_only = yes
+    title = ABS.101.title
+    desc = {
+        trigger = {
+            NOT = { has_country_flag = flag_ABS_is_subject }
+            NOT = { has_ethic = ethic_gestalt_consciousness }
+        }
+        text = ABS.101.desc
+    }
+    desc = {
+        trigger = {
+            NOT = { has_country_flag = flag_ABS_is_subject }
+            has_ethic = ethic_gestalt_consciousness
+        }
+        text = ABS.101.desc.gestalt
+    }
+    desc = {
+        trigger = {
+            has_country_flag = flag_ABS_is_subject
+            NOT = { has_ethic = ethic_gestalt_consciousness }
+        }
+        text = ABS.101.desc.subject
+    }
+    desc = {
+        trigger = {
+            has_country_flag = flag_ABS_is_subject
+            has_ethic = ethic_gestalt_consciousness
+        }
+        text = ABS.101.desc.gestalt.subject
+    }
+
+    immediate = {
+        save_event_target_as = ABSCountry
+    }
+
+    option = {
+        name = ABS.101.a
+        seff_ABS_build_starbase = yes
+        event_target:ABSStarbase = { seff_ABS_build_station = yes }
+    }
+    option = {
+        name = ABS.101.b
+        seff_ABS_build_starbase = yes
+    }
+    option = {
+        name = ABS.esc
+    }
+
+    after = {
+        remove_country_flag = flag_ABS_is_subject
+    }
+}

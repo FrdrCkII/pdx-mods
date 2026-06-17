@@ -1,0 +1,181 @@
+ABS_auto_build_starbases = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_auto_build_starbases }
+            remove_country_flag = flag_ABS_auto_build_starbases
+        }else = {
+            set_country_flag = flag_ABS_auto_build_starbases
+        }
+    }
+}
+ABS_auto_build_starbases_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = { stri_ABS_show_settings = yes has_country_flag = flag_ABS_auto_build_starbases }
+}
+ABS_auto_build_starbases_notice = {
+    potential = { stri_ABS_show_settings = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_notice_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_auto_build_starbases_notice }
+            remove_country_flag = flag_ABS_auto_build_starbases_notice
+        }else = {
+            set_country_flag = flag_ABS_auto_build_starbases_notice
+        }
+    }
+}
+ABS_auto_build_starbases_notice_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings = yes
+        has_country_flag = flag_ABS_auto_build_starbases_notice
+    }
+}
+ABS_auto_build_starbases_stations = {
+    potential = { stri_ABS_show_settings = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_stations_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_auto_build_starbases_stations }
+            remove_country_flag = flag_ABS_auto_build_starbases_stations
+        }else = {
+            set_country_flag = flag_ABS_auto_build_starbases_stations
+        }
+    }
+}
+ABS_auto_build_starbases_stations_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings = yes
+        has_country_flag = flag_ABS_auto_build_starbases_stations
+    }
+}
+
+
+ABS_auto_build_starbases_subject = {
+    potential = { stri_ABS_show_settings = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_subject_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_auto_build_starbases_subject }
+            remove_country_flag = flag_ABS_auto_build_starbases_subject
+            seff_ABS_clr_settings_subject = yes
+        }else = {
+            seff_ABS_clr_settings_subject = yes
+            set_country_flag = flag_ABS_auto_build_starbases_subject
+            set_country_flag = flag_ABS_auto_build_starbases_subject_always
+        }
+    }
+}
+ABS_auto_build_starbases_subject_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings = yes
+        has_country_flag = flag_ABS_auto_build_starbases_subject
+    }
+}
+ABS_auto_build_starbases_subject_always = {
+    potential = { stri_ABS_show_settings_subject = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_subject_always_tt
+        seff_ABS_clr_settings_subject = yes
+        set_country_flag = flag_ABS_auto_build_starbases_subject_always
+    }
+}
+ABS_auto_build_starbases_subject_always_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings_subject = yes
+        has_country_flag = flag_ABS_auto_build_starbases_subject_always
+    }
+}
+ABS_auto_build_starbases_subject_limited = {
+    potential = { stri_ABS_show_settings_subject = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_subject_limited_tt
+        seff_ABS_clr_settings_subject = yes
+        set_country_flag = flag_ABS_auto_build_starbases_subject_limited
+    }
+}
+ABS_auto_build_starbases_subject_limited_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings_subject = yes
+        has_country_flag = flag_ABS_auto_build_starbases_subject_limited
+    }
+}
+ABS_auto_build_starbases_subject_never = {
+    potential = { stri_ABS_show_settings_subject = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_subject_never_tt
+        seff_ABS_clr_settings_subject = yes
+        set_country_flag = flag_ABS_auto_build_starbases_subject_never
+    }
+}
+ABS_auto_build_starbases_subject_never_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings_subject = yes
+        has_country_flag = flag_ABS_auto_build_starbases_subject_never
+    }
+}
+
+ABS_auto_build_starbases_fallen = {
+    potential = { stri_ABS_show_settings = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_fallen_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_auto_build_starbases_fallen }
+            remove_country_flag = flag_ABS_auto_build_starbases_fallen
+        }else = {
+            set_country_flag = flag_ABS_auto_build_starbases_fallen
+        }
+    }
+}
+ABS_auto_build_starbases_fallen_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings = yes
+        has_country_flag = flag_ABS_auto_build_starbases_fallen
+    }
+}
+
+ABS_auto_build_starbases_neighbor = {
+    potential = { stri_ABS_show_settings = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_auto_build_starbases_neighbor_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_auto_build_starbases_neighbor }
+            remove_country_flag = flag_ABS_auto_build_starbases_neighbor
+        }else = {
+            set_country_flag = flag_ABS_auto_build_starbases_neighbor
+        }
+    }
+}
+ABS_auto_build_starbases_neighbor_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = {
+        stri_ABS_show_settings = yes
+        has_country_flag = flag_ABS_auto_build_starbases_neighbor
+    }
+}

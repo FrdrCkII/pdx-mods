@@ -1,0 +1,126 @@
+stri_ABS_mod = { always = yes }
+stri_ABS_target = { is_same_value = event_target:ABSCountry }
+
+stri_ABS_is_auto_build_on = {
+    is_nomadic = no
+    OR = {
+        stri_ABS_is_auto_build_on_root = yes
+        stri_ABS_is_auto_build_on_subject = yes
+    }
+}
+
+stri_ABS_is_auto_build_on_root = {
+    is_nomadic = no
+    custom_tooltip = {
+        fail_text = ABS_need_auto_build_on_tt
+        has_country_flag = flag_ABS_auto_build_starbases
+    }
+}
+
+stri_ABS_is_auto_build_on_subject = {
+    is_nomadic = no
+    is_subject = yes
+    overlord = { has_country_flag = flag_ABS_auto_build_starbases_subject }
+    OR = {
+        # subject always
+        AND = {
+            is_subject = yes
+            overlord = {
+                stri_ABS_is_auto_build_on_root = yes
+                has_country_flag = flag_ABS_auto_build_starbases_subject_always
+            }
+        }
+        # subject limited
+        AND = {
+            is_subject = yes
+            overlord = {
+                stri_ABS_is_auto_build_on_root = yes
+                has_country_flag = flag_ABS_auto_build_starbases_subject_limited
+            }
+            OR = {
+                has_loyalty >= 50
+                any_agreement = {
+                    has_term_value = {
+                        term = subject_expand
+                        value = subject_can_expand_with_tithe
+                    }
+                }
+                any_agreement = {
+                    has_term_value = {
+                        term = subject_expand
+                        value = subject_cannot_expand
+                    }
+                }
+            }
+        }
+        # subject never
+        AND = {
+            is_subject = yes
+            overlord = {
+                stri_ABS_is_auto_build_on_root = yes
+                has_country_flag = flag_ABS_auto_build_starbases_subject_never
+            }
+            OR = {
+                any_agreement = {
+                    has_term_value = {
+                        term = subject_expand
+                        value = subject_can_expand_with_tithe
+                    }
+                }
+                any_agreement = {
+                    has_term_value = {
+                        term = subject_expand
+                        value = subject_cannot_expand
+                    }
+                }
+            }
+            has_loyalty >= 80
+        }
+    }
+}
+
+stri_ABS_can_build_starbase = {
+    NOT = { exists = starbase }
+    stri_ABS_can_build_starbase_fallen = yes
+    stri_ABS_can_build_starbase_neighbor = yes
+}
+
+stri_ABS_can_build_starbase_fallen = {
+    if = {
+        limit = {
+            event_target:ABSCountry = {
+                OR = {
+                    AND = {
+                        has_country_flag = flag_ABS_action
+                        has_country_flag = flag_ABS_build_starbases_fallen
+                    }
+                    AND = {
+                        NOT = { has_country_flag = flag_ABS_action }
+                        has_country_flag = flag_ABS_auto_build_starbases_fallen
+                    }
+                }
+            }
+        }
+        NOT = { has_hyperlane_to = event_target:ABSFallen }
+    }
+}
+
+stri_ABS_can_build_starbase_neighbor = {
+    if = {
+        limit = {
+            event_target:ABSCountry = {
+                OR = {
+                    AND = {
+                        has_country_flag = flag_ABS_action
+                        has_country_flag = flag_ABS_build_starbases_neighbor
+                    }
+                    AND = {
+                        NOT = { has_country_flag = flag_ABS_action }
+                        has_country_flag = flag_ABS_auto_build_starbases_neighbor
+                    }
+                }
+            }
+        }
+        has_hyperlane_to = event_target:ABSCountry
+    }
+}

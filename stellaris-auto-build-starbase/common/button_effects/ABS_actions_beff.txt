@@ -1,0 +1,185 @@
+ABS_action_title = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = { custom_tooltip = ABS_action_tt }
+}
+
+ABS_build_starbases = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_build_starbases_tt
+        set_country_flag = flag_ABS_action
+        save_event_target_as = ABSCountry
+        every_system = {
+            limit = {
+                stri_ABS_can_build_starbase = yes
+                is_surveyed = { who = event_target:ABSCountry status = yes }
+            }
+            save_event_target_as = ABSSystem
+            seff_ABS_build_starbase = yes
+            if = {
+                limit = { event_target:ABSCountry = { has_country_flag = flag_ABS_build_starbases_with_stations } }
+                seff_ABS_build_station = yes
+            }
+        }
+        if = {
+            limit = { has_country_flag = flag_ABS_build_starbases_subject }
+            every_subject = {
+                save_event_target_as = ABSSubject
+                every_system = {
+                    limit = {
+                        stri_ABS_can_build_starbase = yes
+                        is_surveyed = { who = event_target:ABSSubject status = yes }
+                    }
+                    save_event_target_as = ABSSystem
+                    seff_ABS_build_starbase = yes
+                    if = {
+                        limit = { event_target:ABSCountry = { has_country_flag = flag_ABS_build_starbases_with_stations } }
+                        seff_ABS_build_station = yes
+                    }
+                }
+            }
+        }
+        remove_country_flag = flag_ABS_action
+    }
+}
+ABS_build_starbases_subject = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_build_starbases_subject_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_build_starbases_subject }
+            remove_country_flag = flag_ABS_build_starbases_subject
+        }else = {
+            set_country_flag = flag_ABS_build_starbases_subject
+        }
+    }
+}
+ABS_build_starbases_subject_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = { has_country_flag = flag_ABS_build_starbases_subject }
+}
+ABS_build_starbases_fallen = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_build_starbases_fallen_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_build_starbases_fallen }
+            remove_country_flag = flag_ABS_build_starbases_fallen
+        }else = {
+            set_country_flag = flag_ABS_build_starbases_fallen
+        }
+    }
+}
+ABS_build_starbases_fallen_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = { has_country_flag = flag_ABS_build_starbases_fallen }
+}
+ABS_build_starbases_neighbor = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_build_starbases_neighbor_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_build_starbases_neighbor }
+            remove_country_flag = flag_ABS_build_starbases_neighbor
+        }else = {
+            set_country_flag = flag_ABS_build_starbases_neighbor
+        }
+    }
+}
+ABS_build_starbases_neighbor_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = { has_country_flag = flag_ABS_build_starbases_neighbor }
+}
+ABS_build_starbases_with_stations = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_build_starbases_with_stations_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_build_starbases_with_stations }
+            remove_country_flag = flag_ABS_build_starbases_with_stations
+        }else = {
+            set_country_flag = flag_ABS_build_starbases_with_stations
+        }
+    }
+}
+ABS_build_starbases_with_stations_2 = {
+    allow = { is_ai = no }
+    effect = {  }
+    potential = { has_country_flag = flag_ABS_build_starbases_with_stations }
+}
+
+ABS_build_stations = {
+    potential = { stri_ABS_mod = yes }
+    allow = { is_ai = no }
+    effect = {
+        custom_tooltip = ABS_build_stations_tt
+        set_country_flag = flag_ABS_action
+        save_event_target_as = ABSCountry
+        every_system_within_border = {
+            save_event_target_as = ABSSystem
+            seff_ABS_build_station = yes
+        }
+        remove_country_flag = flag_ABS_action
+    }
+}
+
+ABS_build_hyper_relays = {
+    potential = { stri_ABS_mod = yes }
+    allow = {
+        is_ai = no
+        has_technology = tech_hyper_relays
+    }
+    effect = {
+        custom_tooltip = ABS_build_hyper_relays_tt
+        set_country_flag = flag_ABS_action
+        save_event_target_as = ABSCountry
+        every_system_within_border = {
+            save_event_target_as = ABSSystem
+            seff_ABS_build_hyper_relays = yes
+        }
+        if = {
+            limit = { has_country_flag = flag_ABS_build_hyper_relays_subject }
+            every_subject = {
+                save_event_target_as = ABSSubject
+                every_system_within_border = {
+                    save_event_target_as = ABSSystem
+                    seff_ABS_build_hyper_relays = yes
+                }
+            }
+        }
+        remove_country_flag = flag_ABS_action
+    }
+}
+ABS_build_hyper_relays_subject = {
+    potential = { stri_ABS_mod = yes }
+    allow = {
+        is_ai = no
+        has_technology = tech_hyper_relays
+    }
+    effect = {
+        custom_tooltip = ABS_build_hyper_relays_subject_tt
+        if = {
+            limit = { has_country_flag = flag_ABS_build_hyper_relays_subject }
+            remove_country_flag = flag_ABS_build_hyper_relays_subject
+        }else = {
+            set_country_flag = flag_ABS_build_hyper_relays_subject
+        }
+    }
+}
+ABS_build_hyper_relays_subject_2 = {
+    allow = {
+        is_ai = no
+        has_technology = tech_hyper_relays
+    }
+    effect = {  }
+    potential = { has_country_flag = flag_ABS_build_hyper_relays_subject }
+}
