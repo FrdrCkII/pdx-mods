@@ -28,32 +28,6 @@ building_ctb_01 = {
         }
         modifier = {
             planet_crime_mult = -1
-
-            planet_civilians_energy_produces_add = 10
-            planet_civilians_minerals_produces_add = 10
-            planet_civilians_food_produces_add = 10
-            planet_civilians_physics_research_produces_add = 5
-            planet_civilians_society_research_produces_add = 5
-            planet_civilians_engineering_research_produces_add = 5
-            planet_civilians_unity_produces_add = 5
-            planet_civilians_trade_produces_add = 5
-            planet_civilians_consumer_goods_produces_add = 5
-            planet_civilians_alloys_produces_add = 5
-            planet_civilians_volatile_motes_produces_add = 1
-            planet_civilians_exotic_gases_produces_add = 1
-            planet_civilians_rare_crystals_produces_add = 1
-            planet_civilians_sr_living_metal_produces_add = 1
-            planet_civilians_sr_zro_produces_add = 1
-            planet_civilians_sr_dark_matter_produces_add = 1
-            planet_civilians_nanites_produces_add = 1
-            planet_civilians_minor_artifacts_produces_add = 1
-            planet_civilians_astral_threads_produces_add = 1
-            planet_civilians_biomass_produces_add = 1
-            planet_civilians_menace_produces_add = 1
-            planet_civilians_integrity_produces_add = 1
-            planet_civilians_advanced_logic_produces_add = 1
-            planet_civilians_feral_insight_produces_add = 1
-            planet_civilians_entropy_crystals_produces_add = 1
         }
     }
     
@@ -66,32 +40,6 @@ building_ctb_01 = {
         }
         modifier = {
             planet_crime_nohappiness_mult = -1
-
-            planet_maintenance_drones_energy_produces_add = 10
-            planet_maintenance_drones_minerals_produces_add = 10
-            planet_maintenance_drones_food_produces_add = 10
-            planet_maintenance_drones_physics_research_produces_add = 5
-            planet_maintenance_drones_society_research_produces_add = 5
-            planet_maintenance_drones_engineering_research_produces_add = 5
-            planet_maintenance_drones_unity_produces_add = 5
-            planet_maintenance_drones_trade_produces_add = 5
-            planet_maintenance_drones_consumer_goods_produces_add = 5
-            planet_maintenance_drones_alloys_produces_add = 5
-            planet_maintenance_drones_volatile_motes_produces_add = 1
-            planet_maintenance_drones_exotic_gases_produces_add = 1
-            planet_maintenance_drones_rare_crystals_produces_add = 1
-            planet_maintenance_drones_sr_living_metal_produces_add = 1
-            planet_maintenance_drones_sr_zro_produces_add = 1
-            planet_maintenance_drones_sr_dark_matter_produces_add = 1
-            planet_maintenance_drones_nanites_produces_add = 1
-            planet_maintenance_drones_minor_artifacts_produces_add = 1
-            planet_maintenance_drones_astral_threads_produces_add = 1
-            planet_maintenance_drones_biomass_produces_add = 1
-            planet_maintenance_drones_menace_produces_add = 1
-            planet_maintenance_drones_integrity_produces_add = 1
-            planet_maintenance_drones_advanced_logic_produces_add = 1
-            planet_maintenance_drones_feral_insight_produces_add = 1
-            planet_maintenance_drones_entropy_crystals_produces_add = 1
         }
     }
     
@@ -105,11 +53,14 @@ building_ctb_01 = {
         planet_housing_add = 5000000
         planet_amenities_add = 5000000
         planet_defense_armies_add = 20
-        planet_building_build_speed_mult = 1
-        planet_clear_blocker_time_mult = -1
+        planet_building_capacity_add = 5
+        planet_building_build_speed_mult = 50
+        planet_clear_blocker_time_mult = -50
 
-        planet_jobs_produces_mult = 5
         planet_jobs_upkeep_mult = -50
+        planet_jobs_produces_mult = 5
+        district_automated_workforce = 5
+        bonus_automated_workforce_mult = 5
     }
     
     country_modifier = {
@@ -128,6 +79,27 @@ building_ctb_01 = {
         category = planet_buildings
         produces = {
             influence = 10
+            
+            energy = 500
+            minerals = 500
+            food = 500
+            trade = 500
+            
+            consumer_goods = 500
+            alloys = 500
+            
+            physics_research = 50
+            society_research = 50
+            engineering_research = 50
+            unity = 50
+            
+            volatile_motes = 50
+            exotic_gases = 50
+            rare_crystals = 50
+            
+            sr_dark_matter = 10
+            sr_living_metal = 10
+            sr_zro = 10
         }
     }
 }
