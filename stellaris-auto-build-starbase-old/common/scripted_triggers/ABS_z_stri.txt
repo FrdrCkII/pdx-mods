@@ -1,0 +1,5 @@
+stri_ABS_flag = {
+    event_target:ABSCountry = {
+        has_country_flag = $FLAG$
+    }
+}

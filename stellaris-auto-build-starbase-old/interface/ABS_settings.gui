@@ -1,0 +1,537 @@
+guiTypes = {
+    containerWindowType = {
+        name = "ABS_settings"
+        orientation = center
+        origo = center
+        moveable = yes
+        size = { width = 870 height = 660 }
+
+        background = {
+            name = "background"
+            quadTextureSprite = "GFX_tile_large_bg_caravaneer"
+        }
+
+        iconType = {
+            name = "hex_bg"
+            spriteType = "GFX_hex_bg_caravaneer"
+            position = { x = -10 y = -14 }
+            alwaysTransparent = yes
+        }
+        iconType = {
+            name = "empire_header_line"
+            quadTextureSprite = "GFX_line_long"
+            position = { x = 6 y = 22 }
+            alwaysTransparent = yes
+        }
+
+        buttonType = {
+            name = "close"
+            quadTextureSprite = "GFX_main_close_button_caravaneer"
+            position = { x= -42 y = 12 }
+            orientation = "UPPER_RIGHT"
+            # shortcut = "ESCAPE"
+            clicksound = "back_click"
+        }
+
+        buttonType = {
+            name = "tts_button"
+            position = { x = -2000 y = -5 }
+            spriteType = "GFX_button_tts_start"
+            buttonFont = "cg_16b"
+        }
+
+        buttonType = {
+            name = "empire_flag"
+            font = "cg_16b"
+            spriteType = "GFX_standard_button_200_24"
+            buttonText = "EMPIRE_FLAG"
+            pdx_tooltip = "TOOLTIP_SETUP_FLAG"
+        }
+
+        # Custom header
+        instantTextBoxType = {
+            name = "irm_some_header"
+            font = "malgun_goth_24"
+            text = ""
+            position = { x = 20 y = 5 }
+            maxWidth = 543
+            maxHeight = 22
+            fixedSize = yes
+            alwaysTransparent = yes
+        }
+
+        ### ALL OF THIS IS HIDDEN OR DISPLACED ! ###
+
+        buttonType = { name = "focus_button" position = { x = -1180 y = -1112 } spriteType = "GFX_fleetview_focus" } # hidden
+        instantTextBoxType = { name = "heading" font = "malgun_goth_24" position = { x = -1120 y = -115 } } # hidden
+        buttonType = { name = "alien_message_background" size = { x = 0 y = 0 } position = { x = -1110 y = -11430 } spriteType = "GFX_tiles_dark_area_cut_8" } # hidden
+        buttonType = { name = "confirm_button" quadTextureSprite = "GFX_standard_button_142_34_button" } # hidden
+        containerWindowType = {
+            name = "portrait_background"
+            position = { x = -1117 y = -1145 }
+            size = { width = 0 height = 0 }     # hide portrait window
+            iconType = { name = "event_picture" spriteType = "GFX_diplomacy_portrait_frame" } # hidden
+            iconType = { name = "portrait" spriteType = "GFX_portrait_character" } # hidden
+        }
+        containerWindowType = {
+            name = "portrait"
+            position = { x = -1117 y = -1145 }
+            size = { width = 0 height = 0 } # hide portrait window
+            iconType = { name = "portrait" spriteType = "GFX_portrait_gamesetup_mask" } # hidden
+            iconType = { name = "black_frame" spriteType = "GFX_diplomacy_portrait_shadow_frame" } # hidden
+            iconType = { name = "stripes_1" spriteType = "GFX_diplomacy_stripes_2" } # hidden
+            iconType = { name = "city_frame" spriteType = "GFX_diplomacy_portrait_frame" } # hidden
+        }
+        iconType = { name = "empire_info_bg" spriteType = "GFX_diplomacy_dark_fade_bg" } # hidden
+        instantTextBoxType = { name = "empire_name" font = "malgun_goth_24" } # hidden
+        instantTextBoxType = { name = "empire_government_type" font = "cg_16b" } # hidden
+        instantTextBoxType = { name = "empire_personality_type" font = "cg_16b" } # hidden
+        overlappingElementsBoxType = { name = "empire_ethics_icons" position = { x = -1145 y = -11138 } } # hidden
+        containerWindowType = {
+            name = "leader_details"
+            position = { x = -1125 y = -1175 }
+            containerWindowType = { name = "empire_traits_box" } # hidden
+            instantTextBoxType = { name = "empire_traits_label" font = "cg_16b" } # hidden
+            overlappingElementsBoxType = { name = "leader_traits" } # hidden
+            instantTextBoxType = { name = "leader_name" font = "cg_16b" } # hidden
+            instantTextBoxType = { name = "leader_species" font = "cg_16b" } # hidden
+        }
+        containerWindowType = {
+            name = "opinion_window"
+            position = { x = -1127 y = -11110 }
+            size = { width = 94 height = 30 }
+            iconType = { name = "their_opinion_icon" spriteType = "GFX_diplomacy_opinion" } # hidden
+            instantTextBoxType = { name = "their_opinion" font = "cg_16b" }
+        }
+
+        ### EVENT DIPLO ###
+
+        containerWindowType = {
+            name = "EVENT_DIPLO"
+            position = { x = 0 y = 0 }
+            size = { width=476 height=280 }
+            moveable = no
+
+            instantTextBoxType={
+                name = "action_title"
+                font = "malgun_goth_24"
+                position = { x = 20 y = 5 }
+                maxWidth = 476
+                maxHeight = 22
+                fixedSize = yes
+                alwaysTransparent = yes
+            }
+            instantTextBoxType = {
+                name = "action_desc"
+                font = "malgun_goth_24"
+                position = { x = 490 y = 0 }
+                maxWidth = 500
+                maxHeight = 180
+                orientation = "UPPER_LEFT"
+                format = center
+                alwaysTransparent = yes
+                text_color_code = "H"
+            }
+            listboxType = { name = "option_list" position = { x = -11500 y = -1130 } } # hidden option list
+        }
+        # Description Section
+        instantTextBoxType = {
+            name = "alien_message"
+            font = "cg_16b"
+            position = { x = 20 y = 40 }
+            maxWidth = 934
+            maxHeight = 60
+            format = left
+            scrollbartype = "standardtext_slider"
+        }
+
+        ### 1.2 GUI ###
+        ### NEW MOD MENU ###
+
+        # cost
+        containerWindowType = {
+            name = "ABS_resource"
+            size = { width = 170 height = 520 }
+            background = {
+                name = "background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            position = { x = 10 y = 100 }
+
+            containerWindowType = {
+                name = "ABS_resource_title"
+                size = { width = 100% height = 560 }
+                background = {
+                    name = "background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                effectButtonType = {
+                    name = "ABS_resource_title_1"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = ABS_resource_title
+                    buttonFont = "malgun_goth_24"
+                    buttonText = ABS_resource_title
+                }
+            }
+            containerWindowType = {
+                name = "ABS_resource_buttons"
+                size = { width = 100% height = 496 }
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                extendedScrollbarType = { name = "scrollbar" startValue = 0 }
+                verticalScrollbar = "right_vertical_slider"
+                effectButtonType = {
+                    name = "ABS_pay_all"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 0 }
+                    buttonFont = "cg_16b"
+                    text = ABS_pay_all_text
+                    effect = ABS_pay_all
+                }
+                effectButtonType = {
+                    name = "ABS_minerals"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 40 }
+                    buttonFont = "cg_16b"
+                    buttonText = ABS_minerals_text
+                    effect = ABS_pay_minerals
+                }
+                effectButtonType = {
+                    name = "ABS_alloys"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 80 }
+                    buttonFont = "cg_16b"
+                    buttonText = ABS_alloys_text
+                    effect = ABS_pay_alloys
+                }
+                effectButtonType = {
+                    name = "ABS_influence"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 120 }
+                    buttonFont = "cg_16b"
+                    buttonText = ABS_influence_text
+                    effect = ABS_pay_influence
+                }
+                effectButtonType = {
+                    name = "ABS_rare_crystals"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 160 }
+                    buttonFont = "cg_16b"
+                    buttonText = ABS_rare_crystals_text
+                    effect = ABS_pay_rare_crystals
+                }
+            }
+        }
+
+
+        # actions
+        containerWindowType = {
+            name = "ABS_action"
+            size = { width = 170 height = 520 }
+            background = {
+                name = "background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            orientation = UPPER_RIGHT
+            position = { x = -180 y = 100 }
+
+            containerWindowType = {
+                name = "ABS_action_title"
+                size = { width = 100% height = 560 }
+                effectButtonType = {
+                    name = "ABS_action_title_1"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = ABS_action_title
+                    buttonFont = "malgun_goth_24"
+                    buttonText = ABS_action_title
+                }
+            }
+            containerWindowType = {
+                name = "ABS_action_buttons"
+                size = { width = 100% height = 496 }
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                extendedScrollbarType = { name = "scrollbar" startValue = 0 }
+                verticalScrollbar = "right_vertical_slider"
+                # starbase
+                effectButtonType = {
+                    name = "ABS_build_starbases"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 0 }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_starbases_text
+                    effect = ABS_build_starbases
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_subject"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = -5 y = 40  }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_starbases_subject_text
+                    effect = ABS_build_starbases_subject
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_subject_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 70 y = 64  }
+                    effect = ABS_build_starbases_subject_2
+                    alwaysTransparent = yes
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_fallen"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = 75 y = 40  }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_starbases_fallen_text
+                    effect = ABS_build_starbases_fallen
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_fallen_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 155 y = 64  }
+                    effect = ABS_build_starbases_fallen_2
+                    alwaysTransparent = yes
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_neighbor"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = -5 y = 70  }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_starbases_neighbor_text
+                    effect = ABS_build_starbases_neighbor
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_neighbor_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 70 y = 94  }
+                    effect = ABS_build_starbases_neighbor_2
+                    alwaysTransparent = yes
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_with_stations"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = 75 y = 70  }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_starbases_with_stations_text
+                    effect = ABS_build_starbases_with_stations
+                }
+                effectButtonType = {
+                    name = "ABS_build_starbases_with_stations_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 155 y = 94  }
+                    effect = ABS_build_starbases_with_stations_2
+                    alwaysTransparent = yes
+                }
+                # station
+                effectButtonType = {
+                    name = "ABS_build_stations"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 130 }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_stations_text
+                    effect = ABS_build_stations
+                }
+                # hyper relay
+                effectButtonType = {
+                    name = "ABS_build_hyper_relays"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 260 }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_hyper_relays_text
+                    effect = ABS_build_hyper_relays
+                }
+                effectButtonType = {
+                    name = "ABS_build_hyper_relays_subject"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = -5 y = 300  }
+                    buttonFont = "cg_16b"
+                    text = ABS_build_hyper_relays_subject_text
+                    effect = ABS_build_hyper_relays_subject
+                }
+                effectButtonType = {
+                    name = "ABS_build_hyper_relays_subject_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 70 y = 324  }
+                    effect = ABS_build_hyper_relays_subject_2
+                    alwaysTransparent = yes
+                }
+            }
+        }
+
+
+        # rule
+        containerWindowType = {
+            name = "ABS_rules"
+            size = { width = 490 height = 520 }
+            background = {
+                name = "background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            position = { x = 190 y = 100 }
+
+            containerWindowType = {
+                name = "ABS_rules_title"
+                size = { width = 100% height = 560 }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 160 y = 0 }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_text
+                    effect = ABS_auto_build_starbases
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 300 y = 30  }
+                    effect = ABS_auto_build_starbases_2
+                    alwaysTransparent = yes
+                }
+            }
+            containerWindowType = {
+                name = "ABS_rules_buttons"
+                size = { width = 100% height = 496 }
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                extendedScrollbarType = { name = "scrollbar" startValue = 0 }
+                verticalScrollbar = "right_vertical_slider"
+                # notice
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_notice"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 0 }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_notice_text
+                    effect = ABS_auto_build_starbases_notice
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_notice_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 140 y = 30  }
+                    effect = ABS_auto_build_starbases_notice_2
+                    alwaysTransparent = yes
+                }
+                # fallen
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_fallen"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 160 y = 0  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_fallen_text
+                    effect = ABS_auto_build_starbases_fallen
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_fallen_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 300 y = 30  }
+                    effect = ABS_auto_build_starbases_fallen_2
+                    alwaysTransparent = yes
+                }
+                # subject
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 320 y = 0  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_subject_text
+                    effect = ABS_auto_build_starbases_subject
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 460 y = 30  }
+                    effect = ABS_auto_build_starbases_subject_2
+                    alwaysTransparent = yes
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_always"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = 350 y = 40  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_subject_always_text
+                    effect = ABS_auto_build_starbases_subject_always
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_always_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 420 y = 64  }
+                    effect = ABS_auto_build_starbases_subject_always_2
+                    alwaysTransparent = yes
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_limited"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = 350 y = 70  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_subject_limited_text
+                    effect = ABS_auto_build_starbases_subject_limited
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_limited_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 420 y = 99  }
+                    effect = ABS_auto_build_starbases_subject_limited_2
+                    alwaysTransparent = yes
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_never"
+                    quadTextureSprite = "GFX_button_75_24"
+                    position = { x = 350 y = 100  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_subject_never_text
+                    effect = ABS_auto_build_starbases_subject_never
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_subject_never_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 420 y = 124  }
+                    effect = ABS_auto_build_starbases_subject_never_2
+                    alwaysTransparent = yes
+                }
+                # stations
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_stations"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 130  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_stations_text
+                    effect = ABS_auto_build_starbases_stations
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_stations_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 140 y = 160  }
+                    effect = ABS_auto_build_starbases_stations_2
+                    alwaysTransparent = yes
+                }
+                # neighbor
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_neighbor"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 160 y = 130  }
+                    buttonFont = "cg_16b"
+                    text = ABS_auto_build_starbases_neighbor_text
+                    effect = ABS_auto_build_starbases_neighbor
+                }
+                effectButtonType = {
+                    name = "ABS_auto_build_starbases_neighbor_2"
+                    quadTextureSprite = "GFX_text_trigger_yes"
+                    position = { x = 300 y = 160  }
+                    effect = ABS_auto_build_starbases_neighbor_2
+                    alwaysTransparent = yes
+                }
+            }
+        }
+    }
+}

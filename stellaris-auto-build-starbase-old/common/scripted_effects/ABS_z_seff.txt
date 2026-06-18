@@ -1,0 +1,9 @@
+seff_ABS_flag = {hidden_effect = {event_target:ABSCountry = {
+    if = {
+        limit = { has_country_flag = $FLAG$ }
+        remove_country_flag = $FLAG$
+    }
+    else = {
+        set_country_flag = $FLAG$
+    }
+}}}

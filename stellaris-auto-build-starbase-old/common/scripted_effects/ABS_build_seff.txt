@@ -1,0 +1,153 @@
+seff_ABS_auto_build = {
+    if = {
+        limit = { event_target:ABSSystem = { stri_ABS_can_build_starbase = yes } }
+        event_target:ABSCountry = {
+            if = {
+                limit = { has_country_flag = flag_ABS_auto_build_starbases_notice }
+                set_country_flag = flag_ABS_is_subject
+                country_event = { id = ABS.101 }
+            }else = {
+                seff_ABS_build_starbase = yes
+                if = {
+                    limit = { has_country_flag = flag_ABS_auto_build_starbases_stations }
+                    seff_ABS_build_station = yes
+                }
+            }
+        }
+    }
+}
+
+
+seff_ABS_build_starbase = {hidden_effect = {
+    seff_ABS_init = yes
+    event_target:ABSSystem = {
+        create_starbase = {
+            size = starbase_outpost
+            owner = event_target:ABSCountry
+            effect = {
+                save_event_target_as = ABSStarbase
+                fire_on_action = {
+                    on_action = on_building_starbase_outpost
+                    scopes = {
+                        from = event_target:ABSCountry
+                    }
+                }
+            }
+        }
+    }
+    event_target:ABSCountry = {
+        if = {
+            limit = { has_country_flag = flag_ABS_debug }
+            seff_ABS_clear = yes
+        }else = {
+            set_variable = { which = ABS_influence_cost value = 75 }
+            set_variable = { which = ABS_influence_mod value = 1 }
+            change_variable = { which = ABS_influence_mod value = modifier:country_starbase_influence_cost_mult }
+            multiply_variable = { which = ABS_influence_cost value = ABS_influence_mod }
+            change_variable = { which = ABS_influence value = ABS_influence_cost }
+            clear_variable = ABS_influence_cost
+            clear_variable = ABS_influence_mod
+            change_variable = { which = ABS_alloys value = 90 }
+            seff_ABS_pay = yes
+        }
+    }
+}}
+
+seff_ABS_build_station = {hidden_effect = {
+    seff_ABS_init = yes
+    event_target:ABSSystem = {
+        every_system_planet = {
+            limit = {
+                NOT = {
+                    has_planet_flag = has_megastructure
+                }
+                OR = {
+                    AND = {
+                        has_deposit_for = shipclass_mining_station
+                        has_mining_station = no
+                    }
+                    AND = {
+                        has_deposit_for = shipclass_research_station
+                        has_research_station = no
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    has_deposit_for = shipclass_mining_station
+                    if = {
+                        limit = { has_resource = { type = exotic_gases amount > 0 } }
+                        event_target:ABSCountry = { has_technology = tech_mine_exotic_gases }
+                    }
+                    if = {
+                        limit = { has_resource = { type = rare_crystals amount > 0 } }
+                        event_target:ABSCountry = { has_technology = tech_mine_rare_crystals }
+                    }
+                    if = {
+                        limit = { has_resource = { type = volatile_motes amount > 0 } }
+                        event_target:ABSCountry = { has_technology = tech_mine_volatile_motes }
+                    }
+                    if = {
+                        limit = { has_resource = { type = sr_living_metal amount > 0 } }
+                        event_target:ABSCountry = { has_technology = tech_mine_living_metal }
+                    }
+                }
+                create_mining_station = { owner = event_target:ABSCountry }
+                event_target:ABSCountry = {
+                    change_variable = { which = ABS_minerals value = 50 }
+                }
+            }
+            else_if = {
+                limit = {
+                    has_deposit_for = shipclass_research_station
+                    if = {
+                        limit = { has_resource = { type = sr_zro amount > 0 } }
+                        event_target:ABSCountry = { has_technology = tech_mine_zro }
+                    }
+                    if = {
+                        limit = { has_resource = { type = sr_dark_matter amount > 0 } }
+                        event_target:ABSCountry = { has_technology = tech_mine_dark_matter }
+                    }
+                }
+                create_research_station = { owner = event_target:ABSCountry }
+                event_target:ABSCountry = {
+                    change_variable = { which = ABS_minerals value = 50 }
+                }
+            }
+        }
+    }
+    event_target:ABSCountry = {
+        if = {
+            limit = { has_country_flag = flag_ABS_debug }
+            seff_ABS_clear = yes
+        }else = {
+            seff_ABS_pay = yes
+        }
+    }
+}}
+
+seff_ABS_build_hyper_relays = {hidden_effect = {
+    seff_ABS_init = yes
+    event_target:ABSSystem = {
+        if = {
+            limit = { NOT = { has_megastructure = hyper_relay } }
+            spawn_megastructure = {
+                type = hyper_relay
+                owner = owner
+                random_pos = yes
+                orbit_angle = 360
+            }
+            event_target:ABSCountry = {
+                if = {
+                    limit = { has_country_flag = flag_ABS_debug }
+                    seff_ABS_clear = yes
+                }else = {
+                    change_variable = { which = ABS_influence value = 25 }
+                    change_variable = { which = ABS_alloys value = 500 }
+                    change_variable = { which = ABS_rare_crystals value = 100 }
+                    seff_ABS_pay = yes
+                }
+            }
+        }
+    }
+}}

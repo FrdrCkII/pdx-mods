@@ -1,0 +1,96 @@
+seff_ABS_pay = {hidden_effect = {
+    seff_ABS_pay_minerals = yes
+    seff_ABS_pay_alloys = yes
+    seff_ABS_pay_influence = yes
+    seff_ABS_pay_rare_crystals = yes
+}}
+
+seff_ABS_pay_minerals = {hidden_effect = {
+    export_resource_stockpile_to_variable = { resource = minerals variable = ABS_minerals_have }
+    if = {
+        limit = { check_variable ={ which = ABS_minerals_have value < ABS_minerals } }
+        add_resource = { minerals = -1 mult = ABS_minerals_have }
+        subtract_variable = { which = ABS_minerals value = ABS_minerals_have }
+    }else = {
+        add_resource = { minerals = -1 mult = ABS_minerals }
+        set_variable = { which = ABS_minerals value = 0 }
+    }
+}}
+
+seff_ABS_pay_alloys = {hidden_effect = {
+    export_resource_stockpile_to_variable = { resource = alloys variable = ABS_alloys_have }
+    if = {
+        limit = { check_variable ={ which = ABS_alloys_have value < ABS_alloys } }
+        add_resource = { alloys = -1 mult = ABS_alloys_have }
+        subtract_variable = { which = ABS_alloys value = ABS_alloys_have }
+    }else = {
+        add_resource = { alloys = -1 mult = ABS_alloys }
+        set_variable = { which = ABS_alloys value = 0 }
+    }
+}}
+
+seff_ABS_pay_influence = {hidden_effect = {
+    export_resource_stockpile_to_variable = { resource = influence variable = ABS_influence_have }
+    if = {
+        limit = { check_variable ={ which = ABS_influence_have value < ABS_influence } }
+        add_resource = { influence = -1 mult = ABS_influence_have }
+        subtract_variable = { which = ABS_influence value = ABS_influence_have }
+    }else = {
+        add_resource = { influence = -1 mult = ABS_influence }
+        set_variable = { which = ABS_influence value = 0 }
+    }
+}}
+
+seff_ABS_pay_rare_crystals = {hidden_effect = {
+    export_resource_stockpile_to_variable = { resource = rare_crystals variable = ABS_rare_crystals_have }
+    if = {
+        limit = { check_variable ={ which = ABS_rare_crystals_have value < ABS_rare_crystals } }
+        add_resource = { rare_crystals = -1 mult = ABS_rare_crystals_have }
+        subtract_variable = { which = ABS_rare_crystals value = ABS_rare_crystals_have }
+    }else = {
+        add_resource = { rare_crystals = -1 mult = ABS_rare_crystals }
+        set_variable = { which = ABS_rare_crystals value = 0 }
+    }
+}}
+
+seff_ABS_init = {hidden_effect = {
+    if = {
+        limit = { NOT = { is_variable_set = ABS_influence } }
+        set_variable = { which = ABS_influence value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_minerals } }
+        set_variable = { which = ABS_minerals value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_alloys } }
+        set_variable = { which = ABS_alloys value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_rare_crystals } }
+        set_variable = { which = ABS_rare_crystals value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_influence_have } }
+        set_variable = { which = ABS_influence_have value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_minerals_have } }
+        set_variable = { which = ABS_minerals_have value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_alloys_have } }
+        set_variable = { which = ABS_alloys_have value = 0 }
+    }
+    if = {
+        limit = { NOT = { is_variable_set = ABS_rare_crystals_have } }
+        set_variable = { which = ABS_rare_crystals_have value = 0 }
+    }
+}}
+
+seff_ABS_clear = {hidden_effect = {
+    set_variable = { which = ABS_influence value = 0 }
+    set_variable = { which = ABS_minerals value = 0 }
+    set_variable = { which = ABS_alloys value = 0 }
+    set_variable = { which = ABS_rare_crystals value = 0 }
+}}

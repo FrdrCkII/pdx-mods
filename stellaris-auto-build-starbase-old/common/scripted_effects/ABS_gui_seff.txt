@@ -1,0 +1,5 @@
+seff_ABS_clr_settings_subject = {hidden_effect = {
+    remove_country_flag = flag_ABS_auto_build_starbases_subject_never
+    remove_country_flag = flag_ABS_auto_build_starbases_subject_limited
+    remove_country_flag = flag_ABS_auto_build_starbases_subject_always
+}}

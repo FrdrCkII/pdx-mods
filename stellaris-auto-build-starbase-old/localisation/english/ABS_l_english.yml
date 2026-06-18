@@ -1,0 +1,120 @@
+﻿l_english:
+  ### 1.0 ###
+
+  edict_auto_build_starbase: "Get §BExpansion Manager§! Report"
+  edict_auto_build_starbase_desc: ""
+
+  ABS.100.title: "§BExpansion Manager§!: Settings"
+  ABS.100.desc: "Dear §H[Root.GetRulerTitle][ruler.GetRegnalName]§!, welcome to the §BInterstellar Expansion and Resource Development Office§! . \nOur job is to build $starbases$ and $stations$. You can manage related matters through the following options. \nTo see the instructions, please hover your cursor over the buttons."
+  ABS.100.desc.gestalt: "Dear §H[Root.GetRulerTitle][ruler.GetRegnalName]§!, welcome to the §BInterstellar Expansion and Resource Development Node§!。\nOur job is to build $starbases$ and $stations$. You can manage related matters through the following options. \nTo see the instructions, please hover your cursor over the buttons."
+  #  ABS.100.a1: "$AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$: §R$DISABLED$§!"
+  #  ABS.100.a2: "$AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$: §G$ENABLED$§!"
+  #  ABS_build_starbase_tt: "§BOption§!: $AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$\n$ENABLED$ this option will $AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$ after completing a survey of a system."
+  #  ABS.100.b1: "$AUTO_GENERATED_STANDARD$ $BUILD$ $stations$: §R$DISABLED$§!"
+  #  ABS.100.b2: "$AUTO_GENERATED_STANDARD$ $BUILD$ $stations$: §G$ENABLED$§!"
+  #  ABS_build_station_tt: "§BOption§!: $AUTO_GENERATED_STANDARD$ $BUILD$ $stations$\n$ENABLED$ this option will $AUTO_GENERATED_STANDARD$build $station_gatherers$ and $AUTO_GENERATED_STANDARD$0 in the same system after completing $starbases$ $BUILD$. \nThis option §Rdoes not§! Need to $ENABLED$$AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$. \nIf $ENABLED$, manual $BUILD_STARBASE_STATION_ORDER$ will also trigger this effect."
+  #  ABS.100.c1: "Ask: §R$DISABLED$§!"
+  #  ABS.100.c2: "Ask: §G$ENABLED$§!"
+  #  ABS_ask_tt: "§BOption§!: Ask\n$ENABLED$ this option, the above function will trigger an event to ask whether to perform the operation. \nThis option Need to $ENABLED$ $ENABLED$$AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$."
+  #  ABS.100.debug1: "Debug: §R$DISABLED$§!"
+  #  ABS.100.debug2: "Debug: §G$ENABLED$§!"
+  #  ABS_debug_tt: "§RWarning§!: Normally this option should not be $ENABLED$ selected. \nThis option will waive the $BUILD_STARBASE_STATION_ORDER$ cost."
+
+  #  ABS.100.aa: "$BUILD$ $starbases$"
+  #  ABS_aa_tt: "$BUILD$ $starbases$ in every surveyed $SYSTEMS$."
+  #  ABS.100.ab: "$BUILD$ $stations$"
+  #  ABS_ab_tt: "$BUILD$ $station_gatherers$ and $station_researchers$ in every controlled $SYSTEMS$."
+
+  #  ABS.100.ba: "Check bill"
+  #  ABS_ba_tt: "Building materials list:\n£minerals£$minerals$: [root.ABS_minerals]\n£alloys£$alloys$: [root.ABS_alloys]\n£influence£$influence$: [root.ABS_influence]\nIf we have enough $RESOURCES$, they will be $AUTO_GENERATED_STANDARD$ consumed at the next $BUILD$ time. \nSelect this option to pay the bill manually."
+
+  ABS.101.title: "§BExpansion Manager§!: §Y[event_target:ABSSystem.GetName]§! $SURVEYED$"
+  ABS.101.desc: "$SYSTEM$: [event_target:ABSSystem.GetName] \t Status: $SURVEYED$ \t Engineers: Ready\n§BI.E.R.D.O.§!"
+  ABS.101.desc.gestalt: "$SYSTEM$: [event_target:ABSSystem.GetName] \t Status: $SURVEYED$ \t Engineering Node: Ready\n§BI.E.R.D.N.§!"
+  ABS.101.desc.subject: "$SYSTEM$: [event_target:ABSSystem.GetName] \t Status: $SURVEYED$ \t Engineers: Ready\n§BI.E.R.D.O.§!"
+  ABS.101.desc.gestalt.subject: "$SYSTEM$: [event_target:ABSSystem.GetName] \t Status: $SURVEYED$ \t Engineering Node: Ready\n§BI.E.R.D.N.§!"
+  ABS.101.a: "$starbases$ + $stations$"
+  ABS.101.b: "$starbases$"
+  ABS.esc: "$EXIT$"
+
+  ### 1.1 Subject ###
+
+  #  ABS.100.d1: "扩张优先权: §R$NEVER$§!"
+  #  ABS.100.d2: "扩张优先权: §YLimited§!"
+  #  ABS.100.d3: "扩张优先权: §G$ALWAYS$§!"
+  #  ABS_subject_tt: "§BOption§!: 扩张优先权\n \t §G$ALWAYS$§!: 在你的$subjects$完成对一个$SYSTEM$的调查后, $AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$。\n \t §YLimited§!: 在你的$subjects$完成对一个$SYSTEM$的调查后, 若$subjects$有§Y$subject_cannot_expand$§!, §Y$subject_can_expand_with_tithe$§!, 或§G$LOYALTY$ >= 80§!, $AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$。\n \t §R$NEVER$§!: 什么也不做。\n\n该选项需要$ENABLED$$AUTO_GENERATED_STANDARD$ $BUILD_STARBASE_STATION_ORDER$。"
+  #  ABS.100.e1: "扩张优先权(询问): §R$DISABLED$§!"
+  #  ABS.100.e2: "扩张优先权(询问): §G$ENABLED$§!"
+  #  ABS_subject_ask_tt: "§BOption§!: 扩张优先权(询问)\n类似询问, 对扩张优先权有效。\n该选项需要$ENABLED$扩张优先权。"
+
+  #  ABS.102.title: "§B扩张管理§!: $SYSTEM$调查完成"
+  #  ABS.102.desc: "我们的$subjects$[event_target:ABSSubject.GetName]完成了对[event_target:ABSSystem.GetName]$SYSTEM$的调查, 我们可以实行作为宗主的神圣权利。是否$BUILD_STARBASE_STATION_ORDER$？"
+  #  ABS.102.a: "$BUILD_STARBASE_STATION_ORDER$"
+  #  ABS.102.b: "$BUILD_STARBASE_STATION_ORDER$与$stations$"
+  #  ABS.esc: "$EXIT$"
+
+  ### 1.2 GUI ###
+
+  ABS_resource_title: "Resources"
+  ABS_resource_tt: "These figures reflect the resources required for automated construction. Under normal circumstances, all values should be 0; These numbers are only increased when stocks run low. If the inventory is sufficient, the next time automatic build is triggered, it will be paid. \n Click the buttons to pay then manually."
+  ABS_pay_all_text: "Pay All"
+  ABS_minerals_text: "£minerals£$minerals$: [root.ABS_minerals]"
+  ABS_alloys_text: "£alloys£$alloys$: [root.ABS_alloys]"
+  ABS_influence_text: "£influence£$influence$: [root.ABS_influence]"
+
+  ABS_action_title: "Actions"
+  ABS_action_tt: "The buttons can perform some immediate effects. Some §Bactions§! can be configured through §Bsub-options§! below the button."
+  ABS_build_stations_text: "$BUILD$ $stations$"
+  ABS_build_stations_tt: "§BAction§!\n$BUILD$ $station_gatherers$ and $station_researchers$ in every controlled $SYSTEMS$."
+  ABS_build_starbases_text: "$BUILD$ $starbases$"
+  ABS_build_starbases_tt: "§BAction§!\n$BUILD$ $starbases$ in every surveyed $SYSTEMS$.\nHas §BSub-options§!!"
+  ABS_build_starbases_subject_text: "$subjects$"
+  ABS_build_starbases_subject_tt: "§BSub-option§! of $ABS_build_starbases_text$\nIf enabled, allows $ABS_build_starbases_text$ in §Y$subjects$§! $SURVEYED$ $SYSTEMS$."
+  ABS_build_starbases_fallen_text: "$personality_fallen_empire_xenophobe$"
+  ABS_build_starbases_fallen_tt: "§BSub-option§! of $ABS_build_starbases_text$\nIf enabled, avoid enraging $personality_fallen_empire_xenophobe$ when $ABS_build_starbases_text$."
+
+  ABS_auto_build_starbases_text: "$AUTO_GENERATED_STANDARD$ $BUILD$ $starbases$"
+  ABS_auto_build_starbases_tt: "§BBasic function§!\nThis option is required for almost all options."
+  ABS_need_auto_build_on_tt: '§R$TRIGGER_FAIL$§!Need to enable "ABS_auto_build_starbases_text"'
+
+  ABS_auto_build_starbases_notice_text: "Notice"
+  ABS_auto_build_starbases_notice_tt: "§BSub-option§! of $ABS_auto_build_starbases_text$\nIf enabled, the above function will trigger an event to ask whether to perform the operation."
+
+  ABS_auto_build_starbases_fallen_text: "$personality_fallen_empire_xenophobe$"
+  ABS_auto_build_starbases_fallen_tt: "§BSub-option§! of $ABS_auto_build_starbases_text$\nIf enabled, avoid enraging $personality_fallen_empire_xenophobe$ when $ABS_auto_build_starbases_text$."
+
+  ABS_auto_build_starbases_stations_text: "$AUTO_GENERATED_STANDARD$ $BUILD$ $stations$"
+  ABS_auto_build_starbases_stations_tt: "§BSub-option§! of $ABS_auto_build_starbases_text$\nIf enabled, $ABS_auto_build_starbases_stations_text$ in the same system after completing a $starbases$."
+
+  ABS_auto_build_starbases_subject_text: "$subjects$"
+  ABS_auto_build_starbases_subject_tt: "§BSub-option§! of $ABS_auto_build_starbases_text$\nIf enabled, Allows $ABS_auto_build_starbases_text$ when a §Yeligible $subjects$§! completes the survey of a system."
+  ABS_auto_build_starbases_subject_always_text: "§G$ALWAYS$§!"
+  ABS_auto_build_starbases_subject_always_tt: "Default Option\nIf you select this option, $ABS_auto_build_starbases_text$ will always triggered when a §Y$subjects$§! completes the survey of a system."
+  ABS_auto_build_starbases_subject_limited_text: "§YSlightly Limited§!"
+  ABS_auto_build_starbases_subject_limited_tt: "Suitable for players who need some sense of engagement.\nIf you select this option, $ABS_auto_build_starbases_text$ will only triggered when the §Y$subjects$§! has §Y$subject_cannot_expand$§!, or has §Y$subject_can_expand_with_tithe$§!, or §G$LOYALTY$ >= 50§!."
+  ABS_auto_build_starbases_subject_never_text: "§RSeverely Limited§!"
+  ABS_auto_build_starbases_subject_never_tt: "Suitable for players who want to overcome some difficulties.\nIf you select this option, $ABS_auto_build_starbases_text$ will only triggered when the §Y$subjects$§! has §Y$subject_cannot_expand$§!, or has §Y$subject_can_expand_with_tithe$§!, §RAND§! §G$LOYALTY$ >= 80§!."
+
+  ### 1.2.1 ###
+
+  ABS_rare_crystals_text: "£rare_crystals£$rare_crystals$: [root.ABS_rare_crystals]"
+  ABS_build_hyper_relays_text: "$BUILD$ $hyper_relay$"
+  ABS_build_hyper_relays_tt: "§BAction§!\n$ABS_build_hyper_relays_text$ in owned $SYSTEMS$.\nHas §BSub-options§!!"
+  ABS_build_hyper_relays_subject_text: "$subjects$"
+  ABS_build_hyper_relays_subject_tt: "§BSub-option§! of $ABS_build_hyper_relays_text$\nIf enabled, also $ABS_build_hyper_relays_text$ in $SYSTEMS$ owned by your subjects."
+
+  ABS_auto_build_starbases_neighbor_text: "Border"
+  ABS_auto_build_starbases_neighbor_tt: "§BSub-option§! of $ABS_auto_build_starbases_text$\nIf enabled, only $ABS_auto_build_starbases_stations_text$ in adjacent $SYSTEM$."
+  ABS_build_starbases_neighbor_text: "Border"
+  ABS_build_starbases_neighbor_tt: "§BSub-option§! of $ABS_build_starbases_text$\nIf enabled, only $ABS_build_starbases_text$ in adjacent $SYSTEM$."
+
+  ### 1.2.2 ###
+
+  ABS_build_starbases_with_stations_text: "$stations$"
+  ABS_build_starbases_with_stations_tt: "§BSub-option§! of $ABS_build_starbases_text$\nIf enabled，$ABS_build_starbases_text$ and $ABS_build_stations_text$ in the same time。"
+
+  ### 1.2.3 zero error fix ###
+  ABS.4.title: ""
+  ABS.4.desc: ""
+  debug_on: "debug on"
+  debug_off: "debug off"

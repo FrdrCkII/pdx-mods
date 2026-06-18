@@ -1,0 +1,29 @@
+# A country has gained a surveyed status on a planet. Happens after "on_survey" if a science ship surveyed a planet.
+# Root = Country
+# From = system
+# FromFrom = Fleet of the science ship that surveyed it, if any
+on_system_survey = {
+    events = {
+        ABS.1
+    }
+}
+
+#This = ship (starbase)
+#From = owner country
+on_building_starbase_outpost = {
+    events = {
+        ABS.2
+    }
+}
+
+on_game_start = {
+    events = {
+        ABS.3
+    }
+}
+
+# on_monthly_pulse_country = {
+#     events = {
+#         ABS.4
+#     }
+# }

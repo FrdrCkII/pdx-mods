@@ -1,0 +1,8 @@
+stri_ABS_show_settings = {
+    stri_ABS_is_auto_build_on_root = yes
+}
+
+stri_ABS_show_settings_subject = {
+    stri_ABS_is_auto_build_on_root = yes
+    has_country_flag = flag_ABS_auto_build_starbases_subject
+}
