@@ -8,26 +8,6 @@ starbase_ctb_port = {
         is_orbital_ring = no
     }
     
-    possible = {
-        solar_system = {
-            count_starbase_buildings = {
-                type = starbase_cbt_port
-                count < 1
-                include_being_constructed = yes
-            }
-        }
-    }
-    
-    abort_construction_trigger = {
-        solar_system = {
-            count_starbase_buildings = {
-                type = starbase_cbt_port
-                count > 1
-                include_being_constructed = yes
-            }
-        }
-    }
-    
     ship_modifier = {
         ship_starting_experience_add = 100000
         ship_accuracy_add = 90

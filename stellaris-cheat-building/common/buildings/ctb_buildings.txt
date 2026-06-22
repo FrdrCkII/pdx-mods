@@ -59,7 +59,7 @@ building_ctb_01 = {
 
         planet_jobs_upkeep_mult = -50
         planet_jobs_produces_mult = 5
-        district_automated_workforce = 5
+        district_automated_workforce = 0.9
         bonus_automated_workforce_mult = 5
     }
     
