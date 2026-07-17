@@ -1,0 +1,56 @@
+country_decisions = {
+	deci_eudb_0_4_1 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_4 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		# effect = {seff_eudb = {
+		# 	PM = 0_4_1
+		# }}
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = {has_country_flag = flag_eudb_pm_0_4_1}
+					clr_country_flag = flag_eudb_pm_0_4_1
+					every_province = {
+						remove_province_triggered_modifier = modi_eudb_pm_0_4_1
+					}
+				}
+				else = {
+					set_country_flag = flag_eudb_pm_0_4_1
+					every_province = {
+						add_province_triggered_modifier = modi_eudb_pm_0_4_1
+					}
+				}
+				seff_eudb = yes
+			}
+		}
+	}
+	deci_eudb_0_4_2 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_4 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		# effect = {seff_eudb = {
+		# 	PM = 0_4_2
+		# }}
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = {has_country_flag = flag_eudb_pm_0_4_2}
+					clr_country_flag = flag_eudb_pm_0_4_2
+					every_province = {
+						remove_province_triggered_modifier = modi_eudb_pm_0_4_2
+					}
+				}
+				else = {
+					set_country_flag = flag_eudb_pm_0_4_2
+					every_province = {
+						add_province_triggered_modifier = modi_eudb_pm_0_4_2
+					}
+				}
+				seff_eudb = yes
+			}	
+		}
+	}
+}

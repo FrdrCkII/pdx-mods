@@ -1,0 +1,297 @@
+modi_eudb_cm_0_1_5_1 = {
+	diplomats = 10
+}
+modi_eudb_cm_0_1_5_2 = {
+	diplomatic_upkeep = 1000
+}
+modi_eudb_cm_0_1_5_3 = {
+	diplomatic_reputation = 1000
+}
+modi_eudb_cm_0_1_5_4 = {
+	envoy_travel_time = -10
+}
+modi_eudb_cm_0_1_5_5 = {
+	improve_relation_modifier = 10
+}
+modi_eudb_cm_0_1_5_6 = {
+	ae_impact = -1
+}
+modi_eudb_cm_0_1_5_7 = {
+	claim_duration = 10
+}
+modi_eudb_cm_0_1_5_8 = {
+	province_warscore_cost = -10
+}
+modi_eudb_cm_0_1_5_9 = {
+	unjustified_demands = -10
+}
+modi_eudb_cm_0_1_5_10 = {
+	rival_change_cost = -10
+}
+modi_eudb_cm_0_1_5_11 = {
+	stability_cost_to_declare_war = -10
+}
+modi_eudb_cm_0_1_5_12 = {
+	accept_vassalization_reasons = 10000
+}
+modi_eudb_cm_0_1_5_13 = {
+	transfer_trade_power_reasons = 10000
+}
+modi_eudb_cm_0_1_5_14 = {
+	monthly_federation_favor_growth = 100
+}
+modi_eudb_cm_0_1_5_15 = {
+	monthly_favor_modifier = 100
+}
+modi_eudb_cm_0_1_5_16 = {
+	cb_on_government_enemies = yes
+}
+modi_eudb_cm_0_1_5_17 = {
+	cb_on_religious_enemies = yes
+}
+modi_eudb_cm_0_1_5_18 = {
+	reduced_stab_impacts = yes
+}
+modi_eudb_cm_0_1_5_19 = {
+	
+}
+modi_eudb_cm_0_1_5_20 = {
+	
+}
+modi_eudb_cm_0_1_5_21 = {
+	
+}
+modi_eudb_cm_0_1_5_22 = {
+	
+}
+modi_eudb_cm_0_1_5_23 = {
+	
+}
+modi_eudb_cm_0_1_5_24 = {
+	
+}
+modi_eudb_cm_0_1_5_25 = {
+	
+}
+modi_eudb_cm_0_1_5_26 = {
+	
+}
+modi_eudb_cm_0_1_5_27 = {
+	
+}
+modi_eudb_cm_0_1_5_28 = {
+	
+}
+modi_eudb_cm_0_1_5_29 = {
+	
+}
+modi_eudb_cm_0_1_5_30 = {
+	
+}
+modi_eudb_cm_0_1_5_31 = {
+	
+}
+modi_eudb_cm_0_1_5_32 = {
+	
+}
+modi_eudb_cm_0_1_5_33 = {
+	
+}
+modi_eudb_cm_0_1_5_34 = {
+	
+}
+modi_eudb_cm_0_1_5_35 = {
+	
+}
+modi_eudb_cm_0_1_5_36 = {
+	
+}
+modi_eudb_cm_0_1_5_37 = {
+	
+}
+modi_eudb_cm_0_1_5_38 = {
+	
+}
+modi_eudb_cm_0_1_5_39 = {
+	
+}
+modi_eudb_cm_0_1_5_40 = {
+	
+}
+modi_eudb_cm_0_1_5_41 = {
+	
+}
+modi_eudb_cm_0_1_5_42 = {
+	
+}
+modi_eudb_cm_0_1_5_43 = {
+	
+}
+modi_eudb_cm_0_1_5_44 = {
+	
+}
+modi_eudb_cm_0_1_5_45 = {
+	
+}
+modi_eudb_cm_0_1_5_46 = {
+	
+}
+modi_eudb_cm_0_1_5_47 = {
+	
+}
+modi_eudb_cm_0_1_5_48 = {
+	
+}
+modi_eudb_cm_0_1_5_49 = {
+	
+}
+modi_eudb_cm_0_1_5_50 = {
+	
+}
+modi_eudb_cm_0_1_5_51 = {
+	
+}
+modi_eudb_cm_0_1_5_52 = {
+	
+}
+modi_eudb_cm_0_1_5_53 = {
+	
+}
+modi_eudb_cm_0_1_5_54 = {
+	
+}
+modi_eudb_cm_0_1_5_55 = {
+	
+}
+modi_eudb_cm_0_1_5_56 = {
+	
+}
+modi_eudb_cm_0_1_5_57 = {
+	
+}
+modi_eudb_cm_0_1_5_58 = {
+	
+}
+modi_eudb_cm_0_1_5_59 = {
+	
+}
+modi_eudb_cm_0_1_5_60 = {
+	
+}
+modi_eudb_cm_0_1_5_61 = {
+	
+}
+modi_eudb_cm_0_1_5_62 = {
+	
+}
+modi_eudb_cm_0_1_5_63 = {
+	
+}
+modi_eudb_cm_0_1_5_64 = {
+	
+}
+modi_eudb_cm_0_1_5_65 = {
+	
+}
+modi_eudb_cm_0_1_5_66 = {
+	
+}
+modi_eudb_cm_0_1_5_67 = {
+	
+}
+modi_eudb_cm_0_1_5_68 = {
+	
+}
+modi_eudb_cm_0_1_5_69 = {
+	
+}
+modi_eudb_cm_0_1_5_70 = {
+	
+}
+modi_eudb_cm_0_1_5_71 = {
+	
+}
+modi_eudb_cm_0_1_5_72 = {
+	
+}
+modi_eudb_cm_0_1_5_73 = {
+	
+}
+modi_eudb_cm_0_1_5_74 = {
+	
+}
+modi_eudb_cm_0_1_5_75 = {
+	
+}
+modi_eudb_cm_0_1_5_76 = {
+	
+}
+modi_eudb_cm_0_1_5_77 = {
+	
+}
+modi_eudb_cm_0_1_5_78 = {
+	
+}
+modi_eudb_cm_0_1_5_79 = {
+	
+}
+modi_eudb_cm_0_1_5_80 = {
+	
+}
+modi_eudb_cm_0_1_5_81 = {
+	
+}
+modi_eudb_cm_0_1_5_82 = {
+	
+}
+modi_eudb_cm_0_1_5_83 = {
+	
+}
+modi_eudb_cm_0_1_5_84 = {
+	
+}
+modi_eudb_cm_0_1_5_85 = {
+	
+}
+modi_eudb_cm_0_1_5_86 = {
+	
+}
+modi_eudb_cm_0_1_5_87 = {
+	
+}
+modi_eudb_cm_0_1_5_88 = {
+	
+}
+modi_eudb_cm_0_1_5_89 = {
+	
+}
+modi_eudb_cm_0_1_5_90 = {
+	
+}
+modi_eudb_cm_0_1_5_91 = {
+	
+}
+modi_eudb_cm_0_1_5_92 = {
+	
+}
+modi_eudb_cm_0_1_5_93 = {
+	
+}
+modi_eudb_cm_0_1_5_94 = {
+	
+}
+modi_eudb_cm_0_1_5_95 = {
+	
+}
+modi_eudb_cm_0_1_5_96 = {
+	
+}
+modi_eudb_cm_0_1_5_97 = {
+	
+}
+modi_eudb_cm_0_1_5_98 = {
+	
+}
+modi_eudb_cm_0_1_5_99 = {
+	
+}

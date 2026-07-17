@@ -1,0 +1,297 @@
+stri_eudb_0_1_18_1 = {
+	has_country_flag = flag_eudb_cm_0_1_18_1
+}
+stri_eudb_0_1_18_2 = {
+	has_country_flag = flag_eudb_cm_0_1_18_2
+}
+stri_eudb_0_1_18_3 = {
+	has_country_flag = flag_eudb_cm_0_1_18_3
+}
+stri_eudb_0_1_18_4 = {
+	has_country_flag = flag_eudb_cm_0_1_18_4
+}
+stri_eudb_0_1_18_5 = {
+	has_country_flag = flag_eudb_cm_0_1_18_5
+}
+stri_eudb_0_1_18_6 = {
+	has_country_flag = flag_eudb_cm_0_1_18_6
+}
+stri_eudb_0_1_18_7 = {
+	has_country_flag = flag_eudb_cm_0_1_18_7
+}
+stri_eudb_0_1_18_8 = {
+	has_country_flag = flag_eudb_cm_0_1_18_8
+}
+stri_eudb_0_1_18_9 = {
+	has_country_flag = flag_eudb_cm_0_1_18_9
+}
+stri_eudb_0_1_18_10 = {
+	has_country_flag = flag_eudb_cm_0_1_18_10
+}
+stri_eudb_0_1_18_11 = {
+	has_country_flag = flag_eudb_cm_0_1_18_11
+}
+stri_eudb_0_1_18_12 = {
+	has_country_flag = flag_eudb_cm_0_1_18_12
+}
+stri_eudb_0_1_18_13 = {
+	has_country_flag = flag_eudb_cm_0_1_18_13
+}
+stri_eudb_0_1_18_14 = {
+	has_country_flag = flag_eudb_cm_0_1_18_14
+}
+stri_eudb_0_1_18_15 = {
+	has_country_flag = flag_eudb_cm_0_1_18_15
+}
+stri_eudb_0_1_18_16 = {
+	has_country_flag = flag_eudb_cm_0_1_18_16
+}
+stri_eudb_0_1_18_17 = {
+	has_country_flag = flag_eudb_cm_0_1_18_17
+}
+stri_eudb_0_1_18_18 = {
+	has_country_flag = flag_eudb_cm_0_1_18_18
+}
+stri_eudb_0_1_18_19 = {
+	has_country_flag = flag_eudb_cm_0_1_18_19
+}
+stri_eudb_0_1_18_20 = {
+	has_country_flag = flag_eudb_cm_0_1_18_20
+}
+stri_eudb_0_1_18_21 = {
+	has_country_flag = flag_eudb_cm_0_1_18_21
+}
+stri_eudb_0_1_18_22 = {
+	has_country_flag = flag_eudb_cm_0_1_18_22
+}
+stri_eudb_0_1_18_23 = {
+	has_country_flag = flag_eudb_cm_0_1_18_23
+}
+stri_eudb_0_1_18_24 = {
+	has_country_flag = flag_eudb_cm_0_1_18_24
+}
+stri_eudb_0_1_18_25 = {
+	has_country_flag = flag_eudb_cm_0_1_18_25
+}
+stri_eudb_0_1_18_26 = {
+	has_country_flag = flag_eudb_cm_0_1_18_26
+}
+stri_eudb_0_1_18_27 = {
+	has_country_flag = flag_eudb_cm_0_1_18_27
+}
+stri_eudb_0_1_18_28 = {
+	has_country_flag = flag_eudb_cm_0_1_18_28
+}
+stri_eudb_0_1_18_29 = {
+	has_country_flag = flag_eudb_cm_0_1_18_29
+}
+stri_eudb_0_1_18_30 = {
+	has_country_flag = flag_eudb_cm_0_1_18_30
+}
+stri_eudb_0_1_18_31 = {
+	has_country_flag = flag_eudb_cm_0_1_18_31
+}
+stri_eudb_0_1_18_32 = {
+	has_country_flag = flag_eudb_cm_0_1_18_32
+}
+stri_eudb_0_1_18_33 = {
+	has_country_flag = flag_eudb_cm_0_1_18_33
+}
+stri_eudb_0_1_18_34 = {
+	has_country_flag = flag_eudb_cm_0_1_18_34
+}
+stri_eudb_0_1_18_35 = {
+	has_country_flag = flag_eudb_cm_0_1_18_35
+}
+stri_eudb_0_1_18_36 = {
+	has_country_flag = flag_eudb_cm_0_1_18_36
+}
+stri_eudb_0_1_18_37 = {
+	has_country_flag = flag_eudb_cm_0_1_18_37
+}
+stri_eudb_0_1_18_38 = {
+	has_country_flag = flag_eudb_cm_0_1_18_38
+}
+stri_eudb_0_1_18_39 = {
+	has_country_flag = flag_eudb_cm_0_1_18_39
+}
+stri_eudb_0_1_18_40 = {
+	has_country_flag = flag_eudb_cm_0_1_18_40
+}
+stri_eudb_0_1_18_41 = {
+	has_country_flag = flag_eudb_cm_0_1_18_41
+}
+stri_eudb_0_1_18_42 = {
+	has_country_flag = flag_eudb_cm_0_1_18_42
+}
+stri_eudb_0_1_18_43 = {
+	has_country_flag = flag_eudb_cm_0_1_18_43
+}
+stri_eudb_0_1_18_44 = {
+	has_country_flag = flag_eudb_cm_0_1_18_44
+}
+stri_eudb_0_1_18_45 = {
+	has_country_flag = flag_eudb_cm_0_1_18_45
+}
+stri_eudb_0_1_18_46 = {
+	has_country_flag = flag_eudb_cm_0_1_18_46
+}
+stri_eudb_0_1_18_47 = {
+	has_country_flag = flag_eudb_cm_0_1_18_47
+}
+stri_eudb_0_1_18_48 = {
+	has_country_flag = flag_eudb_cm_0_1_18_48
+}
+stri_eudb_0_1_18_49 = {
+	has_country_flag = flag_eudb_cm_0_1_18_49
+}
+stri_eudb_0_1_18_50 = {
+	has_country_flag = flag_eudb_cm_0_1_18_50
+}
+stri_eudb_0_1_18_51 = {
+	has_country_flag = flag_eudb_cm_0_1_18_51
+}
+stri_eudb_0_1_18_52 = {
+	has_country_flag = flag_eudb_cm_0_1_18_52
+}
+stri_eudb_0_1_18_53 = {
+	has_country_flag = flag_eudb_cm_0_1_18_53
+}
+stri_eudb_0_1_18_54 = {
+	has_country_flag = flag_eudb_cm_0_1_18_54
+}
+stri_eudb_0_1_18_55 = {
+	has_country_flag = flag_eudb_cm_0_1_18_55
+}
+stri_eudb_0_1_18_56 = {
+	has_country_flag = flag_eudb_cm_0_1_18_56
+}
+stri_eudb_0_1_18_57 = {
+	has_country_flag = flag_eudb_cm_0_1_18_57
+}
+stri_eudb_0_1_18_58 = {
+	has_country_flag = flag_eudb_cm_0_1_18_58
+}
+stri_eudb_0_1_18_59 = {
+	has_country_flag = flag_eudb_cm_0_1_18_59
+}
+stri_eudb_0_1_18_60 = {
+	has_country_flag = flag_eudb_cm_0_1_18_60
+}
+stri_eudb_0_1_18_61 = {
+	has_country_flag = flag_eudb_cm_0_1_18_61
+}
+stri_eudb_0_1_18_62 = {
+	has_country_flag = flag_eudb_cm_0_1_18_62
+}
+stri_eudb_0_1_18_63 = {
+	has_country_flag = flag_eudb_cm_0_1_18_63
+}
+stri_eudb_0_1_18_64 = {
+	has_country_flag = flag_eudb_cm_0_1_18_64
+}
+stri_eudb_0_1_18_65 = {
+	has_country_flag = flag_eudb_cm_0_1_18_65
+}
+stri_eudb_0_1_18_66 = {
+	has_country_flag = flag_eudb_cm_0_1_18_66
+}
+stri_eudb_0_1_18_67 = {
+	has_country_flag = flag_eudb_cm_0_1_18_67
+}
+stri_eudb_0_1_18_68 = {
+	has_country_flag = flag_eudb_cm_0_1_18_68
+}
+stri_eudb_0_1_18_69 = {
+	has_country_flag = flag_eudb_cm_0_1_18_69
+}
+stri_eudb_0_1_18_70 = {
+	has_country_flag = flag_eudb_cm_0_1_18_70
+}
+stri_eudb_0_1_18_71 = {
+	has_country_flag = flag_eudb_cm_0_1_18_71
+}
+stri_eudb_0_1_18_72 = {
+	has_country_flag = flag_eudb_cm_0_1_18_72
+}
+stri_eudb_0_1_18_73 = {
+	has_country_flag = flag_eudb_cm_0_1_18_73
+}
+stri_eudb_0_1_18_74 = {
+	has_country_flag = flag_eudb_cm_0_1_18_74
+}
+stri_eudb_0_1_18_75 = {
+	has_country_flag = flag_eudb_cm_0_1_18_75
+}
+stri_eudb_0_1_18_76 = {
+	has_country_flag = flag_eudb_cm_0_1_18_76
+}
+stri_eudb_0_1_18_77 = {
+	has_country_flag = flag_eudb_cm_0_1_18_77
+}
+stri_eudb_0_1_18_78 = {
+	has_country_flag = flag_eudb_cm_0_1_18_78
+}
+stri_eudb_0_1_18_79 = {
+	has_country_flag = flag_eudb_cm_0_1_18_79
+}
+stri_eudb_0_1_18_80 = {
+	has_country_flag = flag_eudb_cm_0_1_18_80
+}
+stri_eudb_0_1_18_81 = {
+	has_country_flag = flag_eudb_cm_0_1_18_81
+}
+stri_eudb_0_1_18_82 = {
+	has_country_flag = flag_eudb_cm_0_1_18_82
+}
+stri_eudb_0_1_18_83 = {
+	has_country_flag = flag_eudb_cm_0_1_18_83
+}
+stri_eudb_0_1_18_84 = {
+	has_country_flag = flag_eudb_cm_0_1_18_84
+}
+stri_eudb_0_1_18_85 = {
+	has_country_flag = flag_eudb_cm_0_1_18_85
+}
+stri_eudb_0_1_18_86 = {
+	has_country_flag = flag_eudb_cm_0_1_18_86
+}
+stri_eudb_0_1_18_87 = {
+	has_country_flag = flag_eudb_cm_0_1_18_87
+}
+stri_eudb_0_1_18_88 = {
+	has_country_flag = flag_eudb_cm_0_1_18_88
+}
+stri_eudb_0_1_18_89 = {
+	has_country_flag = flag_eudb_cm_0_1_18_89
+}
+stri_eudb_0_1_18_90 = {
+	has_country_flag = flag_eudb_cm_0_1_18_90
+}
+stri_eudb_0_1_18_91 = {
+	has_country_flag = flag_eudb_cm_0_1_18_91
+}
+stri_eudb_0_1_18_92 = {
+	has_country_flag = flag_eudb_cm_0_1_18_92
+}
+stri_eudb_0_1_18_93 = {
+	has_country_flag = flag_eudb_cm_0_1_18_93
+}
+stri_eudb_0_1_18_94 = {
+	has_country_flag = flag_eudb_cm_0_1_18_94
+}
+stri_eudb_0_1_18_95 = {
+	has_country_flag = flag_eudb_cm_0_1_18_95
+}
+stri_eudb_0_1_18_96 = {
+	has_country_flag = flag_eudb_cm_0_1_18_96
+}
+stri_eudb_0_1_18_97 = {
+	has_country_flag = flag_eudb_cm_0_1_18_97
+}
+stri_eudb_0_1_18_98 = {
+	has_country_flag = flag_eudb_cm_0_1_18_98
+}
+stri_eudb_0_1_18_99 = {
+	has_country_flag = flag_eudb_cm_0_1_18_99
+}

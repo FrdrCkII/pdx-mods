@@ -1,0 +1,893 @@
+country_decisions = {
+	deci_eudb_0_1_12_1 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_1
+		}}
+	}
+	deci_eudb_0_1_12_2 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_2
+		}}
+	}
+	deci_eudb_0_1_12_3 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_3
+		}}
+	}
+	deci_eudb_0_1_12_4 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_4
+		}}
+	}
+	deci_eudb_0_1_12_5 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_5
+		}}
+	}
+	deci_eudb_0_1_12_6 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_6
+		}}
+	}
+	deci_eudb_0_1_12_7 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_7
+		}}
+	}
+	deci_eudb_0_1_12_8 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_8
+		}}
+	}
+	deci_eudb_0_1_12_9 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_9
+		}}
+	}
+	deci_eudb_0_1_12_10 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_1_12 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CM = 0_1_12_10
+		}}
+	}
+	# deci_eudb_0_1_12_11 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_11
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_12 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_12
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_13 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_13
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_14 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_14
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_15 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_15
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_16 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_16
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_17 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_17
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_18 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_18
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_19 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_19
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_20 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_20
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_21 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_21
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_22 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_22
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_23 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_23
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_24 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_24
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_25 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_25
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_26 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_26
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_27 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_27
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_28 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_28
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_29 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_29
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_30 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_30
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_31 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_31
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_32 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_32
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_33 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_33
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_34 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_34
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_35 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_35
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_36 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_36
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_37 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_37
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_38 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_38
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_39 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_39
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_40 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_40
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_41 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_41
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_42 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_42
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_43 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_43
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_44 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_44
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_45 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_45
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_46 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_46
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_47 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_47
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_48 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_48
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_49 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_49
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_50 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_50
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_51 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_51
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_52 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_52
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_53 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_53
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_54 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_54
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_55 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_55
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_56 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_56
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_57 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_57
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_58 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_58
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_59 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_59
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_60 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_60
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_61 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_61
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_62 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_62
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_63 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_63
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_64 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_64
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_65 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_65
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_66 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_66
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_67 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_67
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_68 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_68
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_69 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_69
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_70 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_70
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_71 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_71
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_72 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_72
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_73 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_73
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_74 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_74
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_75 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_75
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_76 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_76
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_77 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_77
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_78 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_78
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_79 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_79
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_80 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_80
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_81 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_81
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_82 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_82
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_83 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_83
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_84 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_84
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_85 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_85
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_86 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_86
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_87 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_87
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_88 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_88
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_89 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_89
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_90 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_90
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_91 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_91
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_92 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_92
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_93 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_93
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_94 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_94
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_95 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_95
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_96 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_96
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_97 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_97
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_98 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_98
+	# 	}}
+	# }
+	# deci_eudb_0_1_12_99 = {
+	# 	color = { 0 0 0 }
+	# 	potential = {stri_eudb_0_1_12 = yes}
+	# 	ai_will_do = {factor = 0}
+	# 	allow = {always = yes}
+	# 	effect = {seff_eudb = {
+	# 		CM = 0_1_12_99
+	# 	}}
+	# }
+}

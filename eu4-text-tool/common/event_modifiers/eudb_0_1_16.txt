@@ -1,0 +1,300 @@
+modi_eudb_cm_0_1_16_1 = {
+	years_to_integrate_personal_union = -1000
+	diplomatic_annexation_cost = -10
+}
+modi_eudb_cm_0_1_16_2 = {
+	vassal_income = 10
+}
+modi_eudb_cm_0_1_16_3 = {
+	vassal_forcelimit_bonus = 10
+}
+modi_eudb_cm_0_1_16_4 = {
+	vassal_sailors_bonus = 10
+}
+modi_eudb_cm_0_1_16_5 = {
+	vassal_forcelimit_bonus = 10
+}
+modi_eudb_cm_0_1_16_6 = {
+	vassal_naval_forcelimit_bonus = 10
+}
+modi_eudb_cm_0_1_16_7 = {
+	monarch_power_tribute = 10
+}
+modi_eudb_cm_0_1_16_8 = {
+	can_transfer_vassal_wargoal = yes
+}
+modi_eudb_cm_0_1_16_9 = {
+	liberty_desire = 1000
+}
+modi_eudb_cm_0_1_16_10 = {
+	liberty_desire = -1000
+}
+modi_eudb_cm_0_1_16_11 = {
+	reduced_liberty_desire = 1000
+	liberty_desire_from_subject_development = -10
+}
+modi_eudb_cm_0_1_16_12 = {
+	allow_client_states = yes
+}
+modi_eudb_cm_0_1_16_13 = {
+	colonial_type_change_cost_modifier = -10
+	colonial_subject_type_upgrade_cost_modifier = -10
+}
+modi_eudb_cm_0_1_16_14 = {
+	chance_to_inherit = 1
+}
+modi_eudb_cm_0_1_16_15 = {
+	annexation_relations_impact = -10
+}
+modi_eudb_cm_0_1_16_16 = {
+	
+}
+modi_eudb_cm_0_1_16_17 = {
+	
+}
+modi_eudb_cm_0_1_16_18 = {
+	
+}
+modi_eudb_cm_0_1_16_19 = {
+	
+}
+modi_eudb_cm_0_1_16_20 = {
+	
+}
+modi_eudb_cm_0_1_16_21 = {
+	
+}
+modi_eudb_cm_0_1_16_22 = {
+	
+}
+modi_eudb_cm_0_1_16_23 = {
+	
+}
+modi_eudb_cm_0_1_16_24 = {
+	
+}
+modi_eudb_cm_0_1_16_25 = {
+	
+}
+modi_eudb_cm_0_1_16_26 = {
+	
+}
+modi_eudb_cm_0_1_16_27 = {
+	
+}
+modi_eudb_cm_0_1_16_28 = {
+	
+}
+modi_eudb_cm_0_1_16_29 = {
+	
+}
+modi_eudb_cm_0_1_16_30 = {
+	
+}
+modi_eudb_cm_0_1_16_31 = {
+	
+}
+modi_eudb_cm_0_1_16_32 = {
+	
+}
+modi_eudb_cm_0_1_16_33 = {
+	
+}
+modi_eudb_cm_0_1_16_34 = {
+	
+}
+modi_eudb_cm_0_1_16_35 = {
+	
+}
+modi_eudb_cm_0_1_16_36 = {
+	
+}
+modi_eudb_cm_0_1_16_37 = {
+	
+}
+modi_eudb_cm_0_1_16_38 = {
+	
+}
+modi_eudb_cm_0_1_16_39 = {
+	
+}
+modi_eudb_cm_0_1_16_40 = {
+	
+}
+modi_eudb_cm_0_1_16_41 = {
+	
+}
+modi_eudb_cm_0_1_16_42 = {
+	
+}
+modi_eudb_cm_0_1_16_43 = {
+	
+}
+modi_eudb_cm_0_1_16_44 = {
+	
+}
+modi_eudb_cm_0_1_16_45 = {
+	
+}
+modi_eudb_cm_0_1_16_46 = {
+	
+}
+modi_eudb_cm_0_1_16_47 = {
+	
+}
+modi_eudb_cm_0_1_16_48 = {
+	
+}
+modi_eudb_cm_0_1_16_49 = {
+	
+}
+modi_eudb_cm_0_1_16_50 = {
+	
+}
+modi_eudb_cm_0_1_16_51 = {
+	
+}
+modi_eudb_cm_0_1_16_52 = {
+	
+}
+modi_eudb_cm_0_1_16_53 = {
+	
+}
+modi_eudb_cm_0_1_16_54 = {
+	
+}
+modi_eudb_cm_0_1_16_55 = {
+	
+}
+modi_eudb_cm_0_1_16_56 = {
+	
+}
+modi_eudb_cm_0_1_16_57 = {
+	
+}
+modi_eudb_cm_0_1_16_58 = {
+	
+}
+modi_eudb_cm_0_1_16_59 = {
+	
+}
+modi_eudb_cm_0_1_16_60 = {
+	
+}
+modi_eudb_cm_0_1_16_61 = {
+	
+}
+modi_eudb_cm_0_1_16_62 = {
+	
+}
+modi_eudb_cm_0_1_16_63 = {
+	
+}
+modi_eudb_cm_0_1_16_64 = {
+	
+}
+modi_eudb_cm_0_1_16_65 = {
+	
+}
+modi_eudb_cm_0_1_16_66 = {
+	
+}
+modi_eudb_cm_0_1_16_67 = {
+	
+}
+modi_eudb_cm_0_1_16_68 = {
+	
+}
+modi_eudb_cm_0_1_16_69 = {
+	
+}
+modi_eudb_cm_0_1_16_70 = {
+	
+}
+modi_eudb_cm_0_1_16_71 = {
+	
+}
+modi_eudb_cm_0_1_16_72 = {
+	
+}
+modi_eudb_cm_0_1_16_73 = {
+	
+}
+modi_eudb_cm_0_1_16_74 = {
+	
+}
+modi_eudb_cm_0_1_16_75 = {
+	
+}
+modi_eudb_cm_0_1_16_76 = {
+	
+}
+modi_eudb_cm_0_1_16_77 = {
+	
+}
+modi_eudb_cm_0_1_16_78 = {
+	
+}
+modi_eudb_cm_0_1_16_79 = {
+	
+}
+modi_eudb_cm_0_1_16_80 = {
+	
+}
+modi_eudb_cm_0_1_16_81 = {
+	
+}
+modi_eudb_cm_0_1_16_82 = {
+	
+}
+modi_eudb_cm_0_1_16_83 = {
+	
+}
+modi_eudb_cm_0_1_16_84 = {
+	
+}
+modi_eudb_cm_0_1_16_85 = {
+	
+}
+modi_eudb_cm_0_1_16_86 = {
+	
+}
+modi_eudb_cm_0_1_16_87 = {
+	
+}
+modi_eudb_cm_0_1_16_88 = {
+	
+}
+modi_eudb_cm_0_1_16_89 = {
+	
+}
+modi_eudb_cm_0_1_16_90 = {
+	
+}
+modi_eudb_cm_0_1_16_91 = {
+	
+}
+modi_eudb_cm_0_1_16_92 = {
+	
+}
+modi_eudb_cm_0_1_16_93 = {
+	
+}
+modi_eudb_cm_0_1_16_94 = {
+	
+}
+modi_eudb_cm_0_1_16_95 = {
+	
+}
+modi_eudb_cm_0_1_16_96 = {
+	
+}
+modi_eudb_cm_0_1_16_97 = {
+	
+}
+modi_eudb_cm_0_1_16_98 = {
+	
+}
+modi_eudb_cm_0_1_16_99 = {
+	
+}

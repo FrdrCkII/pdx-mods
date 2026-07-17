@@ -1,0 +1,54 @@
+namespace = anbEUDBeffe
+
+country_event = { #魔法声誉
+	id = anbEUDBeffe.1
+	picture = ROYAL_COUPLE_FUTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ok"
+		set_variable = {
+			which = pointsWitchKing
+			value = 0
+		}
+	}
+}
+country_event = { #奇械承载力
+	id = anbEUDBeffe.2
+	picture = ROYAL_COUPLE_FUTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ok"
+		change_variable = {
+			which = StaticArtificePoints
+			value = 100
+		}
+		update_artifice_points = yes
+	}
+}
+country_event = { #容忍
+	id = anbEUDBeffe.3
+	picture = ROYAL_COUPLE_FUTURE_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = "ok"
+		set_variable = { which = elven_race_tolerance value = 100 }
+		set_variable = { which = halfling_race_tolerance value = 100 }
+		set_variable = { which = dwarven_race_tolerance value = 100 }
+		set_variable = { which = gnomish_race_tolerance value = 100 }
+		set_variable = { which = orcish_race_tolerance value = 100 }
+		set_variable = { which = kobold_race_tolerance value = 100 }
+		set_variable = { which = half_orcish_race_tolerance value = 100 }
+		set_variable = { which = human_race_tolerance value = 100 }
+		set_variable = { which = gnollish_race_tolerance value = 100 }
+		set_variable = { which = ruinborn_race_tolerance value = 100 }
+		set_variable = { which = goblin_race_tolerance value = 100 }
+		set_variable = { which = harpy_race_tolerance value = 100 }
+		set_variable = { which = troll_race_tolerance value = 100 }
+		set_variable = { which = half_elven_race_tolerance value = 100 }
+		set_variable = { which = harimari_race_tolerance value = 100 }
+		set_variable = { which = hobgoblin_race_tolerance value = 100 }
+		set_variable = { which = centaur_race_tolerance value = 100 }
+		set_variable = { which = ogre_race_tolerance value = 100 }
+		set_variable = { which = lizardfolk_race_tolerance value = 100 }
+	}
+}

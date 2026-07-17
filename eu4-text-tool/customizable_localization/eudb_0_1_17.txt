@@ -1,0 +1,1089 @@
+defined_text = {
+	name = Get_eudb_0_1_17_1
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_1 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_1 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_2
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_2 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_2 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_3
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_3 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_3 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_4
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_4 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_4 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_5
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_5 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_5 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_6
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_6 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_6 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_7
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_7 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_7 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_8
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_8 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_8 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_9
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_9 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_9 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_10
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_10 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_10 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_11
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_11 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_11 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_12
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_12 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_12 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_13
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_13 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_13 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_14
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_14 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_14 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_15
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_15 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_15 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_16
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_16 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_16 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_17
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_17 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_17 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_18
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_18 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_18 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_19
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_19 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_19 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_20
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_20 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_20 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_21
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_21 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_21 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_22
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_22 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_22 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_23
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_23 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_23 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_24
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_24 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_24 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_25
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_25 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_25 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_26
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_26 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_26 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_27
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_27 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_27 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_28
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_28 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_28 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_29
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_29 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_29 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_30
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_30 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_30 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_31
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_31 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_31 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_32
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_32 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_32 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_33
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_33 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_33 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_34
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_34 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_34 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_35
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_35 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_35 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_36
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_36 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_36 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_37
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_37 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_37 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_38
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_38 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_38 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_39
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_39 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_39 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_40
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_40 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_40 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_41
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_41 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_41 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_42
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_42 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_42 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_43
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_43 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_43 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_44
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_44 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_44 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_45
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_45 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_45 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_46
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_46 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_46 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_47
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_47 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_47 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_48
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_48 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_48 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_49
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_49 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_49 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_50
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_50 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_50 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_51
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_51 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_51 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_52
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_52 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_52 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_53
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_53 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_53 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_54
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_54 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_54 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_55
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_55 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_55 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_56
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_56 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_56 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_57
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_57 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_57 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_58
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_58 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_58 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_59
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_59 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_59 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_60
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_60 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_60 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_61
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_61 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_61 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_62
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_62 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_62 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_63
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_63 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_63 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_64
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_64 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_64 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_65
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_65 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_65 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_66
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_66 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_66 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_67
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_67 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_67 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_68
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_68 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_68 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_69
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_69 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_69 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_70
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_70 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_70 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_71
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_71 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_71 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_72
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_72 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_72 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_73
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_73 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_73 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_74
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_74 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_74 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_75
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_75 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_75 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_76
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_76 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_76 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_77
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_77 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_77 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_78
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_78 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_78 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_79
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_79 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_79 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_80
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_80 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_80 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_81
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_81 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_81 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_82
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_82 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_82 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_83
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_83 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_83 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_84
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_84 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_84 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_85
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_85 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_85 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_86
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_86 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_86 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_87
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_87 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_87 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_88
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_88 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_88 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_89
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_89 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_89 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_90
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_90 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_90 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_91
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_91 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_91 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_92
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_92 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_92 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_93
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_93 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_93 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_94
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_94 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_94 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_95
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_95 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_95 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_96
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_96 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_96 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_97
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_97 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_97 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_98
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_98 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_98 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_1_17_99
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_1_17_99 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_1_17_99 = no}
+	}
+}

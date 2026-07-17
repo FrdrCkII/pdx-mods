@@ -1,0 +1,6 @@
+opin_eudb_good = {
+	opinion = 1000
+}
+opin_eudb_bad = {
+	opinion = -1000
+}

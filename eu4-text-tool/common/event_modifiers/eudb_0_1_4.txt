@@ -1,0 +1,297 @@
+modi_eudb_cm_0_1_4_1 = {
+	movement_speed_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_2 = {
+	admiral_skill_gain_modifier = 10
+}
+modi_eudb_cm_0_1_4_3 = {
+	flagship_durability = 10
+}
+modi_eudb_cm_0_1_4_4 = {
+	flagship_morale = 10
+}
+modi_eudb_cm_0_1_4_5 = {
+	flagship_naval_engagement_modifier = 10
+}
+modi_eudb_cm_0_1_4_6 = {
+	number_of_cannons_flagship_modifier = 10
+}
+modi_eudb_cm_0_1_4_7 = {
+	number_of_cannons_flagship = 1000
+}
+modi_eudb_cm_0_1_4_8 = {
+	naval_maintenance_flagship_modifier = -10
+}
+modi_eudb_cm_0_1_4_9 = {
+	trade_power_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_10 = {
+	morale_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_11 = {
+	blockade_impact_on_siege_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_12 = {
+	exploration_mission_range_in_fleet_modifier = 1000
+}
+modi_eudb_cm_0_1_4_13 = {
+	barrage_cost_in_fleet_modifier = -1
+}
+modi_eudb_cm_0_1_4_14 = {
+	naval_attrition_in_fleet_modifier = -10
+}
+modi_eudb_cm_0_1_4_15 = {
+	privateering_efficiency_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_16 = {
+	prestige_from_battles_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_17 = {
+	prestige_from_battles_in_fleet_modifier = 10
+}
+modi_eudb_cm_0_1_4_18 = {
+	cannons_for_hunting_pirates_in_fleet = 10
+}
+modi_eudb_cm_0_1_4_19 = {
+	max_flagships = 1000
+}
+modi_eudb_cm_0_1_4_20 = {
+	
+}
+modi_eudb_cm_0_1_4_21 = {
+	
+}
+modi_eudb_cm_0_1_4_22 = {
+	
+}
+modi_eudb_cm_0_1_4_23 = {
+	
+}
+modi_eudb_cm_0_1_4_24 = {
+	
+}
+modi_eudb_cm_0_1_4_25 = {
+	
+}
+modi_eudb_cm_0_1_4_26 = {
+	
+}
+modi_eudb_cm_0_1_4_27 = {
+	
+}
+modi_eudb_cm_0_1_4_28 = {
+	
+}
+modi_eudb_cm_0_1_4_29 = {
+	
+}
+modi_eudb_cm_0_1_4_30 = {
+	
+}
+modi_eudb_cm_0_1_4_31 = {
+	
+}
+modi_eudb_cm_0_1_4_32 = {
+	
+}
+modi_eudb_cm_0_1_4_33 = {
+	
+}
+modi_eudb_cm_0_1_4_34 = {
+	
+}
+modi_eudb_cm_0_1_4_35 = {
+	
+}
+modi_eudb_cm_0_1_4_36 = {
+	
+}
+modi_eudb_cm_0_1_4_37 = {
+	
+}
+modi_eudb_cm_0_1_4_38 = {
+	
+}
+modi_eudb_cm_0_1_4_39 = {
+	
+}
+modi_eudb_cm_0_1_4_40 = {
+	
+}
+modi_eudb_cm_0_1_4_41 = {
+	
+}
+modi_eudb_cm_0_1_4_42 = {
+	
+}
+modi_eudb_cm_0_1_4_43 = {
+	
+}
+modi_eudb_cm_0_1_4_44 = {
+	
+}
+modi_eudb_cm_0_1_4_45 = {
+	
+}
+modi_eudb_cm_0_1_4_46 = {
+	
+}
+modi_eudb_cm_0_1_4_47 = {
+	
+}
+modi_eudb_cm_0_1_4_48 = {
+	
+}
+modi_eudb_cm_0_1_4_49 = {
+	
+}
+modi_eudb_cm_0_1_4_50 = {
+	
+}
+modi_eudb_cm_0_1_4_51 = {
+	
+}
+modi_eudb_cm_0_1_4_52 = {
+	
+}
+modi_eudb_cm_0_1_4_53 = {
+	
+}
+modi_eudb_cm_0_1_4_54 = {
+	
+}
+modi_eudb_cm_0_1_4_55 = {
+	
+}
+modi_eudb_cm_0_1_4_56 = {
+	
+}
+modi_eudb_cm_0_1_4_57 = {
+	
+}
+modi_eudb_cm_0_1_4_58 = {
+	
+}
+modi_eudb_cm_0_1_4_59 = {
+	
+}
+modi_eudb_cm_0_1_4_60 = {
+	
+}
+modi_eudb_cm_0_1_4_61 = {
+	
+}
+modi_eudb_cm_0_1_4_62 = {
+	
+}
+modi_eudb_cm_0_1_4_63 = {
+	
+}
+modi_eudb_cm_0_1_4_64 = {
+	
+}
+modi_eudb_cm_0_1_4_65 = {
+	
+}
+modi_eudb_cm_0_1_4_66 = {
+	
+}
+modi_eudb_cm_0_1_4_67 = {
+	
+}
+modi_eudb_cm_0_1_4_68 = {
+	
+}
+modi_eudb_cm_0_1_4_69 = {
+	
+}
+modi_eudb_cm_0_1_4_70 = {
+	
+}
+modi_eudb_cm_0_1_4_71 = {
+	
+}
+modi_eudb_cm_0_1_4_72 = {
+	
+}
+modi_eudb_cm_0_1_4_73 = {
+	
+}
+modi_eudb_cm_0_1_4_74 = {
+	
+}
+modi_eudb_cm_0_1_4_75 = {
+	
+}
+modi_eudb_cm_0_1_4_76 = {
+	
+}
+modi_eudb_cm_0_1_4_77 = {
+	
+}
+modi_eudb_cm_0_1_4_78 = {
+	
+}
+modi_eudb_cm_0_1_4_79 = {
+	
+}
+modi_eudb_cm_0_1_4_80 = {
+	
+}
+modi_eudb_cm_0_1_4_81 = {
+	
+}
+modi_eudb_cm_0_1_4_82 = {
+	
+}
+modi_eudb_cm_0_1_4_83 = {
+	
+}
+modi_eudb_cm_0_1_4_84 = {
+	
+}
+modi_eudb_cm_0_1_4_85 = {
+	
+}
+modi_eudb_cm_0_1_4_86 = {
+	
+}
+modi_eudb_cm_0_1_4_87 = {
+	
+}
+modi_eudb_cm_0_1_4_88 = {
+	
+}
+modi_eudb_cm_0_1_4_89 = {
+	
+}
+modi_eudb_cm_0_1_4_90 = {
+	
+}
+modi_eudb_cm_0_1_4_91 = {
+	
+}
+modi_eudb_cm_0_1_4_92 = {
+	
+}
+modi_eudb_cm_0_1_4_93 = {
+	
+}
+modi_eudb_cm_0_1_4_94 = {
+	
+}
+modi_eudb_cm_0_1_4_95 = {
+	
+}
+modi_eudb_cm_0_1_4_96 = {
+	
+}
+modi_eudb_cm_0_1_4_97 = {
+	
+}
+modi_eudb_cm_0_1_4_98 = {
+	
+}
+modi_eudb_cm_0_1_4_99 = {
+	
+}

@@ -1,0 +1,168 @@
+subt_eudb_0_5_1 = {
+	copy_from = default
+	
+	can_be_annexed = yes
+	gets_help_with_rebels = yes
+	can_fight_independence_war = no
+
+	base_liberty_desire = -1000
+	liberty_desire_negative_prestige = 0
+	liberty_desire_development_ratio = 0
+	liberty_desire_same_dynasty = 0
+	liberty_desire_revolution = 0
+	pays_overlord = 0.8
+	forcelimit_to_overlord = 0.8
+	naval_forcelimit_to_overlord = 0.8
+	manpower_to_overlord = 0.8
+	sailors_to_overlord = 0.8
+	annex_cost_per_development = 0
+	opinion_on_subject_integration = 0
+	relative_power_class = 0
+	diplomacy_view_class = 2
+	military_focus = 10.0
+
+	transfer_trade_power = yes
+	transfer_trade_if_merchant_republic = yes
+	extend_trading_range = yes
+	has_power_projection = no
+	takes_diplo_slot = no
+	forms_trade_companies = no
+	uses_military_focus = yes
+	can_send_tribute = yes
+	embargo_rivals = no
+	support_loyalists = no
+	subsidize_armies = yes
+	scutage = no
+	send_officers = yes
+	divert_trade = yes
+	placate_rulers = no
+	place_relative_on_throne = no
+	enforce_religion = yes
+	customize_subject = no
+	replace_governor = no
+	grant_province = yes
+	enforce_culture = yes
+	siphon_income = no
+	fortify_march = no
+	seize_territory = yes
+	start_colonial_war = no
+	grant_core_claim = no
+	sacrifice_ruler = no
+	sacrifice_heir = no
+	uses_tariffs = yes
+	increase_tariffs = yes
+	decrease_tariffs = yes
+	takeondebt = no
+	bestow_gifts = yes
+	send_additional_troops = yes
+	demand_artifacts = no
+	demand_additional_tribute = no
+	force_seppuku = no
+	press_sailors = no
+	contribute_to_capital = no
+	force_isolation = no
+	return_land = yes
+	conscript_general = no
+	knowledge_sharing = no
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	change_colonial_type = no
+	upgrade_subject_type = no
+	separatists_become_subjects = yes
+
+	overlord_opinion_modifier = opin_eudb_good
+	subject_opinion_modifier = opin_eudb_good
+	
+	modifier_subject = clear
+	modifier_overlord = clear
+	
+	modifier_subject = { modifier = modi_eudb_sm_sb_0_5 }
+	modifier_overlord = { modifier = modi_eudb_sm_ov_0_5 }
+	
+	can_fight = {
+		same_overlord = daimyo_vassal
+	}
+	can_rival = {
+		same_overlord = daimyo_vassal
+	}
+	can_ally = {
+		same_overlord = daimyo_vassal
+	}
+	can_marry = {
+		same_overlord = daimyo_vassal
+	}
+}
+subt_eudb_0_5_2 = {
+	copy_from = subt_eudb_0_5_1
+	
+	has_overlords_ruler = yes
+	can_union_break = no
+}
+subt_eudb_0_5_3 = {
+	copy_from = subt_eudb_0_5_1
+	sprite = GFX_subject_colony_icon
+	diplomacy_overlord_sprite = GFX_diplomacy_leadcolony
+	diplomacy_subject_sprite = GFX_diplomacy_subjectcolony
+	
+	# uses_tariffs = yes
+	joins_colonial_wars = yes
+	can_release_and_play = yes
+	eats_overlords_colonies = yes
+	has_colonial_parent = yes
+	# uses_military_focus = no
+	# can_send_tribute = yes
+	enforce_culture = yes
+	overlord_can_attack = no
+	overlord_can_be_subject = yes
+	
+	# increase_tariffs = yes
+	# decrease_tariffs = yes
+	customize_subject = yes
+	replace_governor = yes
+	start_colonial_war = yes
+	
+	modifier_subject = clear
+	modifier_overlord = clear
+	
+	modifier_subject = { modifier = modi_eudb_sm_sb_0_5 }
+	modifier_overlord = { modifier = modi_eudb_sm_ov_0_5 }
+	
+	modifier_overlord = {
+		modifier = large_colonial_nation
+		trigger = {
+			num_of_cities = 10
+		}
+	}
+	# modifier_subject = {
+	# 	modifier = new_world_exploitation_modifier
+	# 	trigger = {
+	# 		overlord = { has_government_attribute = extra_trade_goods_for_colonial_subjects }
+	# 	}
+	# }
+	# modifier_subject = {
+	# 	modifier = gbr_colonial_investment
+	# 	trigger = {
+	# 		overlord = { has_country_modifier = gbr_new_world_dominance }
+	# 	}
+	# }
+	
+	can_fight = {
+		other_overlord = colony
+		other_overlord = crown_colony
+		other_overlord = private_enterprise
+		other_overlord = self_governing_colony
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_rival = {
+		other_overlord = colony
+		other_overlord = crown_colony
+		other_overlord = private_enterprise
+		other_overlord = self_governing_colony
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_ally = {
+		neighboring_primitives = yes
+	}
+}

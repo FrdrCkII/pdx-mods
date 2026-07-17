@@ -1,0 +1,38 @@
+country_decisions = {
+	deci_eudb_0_2_0 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_2 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {
+			seff_eudb_clr_PM1 = yes
+		}
+	}
+	deci_eudb_0_2_1 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_2 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			PM1 = 0_2_1
+		}}
+	}
+	deci_eudb_0_2_2 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_2 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			PM1 = 0_2_2
+		}}
+	}
+	deci_eudb_0_2_3 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_2 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			PM1 = 0_2_3
+		}}
+	}
+}

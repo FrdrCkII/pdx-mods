@@ -1,0 +1,12 @@
+modi_eudb_pm_0_4_1 = {
+    # potential = {stri_modi_eudb_0_4_1 = yes}
+    potential = {always = yes}
+    trigger = {stri_modi_eudb_0_4_1 = yes}
+	on_activation = {seff_modi_eudb_0_4_1 = yes}
+}
+modi_eudb_pm_0_4_2 = {
+    # potential = {stri_modi_eudb_0_4_2 = yes}
+    potential = {always = yes}
+    trigger = {stri_modi_eudb_0_4_2 = yes}
+	on_activation = {seff_modi_eudb_0_4_2 = yes}
+}

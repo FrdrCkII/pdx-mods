@@ -1,0 +1,318 @@
+modi_eudb_cm_0_1_14_1 = {
+	global_missionary_strength = 1
+	global_heretic_missionary_strength = 1
+	global_heathen_missionary_strength = 1
+}
+modi_eudb_cm_0_1_14_2 = {
+	missionaries = 10
+}
+modi_eudb_cm_0_1_14_3 = {
+	missionary_maintenance_cost = -1
+}
+modi_eudb_cm_0_1_14_4 = {
+	religious_unity = 1
+}
+modi_eudb_cm_0_1_14_5 = {
+	tolerance_own = 10
+}
+modi_eudb_cm_0_1_14_6 = {
+	tolerance_heretic = 10
+    tolerance_of_heretics_capacity = 10
+}
+modi_eudb_cm_0_1_14_7 = {
+	tolerance_heathen = 10
+    tolerance_of_heathens_capacity = 10
+}
+modi_eudb_cm_0_1_14_8 = {
+	papal_influence = 2400
+    papal_influence_from_cardinals = 1
+    appoint_cardinal_cost = -1
+    curia_treasury_contribution = 1
+    curia_powers_cost = -1
+    monthly_church_power = 200
+    church_power_modifier = 1
+    monthly_fervor_increase = 200
+    yearly_patriarch_authority = 1200
+    harmonization_speed = 1000
+    yearly_harmony = 1200
+    monthly_piety_accelerator = 100
+    monthly_karma_accelerator = -10
+    yearly_doom_reduction = 1200
+    yearly_authority = 1200
+
+    #For PF
+    monthly_inti_rituality = 100
+}
+modi_eudb_cm_0_1_14_9 = {
+	no_religion_penalty = yes
+}
+modi_eudb_cm_0_1_14_10 = {
+	extra_manpower_at_religious_war = yes
+}
+modi_eudb_cm_0_1_14_11 = {
+	
+}
+modi_eudb_cm_0_1_14_12 = {
+	
+}
+modi_eudb_cm_0_1_14_13 = {
+	
+}
+modi_eudb_cm_0_1_14_14 = {
+	
+}
+modi_eudb_cm_0_1_14_15 = {
+	
+}
+modi_eudb_cm_0_1_14_16 = {
+	
+}
+modi_eudb_cm_0_1_14_17 = {
+	
+}
+modi_eudb_cm_0_1_14_18 = {
+	
+}
+modi_eudb_cm_0_1_14_19 = {
+	
+}
+modi_eudb_cm_0_1_14_20 = {
+	
+}
+modi_eudb_cm_0_1_14_21 = {
+	
+}
+modi_eudb_cm_0_1_14_22 = {
+	
+}
+modi_eudb_cm_0_1_14_23 = {
+	
+}
+modi_eudb_cm_0_1_14_24 = {
+	
+}
+modi_eudb_cm_0_1_14_25 = {
+	
+}
+modi_eudb_cm_0_1_14_26 = {
+	
+}
+modi_eudb_cm_0_1_14_27 = {
+	
+}
+modi_eudb_cm_0_1_14_28 = {
+	
+}
+modi_eudb_cm_0_1_14_29 = {
+	
+}
+modi_eudb_cm_0_1_14_30 = {
+	
+}
+modi_eudb_cm_0_1_14_31 = {
+	
+}
+modi_eudb_cm_0_1_14_32 = {
+	
+}
+modi_eudb_cm_0_1_14_33 = {
+	
+}
+modi_eudb_cm_0_1_14_34 = {
+	
+}
+modi_eudb_cm_0_1_14_35 = {
+	
+}
+modi_eudb_cm_0_1_14_36 = {
+	
+}
+modi_eudb_cm_0_1_14_37 = {
+	
+}
+modi_eudb_cm_0_1_14_38 = {
+	
+}
+modi_eudb_cm_0_1_14_39 = {
+	
+}
+modi_eudb_cm_0_1_14_40 = {
+	
+}
+modi_eudb_cm_0_1_14_41 = {
+	
+}
+modi_eudb_cm_0_1_14_42 = {
+	
+}
+modi_eudb_cm_0_1_14_43 = {
+	
+}
+modi_eudb_cm_0_1_14_44 = {
+	
+}
+modi_eudb_cm_0_1_14_45 = {
+	
+}
+modi_eudb_cm_0_1_14_46 = {
+	
+}
+modi_eudb_cm_0_1_14_47 = {
+	
+}
+modi_eudb_cm_0_1_14_48 = {
+	
+}
+modi_eudb_cm_0_1_14_49 = {
+	
+}
+modi_eudb_cm_0_1_14_50 = {
+	
+}
+modi_eudb_cm_0_1_14_51 = {
+	
+}
+modi_eudb_cm_0_1_14_52 = {
+	
+}
+modi_eudb_cm_0_1_14_53 = {
+	
+}
+modi_eudb_cm_0_1_14_54 = {
+	
+}
+modi_eudb_cm_0_1_14_55 = {
+	
+}
+modi_eudb_cm_0_1_14_56 = {
+	
+}
+modi_eudb_cm_0_1_14_57 = {
+	
+}
+modi_eudb_cm_0_1_14_58 = {
+	
+}
+modi_eudb_cm_0_1_14_59 = {
+	
+}
+modi_eudb_cm_0_1_14_60 = {
+	
+}
+modi_eudb_cm_0_1_14_61 = {
+	
+}
+modi_eudb_cm_0_1_14_62 = {
+	
+}
+modi_eudb_cm_0_1_14_63 = {
+	
+}
+modi_eudb_cm_0_1_14_64 = {
+	
+}
+modi_eudb_cm_0_1_14_65 = {
+	
+}
+modi_eudb_cm_0_1_14_66 = {
+	
+}
+modi_eudb_cm_0_1_14_67 = {
+	
+}
+modi_eudb_cm_0_1_14_68 = {
+	
+}
+modi_eudb_cm_0_1_14_69 = {
+	
+}
+modi_eudb_cm_0_1_14_70 = {
+	
+}
+modi_eudb_cm_0_1_14_71 = {
+	
+}
+modi_eudb_cm_0_1_14_72 = {
+	
+}
+modi_eudb_cm_0_1_14_73 = {
+	
+}
+modi_eudb_cm_0_1_14_74 = {
+	
+}
+modi_eudb_cm_0_1_14_75 = {
+	
+}
+modi_eudb_cm_0_1_14_76 = {
+	
+}
+modi_eudb_cm_0_1_14_77 = {
+	
+}
+modi_eudb_cm_0_1_14_78 = {
+	
+}
+modi_eudb_cm_0_1_14_79 = {
+	
+}
+modi_eudb_cm_0_1_14_80 = {
+	
+}
+modi_eudb_cm_0_1_14_81 = {
+	
+}
+modi_eudb_cm_0_1_14_82 = {
+	
+}
+modi_eudb_cm_0_1_14_83 = {
+	
+}
+modi_eudb_cm_0_1_14_84 = {
+	
+}
+modi_eudb_cm_0_1_14_85 = {
+	
+}
+modi_eudb_cm_0_1_14_86 = {
+	
+}
+modi_eudb_cm_0_1_14_87 = {
+	
+}
+modi_eudb_cm_0_1_14_88 = {
+	
+}
+modi_eudb_cm_0_1_14_89 = {
+	
+}
+modi_eudb_cm_0_1_14_90 = {
+	
+}
+modi_eudb_cm_0_1_14_91 = {
+	
+}
+modi_eudb_cm_0_1_14_92 = {
+	
+}
+modi_eudb_cm_0_1_14_93 = {
+	
+}
+modi_eudb_cm_0_1_14_94 = {
+	
+}
+modi_eudb_cm_0_1_14_95 = {
+	
+}
+modi_eudb_cm_0_1_14_96 = {
+	
+}
+modi_eudb_cm_0_1_14_97 = {
+	
+}
+modi_eudb_cm_0_1_14_98 = {
+	
+}
+modi_eudb_cm_0_1_14_99 = {
+	
+}

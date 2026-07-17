@@ -1,0 +1,37 @@
+l_english:
+eudb_on:0 "§G激活§!"
+eudb_off:0 "§R关闭§!"
+
+eudb_on_list:0 "§G已展开§!"
+eudb_off_list:0 "§R已收起§!"
+
+deci_eudb_0_title:0 "00:欧陆风云IV Debug工具:§R尚未开启§!"
+deci_eudb_0_desc:0 ""
+flag_eudb_0:0 "00"
+
+deci_eudb_0_0_0_title:0 "00:00:00:清空修改:§Y指令§!"
+deci_eudb_0_0_0_desc:0 ""
+
+deci_eudb_0_0_1_title:0 "00:00:01:一键加强:§Y指令§!"
+deci_eudb_0_0_1_desc:0 ""
+
+deci_eudb_0_1_title:0 "00:01:国家修正:[Root.Get_eudb_0_1]"
+deci_eudb_0_1_desc:0 ""
+flag_eudb_0_1:0 "00:01"
+
+deci_eudb_0_2_title:0 "00:02:省份修正:[Root.Get_eudb_0_2]"
+deci_eudb_0_2_desc:0 ""
+flag_eudb_0_2:0 "00:02"
+
+deci_eudb_0_3_title:0 "00:03:效果指令:[Root.Get_eudb_0_3]"
+deci_eudb_0_3_desc:0 ""
+flag_eudb_0_3:0 "00:03"
+
+deci_eudb_0_4_title:0 "00:04:效果机制:[Root.Get_eudb_0_4]"
+deci_eudb_0_4_desc:0 ""
+flag_eudb_0_4:0 "00:04"
+
+deci_eudb_0_5_title:0 "00:05:外交条约:[Root.Get_eudb_0_5]"
+deci_eudb_0_5_desc:0 ""
+flag_eudb_0_5:0 "00:05"
+

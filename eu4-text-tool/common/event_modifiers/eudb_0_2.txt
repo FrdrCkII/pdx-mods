@@ -1,0 +1,71 @@
+modi_eudb_pm_0_2_1 = {
+	local_has_banners = yes
+	local_has_carolean = yes
+	local_has_streltsy = yes
+	local_has_tercio = yes
+	local_has_musketeers = yes
+	local_has_samurai = yes
+	local_has_geobukseon = yes
+	local_has_man_of_war = yes
+	local_has_galleon = yes
+	local_has_galleass = yes
+	local_has_caravel = yes
+	local_has_voc_indiamen = yes
+	local_has_mamluks = yes
+	local_has_qizilbash = yes
+}
+
+modi_eudb_pm_0_2_2 = {
+	institution_growth = 100
+}
+
+modi_eudb_pm_0_2_3 = {
+	fort_level = 1
+	local_friendly_movement_speed = 10
+	local_hostile_movement_speed = -0.5
+	local_manpower = 0.5
+	local_manpower_modifier = 1
+	local_regiment_cost = -10
+	regiment_recruit_speed = -10
+	supply_limit = 10
+	supply_limit_modifier = 10
+	local_sailors = 500
+	local_sailors_modifier = 1
+	local_ship_cost = -10
+	ship_recruit_speed = -10
+	local_ship_repair = 10
+	
+	local_state_maintenance_modifier = -10
+	local_build_cost = -10
+	local_build_time = -10
+	local_monthly_devastation = -10
+	local_production_efficiency = 1
+	local_tax_modifier = 1
+	tax_income = 12
+	allowed_num_of_buildings = 100
+	local_development_cost = -1
+	local_institution_spread = 1
+	local_governing_cost = -10
+	statewide_governing_cost = -10
+	local_great_project_upgrade_cost = -1
+	local_gold_depletion_chance_modifier = -10
+	local_prosperity_growth = 100
+	allowed_num_of_manufactories = 100
+	local_great_project_upgrade_time = -1
+	local_centralize_state_cost = -10
+	province_trade_power_modifier = 10
+	province_trade_power_value = 10
+	trade_goods_size_modifier = 1
+	trade_goods_size = 1
+	trade_value_modifier = 1
+	trade_value = 1
+	
+	local_religious_unity_contribution = -1
+	local_tolerance_of_heretics = 10
+	local_tolerance_of_heathens = 10
+	local_culture_conversion_cost = -10
+	local_culture_conversion_time = -10
+	local_years_of_nationalism = -100
+	local_autonomy = -100
+	min_local_autonomy = -100
+}

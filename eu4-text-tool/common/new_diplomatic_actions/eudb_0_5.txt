@@ -1,0 +1,362 @@
+dipa_eudb_0_5_1 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_1 = yes
+		FROM = {
+			is_subject_of = ROOT
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_subject_of = ROOT
+			NOT = {
+				is_subject_of_type = subt_eudb_0_5_1
+			}
+		}
+		
+	}
+	on_accept = {
+		FROM = {
+			every_subject_country = {
+				Root = {
+					create_subject = {
+						subject_type = subt_eudb_0_5_1
+						subject = PREV
+					}
+				}
+			}
+		}
+		create_subject = {
+			subject_type = subt_eudb_0_5_1
+			subject = FROM
+		}
+	}
+}
+
+dipa_eudb_0_5_2 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_2 = yes
+		FROM = {
+			is_subject_of = ROOT
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_subject_of = ROOT
+			NOT = {
+				is_subject_of_type = subt_eudb_0_5_2
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			every_subject_country = {
+				Root = {
+					create_subject = {
+						subject_type = subt_eudb_0_5_2
+						subject = PREV
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							government = monarchy
+						}
+					}
+					change_government = monarchy
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
+		}
+		create_subject = {
+			subject_type = subt_eudb_0_5_2
+			subject = FROM
+		}
+	}
+}
+
+dipa_eudb_0_5_3 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_3 = yes
+		FROM = {
+			is_subject_of = ROOT
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_subject_of = ROOT
+			NOT = {
+				is_subject_of_type = subt_eudb_0_5_3
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			every_subject_country = {
+				Root = {
+					create_subject = {
+						subject_type = subt_eudb_0_5_3
+						subject = PREV
+					}
+				}
+			}
+		}
+		create_subject = {
+			subject_type = subt_eudb_0_5_3
+			subject = FROM
+		}
+	}
+}
+
+dipa_eudb_0_5_3_1 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_3_1 = yes
+		FROM = {
+			is_subject_of = ROOT
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_subject_of = ROOT
+			OR = {
+				is_subject_of_type = subt_eudb_0_5_1
+				is_subject_of_type = subt_eudb_0_5_2
+				is_subject_of_type = subt_eudb_0_5_3
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			every_owned_province = {
+				kill_units = { who = owner }
+				change_controller = REB
+				nationalist_rebels = 1
+			}
+		}
+	}
+}
+
+dipa_eudb_0_5_3_2 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_3_1 = yes
+		FROM = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+		}
+	}
+	is_allowed = {
+		FROM = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+		}
+	}
+	on_accept = {
+		create_subject = {
+			subject_type = vassal
+			subject = FROM
+		}
+	}
+}
+
+dipa_eudb_0_5_3_3 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_3_1 = yes
+		FROM = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+		}
+	}
+	is_allowed = {
+		FROM = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+		}
+	}
+	on_accept = {
+		create_union = FROM
+	}
+}
+
+dipa_eudb_0_5_3_4 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_3_1 = yes
+		FROM = {
+			is_subject_of = ROOT
+		}
+	}
+	is_allowed = {
+		always = yes
+	}
+	on_accept = {
+		FROM = {
+			capital_scope = {
+				region = {
+					if = {
+						limit = {
+							owned_by_subject_of = Root
+							NOT = { owned_by = FROM }
+							NOT = { owned_by = Root }
+						}
+						cede_province = FROM
+						add_territorial_core = FROM
+					}
+					else_if = {
+						limit = {
+							is_empty = yes
+						}
+						add_siberian_construction = 1000
+						cede_province = FROM
+						add_territorial_core = FROM
+					}
+				}
+			}
+		}
+	}
+}
+
+dipa_eudb_0_5_4 = {
+	category = influence
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_4 = yes
+		# FROM = {
+		# 	is_subject_of = ROOT
+		# }
+	}
+	is_allowed = {
+		
+	}
+	on_accept = {
+		inherit = FROM
+	}
+}
+
+dipa_eudb_0_5_5_1 = {
+	category = emperor
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_5 = yes
+	}
+	is_allowed = {
+		FROM = {
+			is_part_of_hre = no
+		}
+	}
+	on_accept = {
+		FROM = {
+			set_in_empire = yes
+		}
+	}
+}
+
+dipa_eudb_0_5_5_2 = {
+	category = emperor
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_5 = yes
+	}
+	is_allowed = {
+		FROM = {
+			is_part_of_hre = yes
+		}
+	}
+	on_accept = {
+		FROM = {
+			every_owned_province = {
+				set_in_empire = no
+			}
+		}
+	}
+}
+
+dipa_eudb_0_5_5_3 = {
+	category = emperor
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_5 = yes
+		FROM = {
+			is_part_of_hre = yes
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_part_of_hre = yes
+			is_elector = no
+		}
+		OR = {
+			NOT = {
+				num_of_electors = 8
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			elector = yes
+		}
+	}
+}
+
+dipa_eudb_0_5_5_4 = {
+	category = emperor
+	require_acceptance = no
+	ai_will_do = {always = no}
+	is_visible = {
+		stri_eudb_0_5_5 = yes
+		FROM = {
+			is_part_of_hre = yes
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_part_of_hre = yes
+			is_elector = yes
+		}
+	}
+	on_accept = {
+		FROM = {
+			elector = no
+			elector = no
+			elector = no
+			elector = no
+			elector = no
+			elector = no
+			elector = no
+			elector = no
+		}
+	}
+}

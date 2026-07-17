@@ -1,0 +1,65 @@
+stri_eudb_0_4_1 = {
+	has_country_flag = flag_eudb_pm_0_4_1
+}
+stri_modi_eudb_0_4_1 = {
+	NOT = {
+		has_active_triggered_province_modifier = modi_eudb_pm_0_4_1
+	}
+	OR = {
+		AND = {
+			controller = {
+				stri_eudb_0_4_1 = yes
+				any_country = {
+					war_with = PREV
+					ROOT = {
+						units_in_province = PREV
+					}
+				}
+			}
+		}
+		AND = {
+			OR = {
+				unit_in_battle = yes
+				unit_in_siege = yes
+			}
+			OR = {
+				owner = {
+					stri_eudb_0_4_1 = yes
+				}
+				controller = {
+					stri_eudb_0_4_1 = yes
+				}
+			}
+		}
+		AND = {
+			controller = {
+				NOT = {
+					AND = {
+						tag = PREV.owner
+						stri_eudb_0_4_1 = yes
+					}
+				}
+			}
+			owner = {
+				stri_eudb_0_4_1 = yes
+			}
+		}
+	}
+}
+stri_eudb_0_4_2 = {
+	has_country_flag = flag_eudb_pm_0_4_2
+}
+stri_modi_eudb_0_4_2 = {
+	NOT = {
+		has_active_triggered_province_modifier = modi_eudb_pm_0_4_2
+	}
+	controller = {
+		stri_eudb_0_4_2 = yes
+	}
+	owner = {
+		NOT = {
+			tag = PREV.controller
+		}
+		ai = yes
+	}
+}

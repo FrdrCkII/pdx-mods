@@ -1,0 +1,56 @@
+country_decisions = {
+	deci_eudb_0_5_1 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_5 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CF = 0_5_1
+		}}
+	}
+	deci_eudb_0_5_2 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_5 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CF = 0_5_2
+		}}
+	}
+	deci_eudb_0_5_3 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_5 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CF = 0_5_3
+		}}
+	}
+	deci_eudb_0_5_3_1 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_5 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CF = 0_5_3_1
+		}}
+	}
+	deci_eudb_0_5_4 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_5 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CF = 0_5_4
+		}}
+	}
+	deci_eudb_0_5_5 = {
+		color = { 0 0 0 }
+		potential = {stri_eudb_0_5 = yes}
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		effect = {seff_eudb = {
+			CF = 0_5_5
+		}}
+	}
+}

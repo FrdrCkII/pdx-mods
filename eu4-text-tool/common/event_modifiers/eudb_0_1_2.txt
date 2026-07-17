@@ -1,0 +1,332 @@
+modi_eudb_cm_0_1_2_1 = {
+	special_unit_forcelimit = 1
+}
+modi_eudb_cm_0_1_2_2 = {
+    special_unit_cost_modifier = -1
+}
+modi_eudb_cm_0_1_2_3 = {
+	allowed_marine_fraction = 1
+}
+modi_eudb_cm_0_1_2_4 = {
+	has_banners = yes
+	amount_of_banners = 1
+}
+modi_eudb_cm_0_1_2_5 = {
+	can_recruit_cawa = yes
+	amount_of_cawa = 1
+	cawa_cost_modifier = -1
+}
+modi_eudb_cm_0_1_2_6 = {
+	has_carolean = yes
+	amount_of_carolean = 1
+}
+modi_eudb_cm_0_1_2_7 = {
+	can_recruit_hussars = yes
+	amount_of_hussars = 1
+	hussars_cost_modifier = -1
+}
+modi_eudb_cm_0_1_2_8 = {
+	can_recruit_janissaries = yes
+	janissary_cost_modifier = -1
+	allow_janissaries_from_own_faith = yes
+}
+modi_eudb_cm_0_1_2_9 = {
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 1
+}
+modi_eudb_cm_0_1_2_10 = {
+	can_recruit_rajputs = yes
+	allowed_rajput_fraction = 1
+}
+modi_eudb_cm_0_1_2_11 = {
+	can_recruit_revolutionary_guards = yes
+	allowed_rev_guard_fraction = 1
+}
+modi_eudb_cm_0_1_2_12 = {
+	has_streltsy = yes
+	allowed_streltsy_fraction = 1
+	amount_of_streltsy = 1
+}
+modi_eudb_cm_0_1_2_13 = {
+	has_tercio = yes
+	allowed_tercio_fraction = 1
+	amount_of_tercio = 1
+}
+modi_eudb_cm_0_1_2_14 = {
+	has_samurai = yes
+	allowed_samurai_fraction = 1
+	amount_of_samurai = 1
+}
+modi_eudb_cm_0_1_2_15 = {
+	has_musketeer = yes
+	allowed_musketeer_fraction = 1
+	amount_of_musketeers = 1
+}
+modi_eudb_cm_0_1_2_16 = {
+	has_geobukseon = yes
+	allowed_geobukseon_fraction = 1
+	amount_of_geobukseon = 1
+}
+modi_eudb_cm_0_1_2_17 = {
+	has_galleass = yes
+	allowed_galleass_fraction = 1
+	amount_of_galleass = 1
+}
+modi_eudb_cm_0_1_2_18 = {
+	has_voc_indiamen = yes
+	allowed_voc_indiamen_fraction = 1
+	amount_of_voc_indiamen = 1
+}
+modi_eudb_cm_0_1_2_19 = {
+	has_man_of_war = yes
+	allowed_man_of_war_fraction = 1
+	amount_of_man_of_war = 1
+}
+modi_eudb_cm_0_1_2_20 = {
+	has_galleon = yes
+	allowed_galleon_fraction = 1
+	amount_of_galleon = 1
+}
+modi_eudb_cm_0_1_2_21 = {
+	has_caravel = yes
+	allowed_caravel_fraction = 1
+	amount_of_caravel = 1
+}
+modi_eudb_cm_0_1_2_22 = {
+	has_mamluks = yes
+	allowed_mamluks_fraction = 1
+	amount_of_mamluks = 1
+}
+modi_eudb_cm_0_1_2_23 = {
+	has_qizilbash = yes
+	allowed_qizilbash_fraction = 1
+	amount_of_qizilbash = 1
+}
+modi_eudb_cm_0_1_2_24 = {
+	
+}
+modi_eudb_cm_0_1_2_25 = {
+	
+}
+modi_eudb_cm_0_1_2_26 = {
+	
+}
+modi_eudb_cm_0_1_2_27 = {
+	
+}
+modi_eudb_cm_0_1_2_28 = {
+	
+}
+modi_eudb_cm_0_1_2_29 = {
+	
+}
+modi_eudb_cm_0_1_2_30 = {
+	
+}
+modi_eudb_cm_0_1_2_31 = {
+	
+}
+modi_eudb_cm_0_1_2_32 = {
+	
+}
+modi_eudb_cm_0_1_2_33 = {
+	
+}
+modi_eudb_cm_0_1_2_34 = {
+	
+}
+modi_eudb_cm_0_1_2_35 = {
+	
+}
+modi_eudb_cm_0_1_2_36 = {
+	
+}
+modi_eudb_cm_0_1_2_37 = {
+	
+}
+modi_eudb_cm_0_1_2_38 = {
+	
+}
+modi_eudb_cm_0_1_2_39 = {
+	
+}
+modi_eudb_cm_0_1_2_40 = {
+	
+}
+modi_eudb_cm_0_1_2_41 = {
+	
+}
+modi_eudb_cm_0_1_2_42 = {
+	
+}
+modi_eudb_cm_0_1_2_43 = {
+	
+}
+modi_eudb_cm_0_1_2_44 = {
+	
+}
+modi_eudb_cm_0_1_2_45 = {
+	
+}
+modi_eudb_cm_0_1_2_46 = {
+	
+}
+modi_eudb_cm_0_1_2_47 = {
+	
+}
+modi_eudb_cm_0_1_2_48 = {
+	
+}
+modi_eudb_cm_0_1_2_49 = {
+	
+}
+modi_eudb_cm_0_1_2_50 = {
+	
+}
+modi_eudb_cm_0_1_2_51 = {
+	
+}
+modi_eudb_cm_0_1_2_52 = {
+	
+}
+modi_eudb_cm_0_1_2_53 = {
+	
+}
+modi_eudb_cm_0_1_2_54 = {
+	
+}
+modi_eudb_cm_0_1_2_55 = {
+	
+}
+modi_eudb_cm_0_1_2_56 = {
+	
+}
+modi_eudb_cm_0_1_2_57 = {
+	
+}
+modi_eudb_cm_0_1_2_58 = {
+	
+}
+modi_eudb_cm_0_1_2_59 = {
+	
+}
+modi_eudb_cm_0_1_2_60 = {
+	
+}
+modi_eudb_cm_0_1_2_61 = {
+	
+}
+modi_eudb_cm_0_1_2_62 = {
+	
+}
+modi_eudb_cm_0_1_2_63 = {
+	
+}
+modi_eudb_cm_0_1_2_64 = {
+	
+}
+modi_eudb_cm_0_1_2_65 = {
+	
+}
+modi_eudb_cm_0_1_2_66 = {
+	
+}
+modi_eudb_cm_0_1_2_67 = {
+	
+}
+modi_eudb_cm_0_1_2_68 = {
+	
+}
+modi_eudb_cm_0_1_2_69 = {
+	
+}
+modi_eudb_cm_0_1_2_70 = {
+	
+}
+modi_eudb_cm_0_1_2_71 = {
+	
+}
+modi_eudb_cm_0_1_2_72 = {
+	
+}
+modi_eudb_cm_0_1_2_73 = {
+	
+}
+modi_eudb_cm_0_1_2_74 = {
+	
+}
+modi_eudb_cm_0_1_2_75 = {
+	
+}
+modi_eudb_cm_0_1_2_76 = {
+	
+}
+modi_eudb_cm_0_1_2_77 = {
+	
+}
+modi_eudb_cm_0_1_2_78 = {
+	
+}
+modi_eudb_cm_0_1_2_79 = {
+	
+}
+modi_eudb_cm_0_1_2_80 = {
+	
+}
+modi_eudb_cm_0_1_2_81 = {
+	
+}
+modi_eudb_cm_0_1_2_82 = {
+	
+}
+modi_eudb_cm_0_1_2_83 = {
+	
+}
+modi_eudb_cm_0_1_2_84 = {
+	
+}
+modi_eudb_cm_0_1_2_85 = {
+	
+}
+modi_eudb_cm_0_1_2_86 = {
+	
+}
+modi_eudb_cm_0_1_2_87 = {
+	
+}
+modi_eudb_cm_0_1_2_88 = {
+	
+}
+modi_eudb_cm_0_1_2_89 = {
+	
+}
+modi_eudb_cm_0_1_2_90 = {
+	
+}
+modi_eudb_cm_0_1_2_91 = {
+	
+}
+modi_eudb_cm_0_1_2_92 = {
+	
+}
+modi_eudb_cm_0_1_2_93 = {
+	
+}
+modi_eudb_cm_0_1_2_94 = {
+	
+}
+modi_eudb_cm_0_1_2_95 = {
+	
+}
+modi_eudb_cm_0_1_2_96 = {
+	
+}
+modi_eudb_cm_0_1_2_97 = {
+	
+}
+modi_eudb_cm_0_1_2_98 = {
+	
+}
+modi_eudb_cm_0_1_2_99 = {
+	
+}

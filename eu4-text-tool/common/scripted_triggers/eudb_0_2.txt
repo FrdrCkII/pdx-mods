@@ -1,0 +1,6 @@
+stri_eudb_0_2_1 = {
+    has_country_flag = flag_eudb_pm_0_2_1
+}
+stri_eudb_0_2_2 = {
+    has_country_flag = flag_eudb_pm_0_2_2
+}

@@ -1,0 +1,23 @@
+stri_eudb_0 = {
+	has_global_flag = flag_eudb_0
+}
+stri_eudb_0_1 = {
+	stri_eudb_0 = yes
+	has_global_flag = flag_eudb_0_1
+}
+stri_eudb_0_2 = {
+	stri_eudb_0 = yes
+	has_global_flag = flag_eudb_0_2
+}
+stri_eudb_0_3 = {
+	stri_eudb_0 = yes
+	has_global_flag = flag_eudb_0_3
+}
+stri_eudb_0_4 = {
+	stri_eudb_0 = yes
+	has_global_flag = flag_eudb_0_4
+}
+stri_eudb_0_5 = {
+	stri_eudb_0 = yes
+	has_global_flag = flag_eudb_0_5
+}

@@ -1,0 +1,300 @@
+modi_eudb_cm_0_1_12_1 = {
+	imperial_authority = 100
+    imperial_authority_value = 1
+    free_city_imperial_authority = 1
+}
+modi_eudb_cm_0_1_12_2 = {
+	reasons_to_elect = 1000
+    legitimate_subject_elector = 1000
+}
+modi_eudb_cm_0_1_12_3 = {
+	max_free_cities = 1000
+}
+modi_eudb_cm_0_1_12_4 = {
+	max_electors = -10
+}
+modi_eudb_cm_0_1_12_5 = {
+    max_electors = 10
+}
+modi_eudb_cm_0_1_12_6 = {
+    imperial_reform_catholic_approval = 1000
+}
+modi_eudb_cm_0_1_12_7 = {
+	manpower_against_imperial_enemies = 1
+}
+modi_eudb_cm_0_1_12_8 = {
+	imperial_mercenary_cost = -1
+}
+modi_eudb_cm_0_1_12_9 = {
+	imperial_mandate = 100
+}
+modi_eudb_cm_0_1_12_10 = {
+	tributary_conversion_cost_modifier = -10
+}
+modi_eudb_cm_0_1_12_11 = {
+	
+}
+modi_eudb_cm_0_1_12_12 = {
+	
+}
+modi_eudb_cm_0_1_12_13 = {
+	
+}
+modi_eudb_cm_0_1_12_14 = {
+	
+}
+modi_eudb_cm_0_1_12_15 = {
+	
+}
+modi_eudb_cm_0_1_12_16 = {
+	
+}
+modi_eudb_cm_0_1_12_17 = {
+	
+}
+modi_eudb_cm_0_1_12_18 = {
+	
+}
+modi_eudb_cm_0_1_12_19 = {
+	
+}
+modi_eudb_cm_0_1_12_20 = {
+	
+}
+modi_eudb_cm_0_1_12_21 = {
+	
+}
+modi_eudb_cm_0_1_12_22 = {
+	
+}
+modi_eudb_cm_0_1_12_23 = {
+	
+}
+modi_eudb_cm_0_1_12_24 = {
+	
+}
+modi_eudb_cm_0_1_12_25 = {
+	
+}
+modi_eudb_cm_0_1_12_26 = {
+	
+}
+modi_eudb_cm_0_1_12_27 = {
+	
+}
+modi_eudb_cm_0_1_12_28 = {
+	
+}
+modi_eudb_cm_0_1_12_29 = {
+	
+}
+modi_eudb_cm_0_1_12_30 = {
+	
+}
+modi_eudb_cm_0_1_12_31 = {
+	
+}
+modi_eudb_cm_0_1_12_32 = {
+	
+}
+modi_eudb_cm_0_1_12_33 = {
+	
+}
+modi_eudb_cm_0_1_12_34 = {
+	
+}
+modi_eudb_cm_0_1_12_35 = {
+	
+}
+modi_eudb_cm_0_1_12_36 = {
+	
+}
+modi_eudb_cm_0_1_12_37 = {
+	
+}
+modi_eudb_cm_0_1_12_38 = {
+	
+}
+modi_eudb_cm_0_1_12_39 = {
+	
+}
+modi_eudb_cm_0_1_12_40 = {
+	
+}
+modi_eudb_cm_0_1_12_41 = {
+	
+}
+modi_eudb_cm_0_1_12_42 = {
+	
+}
+modi_eudb_cm_0_1_12_43 = {
+	
+}
+modi_eudb_cm_0_1_12_44 = {
+	
+}
+modi_eudb_cm_0_1_12_45 = {
+	
+}
+modi_eudb_cm_0_1_12_46 = {
+	
+}
+modi_eudb_cm_0_1_12_47 = {
+	
+}
+modi_eudb_cm_0_1_12_48 = {
+	
+}
+modi_eudb_cm_0_1_12_49 = {
+	
+}
+modi_eudb_cm_0_1_12_50 = {
+	
+}
+modi_eudb_cm_0_1_12_51 = {
+	
+}
+modi_eudb_cm_0_1_12_52 = {
+	
+}
+modi_eudb_cm_0_1_12_53 = {
+	
+}
+modi_eudb_cm_0_1_12_54 = {
+	
+}
+modi_eudb_cm_0_1_12_55 = {
+	
+}
+modi_eudb_cm_0_1_12_56 = {
+	
+}
+modi_eudb_cm_0_1_12_57 = {
+	
+}
+modi_eudb_cm_0_1_12_58 = {
+	
+}
+modi_eudb_cm_0_1_12_59 = {
+	
+}
+modi_eudb_cm_0_1_12_60 = {
+	
+}
+modi_eudb_cm_0_1_12_61 = {
+	
+}
+modi_eudb_cm_0_1_12_62 = {
+	
+}
+modi_eudb_cm_0_1_12_63 = {
+	
+}
+modi_eudb_cm_0_1_12_64 = {
+	
+}
+modi_eudb_cm_0_1_12_65 = {
+	
+}
+modi_eudb_cm_0_1_12_66 = {
+	
+}
+modi_eudb_cm_0_1_12_67 = {
+	
+}
+modi_eudb_cm_0_1_12_68 = {
+	
+}
+modi_eudb_cm_0_1_12_69 = {
+	
+}
+modi_eudb_cm_0_1_12_70 = {
+	
+}
+modi_eudb_cm_0_1_12_71 = {
+	
+}
+modi_eudb_cm_0_1_12_72 = {
+	
+}
+modi_eudb_cm_0_1_12_73 = {
+	
+}
+modi_eudb_cm_0_1_12_74 = {
+	
+}
+modi_eudb_cm_0_1_12_75 = {
+	
+}
+modi_eudb_cm_0_1_12_76 = {
+	
+}
+modi_eudb_cm_0_1_12_77 = {
+	
+}
+modi_eudb_cm_0_1_12_78 = {
+	
+}
+modi_eudb_cm_0_1_12_79 = {
+	
+}
+modi_eudb_cm_0_1_12_80 = {
+	
+}
+modi_eudb_cm_0_1_12_81 = {
+	
+}
+modi_eudb_cm_0_1_12_82 = {
+	
+}
+modi_eudb_cm_0_1_12_83 = {
+	
+}
+modi_eudb_cm_0_1_12_84 = {
+	
+}
+modi_eudb_cm_0_1_12_85 = {
+	
+}
+modi_eudb_cm_0_1_12_86 = {
+	
+}
+modi_eudb_cm_0_1_12_87 = {
+	
+}
+modi_eudb_cm_0_1_12_88 = {
+	
+}
+modi_eudb_cm_0_1_12_89 = {
+	
+}
+modi_eudb_cm_0_1_12_90 = {
+	
+}
+modi_eudb_cm_0_1_12_91 = {
+	
+}
+modi_eudb_cm_0_1_12_92 = {
+	
+}
+modi_eudb_cm_0_1_12_93 = {
+	
+}
+modi_eudb_cm_0_1_12_94 = {
+	
+}
+modi_eudb_cm_0_1_12_95 = {
+	
+}
+modi_eudb_cm_0_1_12_96 = {
+	
+}
+modi_eudb_cm_0_1_12_97 = {
+	
+}
+modi_eudb_cm_0_1_12_98 = {
+	
+}
+modi_eudb_cm_0_1_12_99 = {
+	
+}

@@ -1,0 +1,13 @@
+﻿l_english:
+deci_eudb_z_1_title:0 "00:欧陆风云IV Debug工具:§G正常运行§!"
+deci_eudb_z_1_desc:0 ""
+deci_eudb_z_2_title:0 "00:欧陆风云IV Debug工具:§G正常运行§!"
+deci_eudb_z_2_desc:0 ""
+flag_eudb_z:0 ""
+
+opin_eudb_good:0 ""
+opin_eudb_bad:0 ""
+
+deci_eudb_z_text_title:0 "00:欧陆风云IV Debug工具:测试决议"
+deci_eudb_z_text_desc:0 ""
+eudb_tt:0 "[Root.CompanyCostModifier.GetValue]"

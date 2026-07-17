@@ -1,0 +1,102 @@
+modi_eudb_sm_sb_0_5 = {
+	governing_capacity = 200
+	
+	merchants = -1
+	diplomats = -1
+	missionaries = -1
+	army_tradition_decay = -0.05
+	navy_tradition_decay = -0.05
+	prestige_decay = -0.05
+	
+	manpower_recovery_speed = 0.50
+	global_manpower_modifier = 0.5
+	land_forcelimit_modifier = 0.5
+	naval_forcelimit_modifier = 0.5
+	global_regiment_cost = -0.33
+	global_ship_cost = -0.33
+	inflation_reduction = 0.05
+	global_unrest = -20
+	war_exhaustion = -0.05
+	core_creation = -0.25
+	idea_cost = -0.25
+	interest = -1
+	improve_relation_modifier = 0.5
+	development_cost = -0.2
+	build_cost = -0.25
+	ae_impact = -0.33
+	missionary_maintenance_cost = -0.3
+	
+	global_tax_income = 120
+	land_maintenance_modifier = -10
+	fort_maintenance_modifier = -10
+	naval_maintenance_modifier = -10
+	global_regiment_cost = -10
+	global_regiment_recruit_speed = -10
+	build_cost = -10
+	build_time = -10
+	great_project_upgrade_cost = -1
+	great_project_upgrade_time = -1
+
+	can_not_declare_war = yes
+	capped_by_forcelimit = yes
+	no_religion_penalty = yes
+	all_estate_loyalty_equilibrium = 1000
+	all_estate_influence_modifier = -1000
+	allow_free_estate_privilege_revocation = yes
+	all_estate_possible_privileges = -1000
+	liberty_desire = -1000
+	
+	#杂项
+	prestige = 2400
+    prestige_decay = -1
+	yearly_corruption = -1200
+	monarch_admin_power = 1000
+	monarch_diplomatic_power = 1000
+	monarch_military_power = 1000
+	stability_cost_modifier = -10
+	no_stability_loss_on_monarch_death = yes
+	global_autonomy = -1000
+	min_autonomy = -1000
+    min_autonomy_in_territories = -1000
+	legitimacy = 1200
+    republican_tradition = 1200
+    devotion = 1200
+    horde_unity = 1200
+    meritocracy = 1200
+	#宗教
+	papal_influence = 2400
+    papal_influence_from_cardinals = 1
+    appoint_cardinal_cost = -1
+    curia_treasury_contribution = 1
+    curia_powers_cost = -1
+    monthly_church_power = 200
+    church_power_modifier = 1
+    monthly_fervor_increase = 200
+    yearly_patriarch_authority = 1200
+    harmonization_speed = 1000
+    yearly_harmony = 1200
+    monthly_piety_accelerator = 100
+    monthly_karma_accelerator = -10
+    yearly_doom_reduction = 1200
+    yearly_authority = 1200
+	#军事
+	army_tradition = 1200
+    army_tradition_decay = -1
+    army_tradition_from_battle = 1
+	yearly_army_professionalism = 1200
+	drill_gain_modifier = 1000
+    drill_decay_modifier = -1000
+	navy_tradition = 1200
+	navy_tradition_decay = -1
+	naval_tradition_from_battle = 1
+	naval_tradition_from_trade = 1
+}
+modi_eudb_sm_ov_0_5 = {
+	# diplomatic_upkeep = 1
+	
+	merchants = 1
+	diplomats = 1
+	missionaries = 1
+	
+	envoy_travel_time = -0.2
+}

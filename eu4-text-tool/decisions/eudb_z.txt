@@ -1,0 +1,191 @@
+country_decisions = {
+	deci_eudb_z_1 = {
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		color = { 0 0 0 }
+		potential = {
+			stri_eudb_0 = yes
+			has_global_flag = flag_eudb_z
+		}
+		effect = {seff_eudb = {
+			GF = 0
+		}}
+	}
+	deci_eudb_z_2 = {
+		ai_will_do = {factor = 0}
+		allow = {always = yes}
+		color = { 0 0 0 }
+		potential = {
+			stri_eudb_0 = yes
+			NOT = {has_global_flag = flag_eudb_z}
+		}
+		effect = {seff_eudb = {
+			GF = 0
+		}}
+	}
+	# deci_eudb_z_text = {
+	# 	ai_will_do = {factor = 0}
+	# 	color = { 0 0 0 }
+	# 	potential = {
+	# 		stri_eudb_0 = yes
+	# 	}
+	# 	allow = {
+	# 		# variable_arithmetic_trigger = { #你可以在这个触发器里面使用变量相关的效果
+	# 		# 	# custom_tooltip = <> #可选的自定义提示，这个触发器无法自动生成任何提示
+	# 		# 	set_variable = { #初始化计数器变量
+	# 		# 		which = CompanyCostCount
+	# 		# 		value = 0
+	# 		# 	}
+	# 		# 	every_owned_province = {
+	# 		# 		limit = {
+	# 		# 			#不是首都
+	# 		# 			is_capital = no
+	# 		# 			#不是直属州 
+	# 		# 			is_state = no
+	# 		# 			#在贸易公司区域
+	# 		# 			is_node_in_trade_company_region = yes
+	# 		# 			#没加入贸易公司
+	# 		# 			is_owned_by_trade_company = no
+	# 		# 			#没有在传教
+	# 		# 			has_missionary = no
+	# 		# 			#是贸易中心或河口
+	# 		# 			OR = {
+	# 		# 				#河口触发器
+	# 		# 				has_river_estuary_trigger = yes
+	# 		# 				#贸易中心触发器
+	# 		# 				#province_has_center_of_trade = yes
+	# 		# 				province_has_center_of_trade_of_level = 1				
+	# 		# 			}
+	# 		# 		}
+	# 		# 		Root = {
+	# 		# 			variable_arithmetic_trigger = { #在转换作用域或者使用if之后应当嵌套一个variable_arithmetic_trigger，否则程序会崩溃
+	# 		# 				change_variable = { #记录被投资的省份数量
+	# 		# 					which = CompanyCostCount
+	# 		# 					value = 1
+	# 		# 				}
+	# 		# 			}
+	# 		# 		}
+	# 		# 	}
+	# 		# 	export_to_variable = { #初始化并导出修正修正
+	# 		# 		variable_name = CompanyCost
+	# 		# 		value = modifier:trade_company_investment_cost
+	# 		# 	}
+	# 		# 	change_variable = { #加上100%基础值
+	# 		# 		which = CompanyCost
+	# 		# 		value = 1
+	# 		# 	}
+	# 		# 	multiply_variable = { #把修正乘以每个省份投资的基础花费，得到每个省份的投资花费
+	# 		# 		which = CompanyCost
+	# 		# 		value = 200 #具体多少自己改，这里拿200举个例子
+	# 		# 	}
+	# 		# 	multiply_variable = { #把每个省份投资花费乘以投资的次数，得到总花费
+	# 		# 		which = CompanyCost
+	# 		# 		which = CompanyCostCount
+	# 		# 	}
+	# 		# 	export_to_variable = { #初始化并导出国库
+	# 		# 		variable_name = MyTreasury
+	# 		# 		value = treasury
+	# 		# 	}
+	# 		# 	check_variable = { #最后比较两个变量大小
+	# 		# 		which = CompanyCost
+	# 		# 		which = MyTreasury
+	# 		# 	}
+	# 		# }
+	# 	}
+	# 	effect = {
+	# 		# tooltip = eudb_tt
+	# 		# export_to_variable = {
+	# 		# 	variable_name = CompanyCostModifier
+	# 		# 	value = modifier:trade_company_investment_cost
+	# 		# }
+				
+	# 		set_variable = { #初始化变量
+	# 			which = CompanyCostCount
+	# 			value = 0
+	# 		}
+	# 		every_owned_province = {
+	# 			limit = {
+	# 				#不是首都
+	# 				is_capital = no
+	# 				#不是直属州 
+	# 				is_state = no
+	# 				#在贸易公司区域
+	# 				is_node_in_trade_company_region = yes
+	# 				#没加入贸易公司
+	# 				is_owned_by_trade_company = no
+	# 				#没有在传教
+	# 				has_missionary = no
+	# 				#是贸易中心或河口
+	# 				OR = {
+	# 					#河口触发器
+	# 					has_river_estuary_trigger = yes
+	# 					#贸易中心触发器
+	# 					#province_has_center_of_trade = yes
+	# 					province_has_center_of_trade_of_level = 1				
+	# 				}
+	# 			}
+	# 			#添加进公司
+	# 			add_to_trade_company = ROOT
+	# 			#投资公司仓库\中介交易所\镇子
+	# 			add_trade_company_investment = {
+	# 				investment = company_depot
+	# 				#investment = townships
+	# 				investor = ROOT
+	# 			}
+	# 			add_trade_company_investment = {
+	# 				investment = brokers_exchange
+	# 				investor = ROOT
+	# 			}
+	# 			#花费投资费用
+	# 			owner = {
+	# 				# add_treasury = -800
+	# 				change_variable = { #记录被投资的省份数量
+	# 					which = CompanyCostCount
+	# 					value = 1
+	# 				}
+	# 			}
+	# 		}
+	# 		export_to_variable = { #导出修正
+	# 			variable_name = CompanyCost
+	# 			value = modifier:trade_company_investment_cost
+	# 		}
+	# 		change_variable = { #加上100%基础值
+	# 			which = CompanyCost
+	# 			value = 1
+	# 		}
+	# 		multiply_variable = { #把修正乘以每个省份投资的基础花费，得到每个省份的投资花费
+	# 			which = CompanyCost
+	# 			value = 800 #具体多少自己改，这里是仓库400+交易所400=800
+	# 		}
+	# 		multiply_variable = { #把每个省份投资花费乘以投资的次数，得到总花费
+	# 			which = CompanyCost
+	# 			which = CompanyCostCount
+	# 		}
+	# 		while = { #扣钱 #注意，即使条件满足，也最多循环1000次
+	# 			limit = {
+	# 				check_variable = {
+	# 					which = CompanyCost
+	# 					value = 1
+	# 				}
+	# 			}
+	# 			while = { #嵌套，使最高循环数达到1000x1000次
+	# 				limit = {
+	# 					check_variable = {
+	# 						which = CompanyCost
+	# 						value = 1
+	# 					}
+	# 				}
+	# 				add_treasury = -1
+	# 				change_variable = {
+	# 					which = CompanyCost
+	# 					value = -1
+	# 				}
+	# 			}
+	# 		}
+	# 		# 注意，由于eu4并不支持直接使用变量，所以我们不得不使用循环的办法
+	# 		# 这个写法非常浪费性能，并且单个while最多循环1000次，这也是嵌套的原因
+	# 		# 当然将最小单位定位10块钱或者更大/更小的数也是可以的，由你自己决定
+	# 		# 还有一种更加简洁的写法，但是其思路非常复杂，以后有机会再说吧，概括起来大致是使用可定制的本地化字符串里的括号指令向一个接受参数的脚本效果里传递变量
+	# 	}
+	# }
+}

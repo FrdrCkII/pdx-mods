@@ -1,0 +1,18 @@
+stri_eudb_0_5_1 = {
+	has_country_flag = flag_eudb_0_5_1
+}
+stri_eudb_0_5_2 = {
+	has_country_flag = flag_eudb_0_5_2
+}
+stri_eudb_0_5_3 = {
+	has_country_flag = flag_eudb_0_5_3
+}
+stri_eudb_0_5_3_1 = {
+	has_country_flag = flag_eudb_0_5_3_1
+}
+stri_eudb_0_5_4 = {
+	has_country_flag = flag_eudb_0_5_4
+}
+stri_eudb_0_5_5 = {
+	has_country_flag = flag_eudb_0_5_5
+}

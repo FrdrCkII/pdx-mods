@@ -1,0 +1,299 @@
+modi_eudb_cm_0_1_6_1 = {
+	global_tax_modifier = 1
+}
+modi_eudb_cm_0_1_6_2 = {
+	global_tax_income = 1000
+}
+modi_eudb_cm_0_1_6_3 = {
+	production_efficiency = 1
+}
+modi_eudb_cm_0_1_6_4 = {
+	state_maintenance_modifier = -10
+}
+modi_eudb_cm_0_1_6_5 = {
+	inflation_action_cost = -1
+    inflation_reduction = 1200
+}
+modi_eudb_cm_0_1_6_6 = {
+	monthly_gold_inflation_modifier = -10
+}
+modi_eudb_cm_0_1_6_7 = {
+	gold_depletion_chance_modifier = -10
+}
+modi_eudb_cm_0_1_6_8 = {
+	interest = -10
+}
+modi_eudb_cm_0_1_6_9 = {
+	development_cost = -10
+    development_cost_modifier = -10
+}
+modi_eudb_cm_0_1_6_10 = {
+	tribal_development_growth = 1000
+}
+modi_eudb_cm_0_1_6_11 = {
+	add_tribal_land_cost = -10
+}
+modi_eudb_cm_0_1_6_12 = {
+	settle_cost = -10
+}
+modi_eudb_cm_0_1_6_13 = {
+	build_cost = -10
+}
+modi_eudb_cm_0_1_6_14 = {
+	build_time = -10
+}
+modi_eudb_cm_0_1_6_15 = {
+	great_project_upgrade_cost = -1
+}
+modi_eudb_cm_0_1_6_16 = {
+	great_project_upgrade_time = -1
+}
+modi_eudb_cm_0_1_6_17 = {
+	global_monthly_devastation = -1000
+}
+modi_eudb_cm_0_1_6_18 = {
+	global_prosperity_growth = 1000
+}
+modi_eudb_cm_0_1_6_19 = {
+	global_allowed_num_of_buildings = 1000
+}
+modi_eudb_cm_0_1_6_20 = {
+	global_allowed_num_of_manufactories = 1000
+}
+modi_eudb_cm_0_1_6_21 = {
+    free_concentrate_development = yes
+}
+modi_eudb_cm_0_1_6_22 = {
+	expand_infrastructure_cost_modifier = -10
+}
+modi_eudb_cm_0_1_6_23 = {
+	centralize_state_cost = -10
+}
+modi_eudb_cm_0_1_6_24 = {
+	
+}
+modi_eudb_cm_0_1_6_25 = {
+	
+}
+modi_eudb_cm_0_1_6_26 = {
+	
+}
+modi_eudb_cm_0_1_6_27 = {
+	
+}
+modi_eudb_cm_0_1_6_28 = {
+	
+}
+modi_eudb_cm_0_1_6_29 = {
+	
+}
+modi_eudb_cm_0_1_6_30 = {
+	
+}
+modi_eudb_cm_0_1_6_31 = {
+	
+}
+modi_eudb_cm_0_1_6_32 = {
+	
+}
+modi_eudb_cm_0_1_6_33 = {
+	
+}
+modi_eudb_cm_0_1_6_34 = {
+	
+}
+modi_eudb_cm_0_1_6_35 = {
+	
+}
+modi_eudb_cm_0_1_6_36 = {
+	
+}
+modi_eudb_cm_0_1_6_37 = {
+	
+}
+modi_eudb_cm_0_1_6_38 = {
+	
+}
+modi_eudb_cm_0_1_6_39 = {
+	
+}
+modi_eudb_cm_0_1_6_40 = {
+	
+}
+modi_eudb_cm_0_1_6_41 = {
+	
+}
+modi_eudb_cm_0_1_6_42 = {
+	
+}
+modi_eudb_cm_0_1_6_43 = {
+	
+}
+modi_eudb_cm_0_1_6_44 = {
+	
+}
+modi_eudb_cm_0_1_6_45 = {
+	
+}
+modi_eudb_cm_0_1_6_46 = {
+	
+}
+modi_eudb_cm_0_1_6_47 = {
+	
+}
+modi_eudb_cm_0_1_6_48 = {
+	
+}
+modi_eudb_cm_0_1_6_49 = {
+	
+}
+modi_eudb_cm_0_1_6_50 = {
+	
+}
+modi_eudb_cm_0_1_6_51 = {
+	
+}
+modi_eudb_cm_0_1_6_52 = {
+	
+}
+modi_eudb_cm_0_1_6_53 = {
+	
+}
+modi_eudb_cm_0_1_6_54 = {
+	
+}
+modi_eudb_cm_0_1_6_55 = {
+	
+}
+modi_eudb_cm_0_1_6_56 = {
+	
+}
+modi_eudb_cm_0_1_6_57 = {
+	
+}
+modi_eudb_cm_0_1_6_58 = {
+	
+}
+modi_eudb_cm_0_1_6_59 = {
+	
+}
+modi_eudb_cm_0_1_6_60 = {
+	
+}
+modi_eudb_cm_0_1_6_61 = {
+	
+}
+modi_eudb_cm_0_1_6_62 = {
+	
+}
+modi_eudb_cm_0_1_6_63 = {
+	
+}
+modi_eudb_cm_0_1_6_64 = {
+	
+}
+modi_eudb_cm_0_1_6_65 = {
+	
+}
+modi_eudb_cm_0_1_6_66 = {
+	
+}
+modi_eudb_cm_0_1_6_67 = {
+	
+}
+modi_eudb_cm_0_1_6_68 = {
+	
+}
+modi_eudb_cm_0_1_6_69 = {
+	
+}
+modi_eudb_cm_0_1_6_70 = {
+	
+}
+modi_eudb_cm_0_1_6_71 = {
+	
+}
+modi_eudb_cm_0_1_6_72 = {
+	
+}
+modi_eudb_cm_0_1_6_73 = {
+	
+}
+modi_eudb_cm_0_1_6_74 = {
+	
+}
+modi_eudb_cm_0_1_6_75 = {
+	
+}
+modi_eudb_cm_0_1_6_76 = {
+	
+}
+modi_eudb_cm_0_1_6_77 = {
+	
+}
+modi_eudb_cm_0_1_6_78 = {
+	
+}
+modi_eudb_cm_0_1_6_79 = {
+	
+}
+modi_eudb_cm_0_1_6_80 = {
+	
+}
+modi_eudb_cm_0_1_6_81 = {
+	
+}
+modi_eudb_cm_0_1_6_82 = {
+	
+}
+modi_eudb_cm_0_1_6_83 = {
+	
+}
+modi_eudb_cm_0_1_6_84 = {
+	
+}
+modi_eudb_cm_0_1_6_85 = {
+	
+}
+modi_eudb_cm_0_1_6_86 = {
+	
+}
+modi_eudb_cm_0_1_6_87 = {
+	
+}
+modi_eudb_cm_0_1_6_88 = {
+	
+}
+modi_eudb_cm_0_1_6_89 = {
+	
+}
+modi_eudb_cm_0_1_6_90 = {
+	
+}
+modi_eudb_cm_0_1_6_91 = {
+	
+}
+modi_eudb_cm_0_1_6_92 = {
+	
+}
+modi_eudb_cm_0_1_6_93 = {
+	
+}
+modi_eudb_cm_0_1_6_94 = {
+	
+}
+modi_eudb_cm_0_1_6_95 = {
+	
+}
+modi_eudb_cm_0_1_6_96 = {
+	
+}
+modi_eudb_cm_0_1_6_97 = {
+	
+}
+modi_eudb_cm_0_1_6_98 = {
+	
+}
+modi_eudb_cm_0_1_6_99 = {
+	
+}

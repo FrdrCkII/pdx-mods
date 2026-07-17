@@ -1,0 +1,297 @@
+modi_eudb_cm_0_1_18_1 = {
+	colonists = 1000
+}
+modi_eudb_cm_0_1_18_2 = {
+	colonist_placement_chance = 1
+}
+modi_eudb_cm_0_1_18_3 = {
+	global_colonial_growth = 1000
+}
+modi_eudb_cm_0_1_18_4 = {
+	colony_cost_modifier = -1
+}
+modi_eudb_cm_0_1_18_5 = {
+	range = 10
+}
+modi_eudb_cm_0_1_18_6 = {
+	native_uprising_chance = -10
+}
+modi_eudb_cm_0_1_18_7 = {
+	native_assimilation = 10
+}
+modi_eudb_cm_0_1_18_8 = {
+	migration_cost = -1
+}
+modi_eudb_cm_0_1_18_9 = {
+	global_tariffs = 10
+}
+modi_eudb_cm_0_1_18_10 = {
+	treasure_fleet_income = 10
+}
+modi_eudb_cm_0_1_18_11 = {
+	expel_minorities_cost = -1
+}
+modi_eudb_cm_0_1_18_12 = {
+	may_explore = yes
+}
+modi_eudb_cm_0_1_18_13 = {
+	auto_explore_adjacent_to_colony = yes
+}
+modi_eudb_cm_0_1_18_14 = {
+	may_establish_frontier = yes
+}
+modi_eudb_cm_0_1_18_15 = {
+	free_maintenance_on_expl_conq = yes
+}
+modi_eudb_cm_0_1_18_16 = {
+	colony_development_boost = 10
+}
+modi_eudb_cm_0_1_18_17 = {
+	
+}
+modi_eudb_cm_0_1_18_18 = {
+	
+}
+modi_eudb_cm_0_1_18_19 = {
+	
+}
+modi_eudb_cm_0_1_18_20 = {
+	
+}
+modi_eudb_cm_0_1_18_21 = {
+	
+}
+modi_eudb_cm_0_1_18_22 = {
+	
+}
+modi_eudb_cm_0_1_18_23 = {
+	
+}
+modi_eudb_cm_0_1_18_24 = {
+	
+}
+modi_eudb_cm_0_1_18_25 = {
+	
+}
+modi_eudb_cm_0_1_18_26 = {
+	
+}
+modi_eudb_cm_0_1_18_27 = {
+	
+}
+modi_eudb_cm_0_1_18_28 = {
+	
+}
+modi_eudb_cm_0_1_18_29 = {
+	
+}
+modi_eudb_cm_0_1_18_30 = {
+	
+}
+modi_eudb_cm_0_1_18_31 = {
+	
+}
+modi_eudb_cm_0_1_18_32 = {
+	
+}
+modi_eudb_cm_0_1_18_33 = {
+	
+}
+modi_eudb_cm_0_1_18_34 = {
+	
+}
+modi_eudb_cm_0_1_18_35 = {
+	
+}
+modi_eudb_cm_0_1_18_36 = {
+	
+}
+modi_eudb_cm_0_1_18_37 = {
+	
+}
+modi_eudb_cm_0_1_18_38 = {
+	
+}
+modi_eudb_cm_0_1_18_39 = {
+	
+}
+modi_eudb_cm_0_1_18_40 = {
+	
+}
+modi_eudb_cm_0_1_18_41 = {
+	
+}
+modi_eudb_cm_0_1_18_42 = {
+	
+}
+modi_eudb_cm_0_1_18_43 = {
+	
+}
+modi_eudb_cm_0_1_18_44 = {
+	
+}
+modi_eudb_cm_0_1_18_45 = {
+	
+}
+modi_eudb_cm_0_1_18_46 = {
+	
+}
+modi_eudb_cm_0_1_18_47 = {
+	
+}
+modi_eudb_cm_0_1_18_48 = {
+	
+}
+modi_eudb_cm_0_1_18_49 = {
+	
+}
+modi_eudb_cm_0_1_18_50 = {
+	
+}
+modi_eudb_cm_0_1_18_51 = {
+	
+}
+modi_eudb_cm_0_1_18_52 = {
+	
+}
+modi_eudb_cm_0_1_18_53 = {
+	
+}
+modi_eudb_cm_0_1_18_54 = {
+	
+}
+modi_eudb_cm_0_1_18_55 = {
+	
+}
+modi_eudb_cm_0_1_18_56 = {
+	
+}
+modi_eudb_cm_0_1_18_57 = {
+	
+}
+modi_eudb_cm_0_1_18_58 = {
+	
+}
+modi_eudb_cm_0_1_18_59 = {
+	
+}
+modi_eudb_cm_0_1_18_60 = {
+	
+}
+modi_eudb_cm_0_1_18_61 = {
+	
+}
+modi_eudb_cm_0_1_18_62 = {
+	
+}
+modi_eudb_cm_0_1_18_63 = {
+	
+}
+modi_eudb_cm_0_1_18_64 = {
+	
+}
+modi_eudb_cm_0_1_18_65 = {
+	
+}
+modi_eudb_cm_0_1_18_66 = {
+	
+}
+modi_eudb_cm_0_1_18_67 = {
+	
+}
+modi_eudb_cm_0_1_18_68 = {
+	
+}
+modi_eudb_cm_0_1_18_69 = {
+	
+}
+modi_eudb_cm_0_1_18_70 = {
+	
+}
+modi_eudb_cm_0_1_18_71 = {
+	
+}
+modi_eudb_cm_0_1_18_72 = {
+	
+}
+modi_eudb_cm_0_1_18_73 = {
+	
+}
+modi_eudb_cm_0_1_18_74 = {
+	
+}
+modi_eudb_cm_0_1_18_75 = {
+	
+}
+modi_eudb_cm_0_1_18_76 = {
+	
+}
+modi_eudb_cm_0_1_18_77 = {
+	
+}
+modi_eudb_cm_0_1_18_78 = {
+	
+}
+modi_eudb_cm_0_1_18_79 = {
+	
+}
+modi_eudb_cm_0_1_18_80 = {
+	
+}
+modi_eudb_cm_0_1_18_81 = {
+	
+}
+modi_eudb_cm_0_1_18_82 = {
+	
+}
+modi_eudb_cm_0_1_18_83 = {
+	
+}
+modi_eudb_cm_0_1_18_84 = {
+	
+}
+modi_eudb_cm_0_1_18_85 = {
+	
+}
+modi_eudb_cm_0_1_18_86 = {
+	
+}
+modi_eudb_cm_0_1_18_87 = {
+	
+}
+modi_eudb_cm_0_1_18_88 = {
+	
+}
+modi_eudb_cm_0_1_18_89 = {
+	
+}
+modi_eudb_cm_0_1_18_90 = {
+	
+}
+modi_eudb_cm_0_1_18_91 = {
+	
+}
+modi_eudb_cm_0_1_18_92 = {
+	
+}
+modi_eudb_cm_0_1_18_93 = {
+	
+}
+modi_eudb_cm_0_1_18_94 = {
+	
+}
+modi_eudb_cm_0_1_18_95 = {
+	
+}
+modi_eudb_cm_0_1_18_96 = {
+	
+}
+modi_eudb_cm_0_1_18_97 = {
+	
+}
+modi_eudb_cm_0_1_18_98 = {
+	
+}
+modi_eudb_cm_0_1_18_99 = {
+	
+}

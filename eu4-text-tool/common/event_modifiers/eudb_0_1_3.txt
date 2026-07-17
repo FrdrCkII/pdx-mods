@@ -1,0 +1,303 @@
+modi_eudb_cm_0_1_3_1 = {
+	navy_tradition = 1200
+	navy_tradition_decay = -1
+	naval_tradition_from_battle = 1
+	naval_tradition_from_trade = 1
+}
+modi_eudb_cm_0_1_3_2 = {
+	heavy_ship_cost = -1
+}
+modi_eudb_cm_0_1_3_3 = {
+	heavy_ship_power = 1
+}
+modi_eudb_cm_0_1_3_4 = {
+	light_ship_cost = -1
+}
+modi_eudb_cm_0_1_3_5 = {
+	light_ship_power = 1
+}
+modi_eudb_cm_0_1_3_6 = {
+	galley_cost = -1
+}
+modi_eudb_cm_0_1_3_7 = {
+	galley_power = 1
+}
+modi_eudb_cm_0_1_3_8 = {
+	transport_cost = -1
+}
+modi_eudb_cm_0_1_3_9 = {
+	transport_power = 1
+}
+modi_eudb_cm_0_1_3_10 = {
+	global_ship_cost = -1
+}
+modi_eudb_cm_0_1_3_11 = {
+	global_ship_cost = -1
+}
+modi_eudb_cm_0_1_3_12 = {
+	global_ship_cost = -1
+}
+modi_eudb_cm_0_1_3_13 = {
+	naval_forcelimit_modifier = 1
+}
+modi_eudb_cm_0_1_3_14 = {
+	naval_forcelimit = 1000
+}
+modi_eudb_cm_0_1_3_15 = {
+	naval_maintenance_modifier = -1
+}
+modi_eudb_cm_0_1_3_16 = {
+	global_sailors_modifier = 1
+}
+modi_eudb_cm_0_1_3_17 = {
+	global_sailors = 1000000
+}
+modi_eudb_cm_0_1_3_18 = {
+	sailor_maintenance_modifer = -1
+}
+modi_eudb_cm_0_1_3_19 = {
+	sailors_recovery_speed = 1
+}
+modi_eudb_cm_0_1_3_20 = {
+	blockade_efficiency = 1
+}
+modi_eudb_cm_0_1_3_21 = {
+	capture_ship_chance = 1
+}
+modi_eudb_cm_0_1_3_22 = {
+	global_naval_engagement_modifier = 1
+}
+modi_eudb_cm_0_1_3_23 = {
+	naval_attrition = -1000
+}
+modi_eudb_cm_0_1_3_24 = {
+	naval_morale = 1
+	recover_navy_morale_speed = 1
+	sunk_ship_morale_hit_recieved = -1
+}
+modi_eudb_cm_0_1_3_25 = {
+	ship_durability = 1
+}
+modi_eudb_cm_0_1_3_26 = {
+	global_naval_barrage_cost = -1
+}
+modi_eudb_cm_0_1_3_27 = {
+	flagship_cost = -1
+}
+modi_eudb_cm_0_1_3_28 = {
+	disengagement_chance = 1
+}
+modi_eudb_cm_0_1_3_29 = {
+	transport_attrition = -10
+}
+modi_eudb_cm_0_1_3_30 = {
+	landing_penalty = -10
+}
+modi_eudb_cm_0_1_3_31 = {
+	regiment_disembark_speed = 10
+	movement_speed_onto_off_boat_modifier = 10
+}
+modi_eudb_cm_0_1_3_32 = {
+	may_perform_slave_raid = yes
+}
+modi_eudb_cm_0_1_3_33 = {
+	may_perform_slave_raid_on_same_religion = yes
+}
+modi_eudb_cm_0_1_3_34 = {
+	sea_repair = yes
+}
+modi_eudb_cm_0_1_3_35 = {
+	naval_morale_damage = 1
+}
+modi_eudb_cm_0_1_3_36 = {
+	naval_morale_damage_received = 1
+}
+modi_eudb_cm_0_1_3_37 = {
+	number_of_cannons_modifier = 10
+}
+modi_eudb_cm_0_1_3_38 = {
+	hull_size_modifier = 10
+}
+modi_eudb_cm_0_1_3_39 = {
+	heavy_ship_number_of_cannons_modifier = 10
+}
+modi_eudb_cm_0_1_3_40 = {
+	heavy_ship_hull_size = 10
+}
+modi_eudb_cm_0_1_3_41 = {
+	light_ship_number_of_cannons_modifier = 10
+}
+modi_eudb_cm_0_1_3_42 = {
+	light_ship_hull_size = 10
+}
+modi_eudb_cm_0_1_3_43 = {
+	galley_number_of_cannons_modifier = 10
+}
+modi_eudb_cm_0_1_3_44 = {
+	galley_hullsize = 10
+}
+modi_eudb_cm_0_1_3_45 = {
+	transport_hullsize = 10
+}
+modi_eudb_cm_0_1_3_46 = {
+	naval_morale_constant = 10
+}
+modi_eudb_cm_0_1_3_47 = {
+	coast_raid_range = 1000
+}
+modi_eudb_cm_0_1_3_48 = {
+	
+}
+modi_eudb_cm_0_1_3_49 = {
+	
+}
+modi_eudb_cm_0_1_3_50 = {
+	
+}
+modi_eudb_cm_0_1_3_51 = {
+	
+}
+modi_eudb_cm_0_1_3_52 = {
+	
+}
+modi_eudb_cm_0_1_3_53 = {
+	
+}
+modi_eudb_cm_0_1_3_54 = {
+	
+}
+modi_eudb_cm_0_1_3_55 = {
+	
+}
+modi_eudb_cm_0_1_3_56 = {
+	
+}
+modi_eudb_cm_0_1_3_57 = {
+	
+}
+modi_eudb_cm_0_1_3_58 = {
+	
+}
+modi_eudb_cm_0_1_3_59 = {
+	
+}
+modi_eudb_cm_0_1_3_60 = {
+	
+}
+modi_eudb_cm_0_1_3_61 = {
+	
+}
+modi_eudb_cm_0_1_3_62 = {
+	
+}
+modi_eudb_cm_0_1_3_63 = {
+	
+}
+modi_eudb_cm_0_1_3_64 = {
+	
+}
+modi_eudb_cm_0_1_3_65 = {
+	
+}
+modi_eudb_cm_0_1_3_66 = {
+	
+}
+modi_eudb_cm_0_1_3_67 = {
+	
+}
+modi_eudb_cm_0_1_3_68 = {
+	
+}
+modi_eudb_cm_0_1_3_69 = {
+	
+}
+modi_eudb_cm_0_1_3_70 = {
+	
+}
+modi_eudb_cm_0_1_3_71 = {
+	
+}
+modi_eudb_cm_0_1_3_72 = {
+	
+}
+modi_eudb_cm_0_1_3_73 = {
+	
+}
+modi_eudb_cm_0_1_3_74 = {
+	
+}
+modi_eudb_cm_0_1_3_75 = {
+	
+}
+modi_eudb_cm_0_1_3_76 = {
+	
+}
+modi_eudb_cm_0_1_3_77 = {
+	
+}
+modi_eudb_cm_0_1_3_78 = {
+	
+}
+modi_eudb_cm_0_1_3_79 = {
+	
+}
+modi_eudb_cm_0_1_3_80 = {
+	
+}
+modi_eudb_cm_0_1_3_81 = {
+	
+}
+modi_eudb_cm_0_1_3_82 = {
+	
+}
+modi_eudb_cm_0_1_3_83 = {
+	
+}
+modi_eudb_cm_0_1_3_84 = {
+	
+}
+modi_eudb_cm_0_1_3_85 = {
+	
+}
+modi_eudb_cm_0_1_3_86 = {
+	
+}
+modi_eudb_cm_0_1_3_87 = {
+	
+}
+modi_eudb_cm_0_1_3_88 = {
+	
+}
+modi_eudb_cm_0_1_3_89 = {
+	
+}
+modi_eudb_cm_0_1_3_90 = {
+	
+}
+modi_eudb_cm_0_1_3_91 = {
+	
+}
+modi_eudb_cm_0_1_3_92 = {
+	
+}
+modi_eudb_cm_0_1_3_93 = {
+	
+}
+modi_eudb_cm_0_1_3_94 = {
+	
+}
+modi_eudb_cm_0_1_3_95 = {
+	
+}
+modi_eudb_cm_0_1_3_96 = {
+	
+}
+modi_eudb_cm_0_1_3_97 = {
+	
+}
+modi_eudb_cm_0_1_3_98 = {
+	
+}
+modi_eudb_cm_0_1_3_99 = {
+	
+}

@@ -1,0 +1,22 @@
+defined_text = {
+	name = Get_eudb_0_4_1
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_4_1 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_4_1 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_4_2
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_4_2 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_4_2 = no}
+	}
+}

@@ -1,0 +1,297 @@
+modi_eudb_cm_0_1_17_1 = {
+	fabricate_claims_cost = -10
+}
+modi_eudb_cm_0_1_17_2 = {
+	justify_trade_conflict_cost = -10
+}
+modi_eudb_cm_0_1_17_3 = {
+	can_chain_claim = yes
+}
+modi_eudb_cm_0_1_17_4 = {
+	cb_on_overseas = yes
+}
+modi_eudb_cm_0_1_17_5 = {
+	cb_on_primitives = yes
+}
+modi_eudb_cm_0_1_17_6 = {
+	idea_claim_colonies = yes
+}
+modi_eudb_cm_0_1_17_7 = {
+	can_fabricate_for_vassals = yes
+}
+modi_eudb_cm_0_1_17_8 = {
+	can_claim_states = yes
+}
+modi_eudb_cm_0_1_17_9 = {
+	no_claim_cost_increasement = yes
+}
+modi_eudb_cm_0_1_17_10 = {
+	spy_action_cost_modifier = -10
+}
+modi_eudb_cm_0_1_17_11 = {
+	spy_offence = 10
+}
+modi_eudb_cm_0_1_17_12 = {
+	global_spy_defence = 10
+}
+modi_eudb_cm_0_1_17_13 = {
+	discovered_relations_impact = -1
+}
+modi_eudb_cm_0_1_17_14 = {
+	rebel_support_efficiency = 10
+}
+modi_eudb_cm_0_1_17_15 = {
+	
+}
+modi_eudb_cm_0_1_17_16 = {
+	
+}
+modi_eudb_cm_0_1_17_17 = {
+	
+}
+modi_eudb_cm_0_1_17_18 = {
+	
+}
+modi_eudb_cm_0_1_17_19 = {
+	
+}
+modi_eudb_cm_0_1_17_20 = {
+	
+}
+modi_eudb_cm_0_1_17_21 = {
+	
+}
+modi_eudb_cm_0_1_17_22 = {
+	
+}
+modi_eudb_cm_0_1_17_23 = {
+	
+}
+modi_eudb_cm_0_1_17_24 = {
+	
+}
+modi_eudb_cm_0_1_17_25 = {
+	
+}
+modi_eudb_cm_0_1_17_26 = {
+	
+}
+modi_eudb_cm_0_1_17_27 = {
+	
+}
+modi_eudb_cm_0_1_17_28 = {
+	
+}
+modi_eudb_cm_0_1_17_29 = {
+	
+}
+modi_eudb_cm_0_1_17_30 = {
+	
+}
+modi_eudb_cm_0_1_17_31 = {
+	
+}
+modi_eudb_cm_0_1_17_32 = {
+	
+}
+modi_eudb_cm_0_1_17_33 = {
+	
+}
+modi_eudb_cm_0_1_17_34 = {
+	
+}
+modi_eudb_cm_0_1_17_35 = {
+	
+}
+modi_eudb_cm_0_1_17_36 = {
+	
+}
+modi_eudb_cm_0_1_17_37 = {
+	
+}
+modi_eudb_cm_0_1_17_38 = {
+	
+}
+modi_eudb_cm_0_1_17_39 = {
+	
+}
+modi_eudb_cm_0_1_17_40 = {
+	
+}
+modi_eudb_cm_0_1_17_41 = {
+	
+}
+modi_eudb_cm_0_1_17_42 = {
+	
+}
+modi_eudb_cm_0_1_17_43 = {
+	
+}
+modi_eudb_cm_0_1_17_44 = {
+	
+}
+modi_eudb_cm_0_1_17_45 = {
+	
+}
+modi_eudb_cm_0_1_17_46 = {
+	
+}
+modi_eudb_cm_0_1_17_47 = {
+	
+}
+modi_eudb_cm_0_1_17_48 = {
+	
+}
+modi_eudb_cm_0_1_17_49 = {
+	
+}
+modi_eudb_cm_0_1_17_50 = {
+	
+}
+modi_eudb_cm_0_1_17_51 = {
+	
+}
+modi_eudb_cm_0_1_17_52 = {
+	
+}
+modi_eudb_cm_0_1_17_53 = {
+	
+}
+modi_eudb_cm_0_1_17_54 = {
+	
+}
+modi_eudb_cm_0_1_17_55 = {
+	
+}
+modi_eudb_cm_0_1_17_56 = {
+	
+}
+modi_eudb_cm_0_1_17_57 = {
+	
+}
+modi_eudb_cm_0_1_17_58 = {
+	
+}
+modi_eudb_cm_0_1_17_59 = {
+	
+}
+modi_eudb_cm_0_1_17_60 = {
+	
+}
+modi_eudb_cm_0_1_17_61 = {
+	
+}
+modi_eudb_cm_0_1_17_62 = {
+	
+}
+modi_eudb_cm_0_1_17_63 = {
+	
+}
+modi_eudb_cm_0_1_17_64 = {
+	
+}
+modi_eudb_cm_0_1_17_65 = {
+	
+}
+modi_eudb_cm_0_1_17_66 = {
+	
+}
+modi_eudb_cm_0_1_17_67 = {
+	
+}
+modi_eudb_cm_0_1_17_68 = {
+	
+}
+modi_eudb_cm_0_1_17_69 = {
+	
+}
+modi_eudb_cm_0_1_17_70 = {
+	
+}
+modi_eudb_cm_0_1_17_71 = {
+	
+}
+modi_eudb_cm_0_1_17_72 = {
+	
+}
+modi_eudb_cm_0_1_17_73 = {
+	
+}
+modi_eudb_cm_0_1_17_74 = {
+	
+}
+modi_eudb_cm_0_1_17_75 = {
+	
+}
+modi_eudb_cm_0_1_17_76 = {
+	
+}
+modi_eudb_cm_0_1_17_77 = {
+	
+}
+modi_eudb_cm_0_1_17_78 = {
+	
+}
+modi_eudb_cm_0_1_17_79 = {
+	
+}
+modi_eudb_cm_0_1_17_80 = {
+	
+}
+modi_eudb_cm_0_1_17_81 = {
+	
+}
+modi_eudb_cm_0_1_17_82 = {
+	
+}
+modi_eudb_cm_0_1_17_83 = {
+	
+}
+modi_eudb_cm_0_1_17_84 = {
+	
+}
+modi_eudb_cm_0_1_17_85 = {
+	
+}
+modi_eudb_cm_0_1_17_86 = {
+	
+}
+modi_eudb_cm_0_1_17_87 = {
+	
+}
+modi_eudb_cm_0_1_17_88 = {
+	
+}
+modi_eudb_cm_0_1_17_89 = {
+	
+}
+modi_eudb_cm_0_1_17_90 = {
+	
+}
+modi_eudb_cm_0_1_17_91 = {
+	
+}
+modi_eudb_cm_0_1_17_92 = {
+	
+}
+modi_eudb_cm_0_1_17_93 = {
+	
+}
+modi_eudb_cm_0_1_17_94 = {
+	
+}
+modi_eudb_cm_0_1_17_95 = {
+	
+}
+modi_eudb_cm_0_1_17_96 = {
+	
+}
+modi_eudb_cm_0_1_17_97 = {
+	
+}
+modi_eudb_cm_0_1_17_98 = {
+	
+}
+modi_eudb_cm_0_1_17_99 = {
+	
+}

@@ -1,0 +1,30 @@
+seff_modi_eudb_0_4_1 = {
+	if = {
+		limit = {
+			owner = {
+				stri_eudb_0_4_1 = yes
+			}
+		}
+		change_controller = owner
+		kill_units = {
+			who = enemy
+		}
+	}
+	else_if = {
+		limit = {
+			controller = {
+				NOT = {
+					tag = PREV.owner
+				}
+				stri_eudb_0_4_1 = yes
+			}
+		}
+		kill_units = {
+			who = owner
+		}
+	}
+}
+seff_modi_eudb_0_4_2 = {
+	cede_province = controller
+	add_core = controller
+}

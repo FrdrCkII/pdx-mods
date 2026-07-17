@@ -1,0 +1,112 @@
+seff_eudb_refresh = {hidden_effect = {
+	if = {
+		limit = {has_global_flag = flag_eudb_z}
+		clr_global_flag = flag_eudb_z
+	} else = {
+		set_global_flag = flag_eudb_z
+	}
+}}
+
+seff_eudb = {hidden_effect = {
+	[[GF] if = {
+		limit = {has_global_flag = flag_eudb_$GF$}
+		clr_global_flag = flag_eudb_$GF$
+	} else = {
+		set_global_flag = flag_eudb_$GF$
+	}]
+
+	[[CF] if = {
+		limit = {has_country_flag = flag_eudb_$CF$}
+		clr_country_flag = flag_eudb_$CF$
+	} else = {
+		set_country_flag = flag_eudb_$CF$
+	}]
+	
+	[[CM] if = {
+		limit = {has_country_flag = flag_eudb_cm_$CM$}
+		clr_country_flag = flag_eudb_cm_$CM$
+		remove_country_modifier = modi_eudb_cm_$CM$
+	} else = {
+		set_country_flag = flag_eudb_cm_$CM$
+		add_country_modifier = {
+			duration = -1
+			hidden = yes
+			name = modi_eudb_cm_$CM$
+		}
+	}]
+
+	[[PM] if = {
+		limit = {has_country_flag = flag_eudb_pm_$PM$}
+		clr_country_flag = flag_eudb_pm_$PM$
+		every_province = {
+			remove_province_triggered_modifier = modi_eudb_pm_$PM$
+		}
+	} else = {
+		set_country_flag = flag_eudb_pm_$PM$
+		every_province = {
+			add_province_triggered_modifier = modi_eudb_pm_$PM$
+		}
+	}]
+
+	[[PM1] every_owned_province = {
+		limit = {NOT = {has_province_modifier = modi_eudb_pm_$PM1$}}
+		add_province_modifier = {
+			name = modi_eudb_pm_$PM1$
+			duration = -1
+			hidden = yes
+		}
+	} every_subject_country = { every_owned_province = {
+		limit = {NOT = {has_province_modifier = modi_eudb_pm_$PM1$}}
+		add_province_modifier = {
+			name = modi_eudb_pm_$PM1$
+			duration = -1
+			hidden = yes
+		}
+	}} every_province = {
+		limit = {
+			NOT = { OR = { owned_by = Root owned_by_subject_of = Root } }
+			has_province_modifier = modi_eudb_pm_$PM1$
+		}
+		remove_province_modifier = modi_eudb_pm_$PM1$
+	}]
+
+	[[EF] seff_eudb_$EF$ = yes ]
+  
+  seff_eudb_refresh = yes
+}}
+
+seff_eudb_clr = {hidden_effect = {
+	[[CF] every_country = {
+		limit = {has_country_flag = flag_eudb_$CF$}
+		clr_country_flag = flag_eudb_$CF$
+	}]
+	[[CM] every_country = {
+		limit = {has_country_flag = flag_eudb_cm_$CM$}
+		clr_country_flag = flag_eudb_cm_$CM$
+		remove_country_modifier = modi_eudb_cm_$CM$
+	}]
+	[[PM] every_country = {
+		limit = {has_country_flag = flag_eudb_pm_$PM$}
+		clr_country_flag = flag_eudb_pm_$PM$
+	} every_province = {
+		remove_province_triggered_modifier = modi_eudb_pm_$PM$
+	}]
+	[[PM1] every_province = {
+		remove_province_modifier = modi_eudb_pm_$PM1$
+	}]
+  seff_eudb_refresh = yes
+}}
+
+seff_eudb_enb = {hidden_effect = {
+	[[GF] set_global_flag = flag_eudb_$GF$]
+	[[CF] set_country_flag = flag_eudb_$CF$]
+	[[CM]
+		set_country_flag = flag_eudb_cm_$CM$
+		add_country_modifier = {
+			duration = -1
+			hidden = yes
+			name = modi_eudb_cm_$CM$
+		}
+	]
+  seff_eudb_refresh = yes
+}}

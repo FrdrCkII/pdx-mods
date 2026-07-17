@@ -1,0 +1,66 @@
+defined_text = {
+	name = Get_eudb_0_5_1
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_5_1 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_5_1 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_5_2
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_5_2 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_5_2 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_5_3
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_5_3 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_5_3 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_5_3_1
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_5_3_1 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_5_3_1 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_5_4
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_5_4 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_5_4 = no}
+	}
+}
+defined_text = {
+	name = Get_eudb_0_5_5
+	text = {
+		localisation_key = eudb_on
+		trigger = {stri_eudb_0_5_5 = yes}
+	}
+	text = {
+		localisation_key = eudb_off
+		trigger = {stri_eudb_0_5_5 = no}
+	}
+}

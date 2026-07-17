@@ -1,0 +1,298 @@
+modi_eudb_cm_0_1_15_1 = {
+	global_unrest = -1000
+}
+modi_eudb_cm_0_1_15_2 = {
+	stability_cost_modifier = -10
+}
+modi_eudb_cm_0_1_15_3 = {
+	global_autonomy = -1000
+}
+modi_eudb_cm_0_1_15_4 = {
+	min_autonomy = -1000
+    min_autonomy_in_territories = -1000
+}
+modi_eudb_cm_0_1_15_5 = {
+	harsh_treatment_cost = -10
+}
+modi_eudb_cm_0_1_15_6 = {
+	years_of_nationalism = -1000
+}
+modi_eudb_cm_0_1_15_7 = {
+	no_stability_loss_on_monarch_death = yes
+}
+modi_eudb_cm_0_1_15_8 = {
+	
+}
+modi_eudb_cm_0_1_15_9 = {
+	
+}
+modi_eudb_cm_0_1_15_10 = {
+	
+}
+modi_eudb_cm_0_1_15_11 = {
+	
+}
+modi_eudb_cm_0_1_15_12 = {
+	
+}
+modi_eudb_cm_0_1_15_13 = {
+	
+}
+modi_eudb_cm_0_1_15_14 = {
+	
+}
+modi_eudb_cm_0_1_15_15 = {
+	
+}
+modi_eudb_cm_0_1_15_16 = {
+	
+}
+modi_eudb_cm_0_1_15_17 = {
+	
+}
+modi_eudb_cm_0_1_15_18 = {
+	
+}
+modi_eudb_cm_0_1_15_19 = {
+	
+}
+modi_eudb_cm_0_1_15_20 = {
+	
+}
+modi_eudb_cm_0_1_15_21 = {
+	
+}
+modi_eudb_cm_0_1_15_22 = {
+	
+}
+modi_eudb_cm_0_1_15_23 = {
+	
+}
+modi_eudb_cm_0_1_15_24 = {
+	
+}
+modi_eudb_cm_0_1_15_25 = {
+	
+}
+modi_eudb_cm_0_1_15_26 = {
+	
+}
+modi_eudb_cm_0_1_15_27 = {
+	
+}
+modi_eudb_cm_0_1_15_28 = {
+	
+}
+modi_eudb_cm_0_1_15_29 = {
+	
+}
+modi_eudb_cm_0_1_15_30 = {
+	
+}
+modi_eudb_cm_0_1_15_31 = {
+	
+}
+modi_eudb_cm_0_1_15_32 = {
+	
+}
+modi_eudb_cm_0_1_15_33 = {
+	
+}
+modi_eudb_cm_0_1_15_34 = {
+	
+}
+modi_eudb_cm_0_1_15_35 = {
+	
+}
+modi_eudb_cm_0_1_15_36 = {
+	
+}
+modi_eudb_cm_0_1_15_37 = {
+	
+}
+modi_eudb_cm_0_1_15_38 = {
+	
+}
+modi_eudb_cm_0_1_15_39 = {
+	
+}
+modi_eudb_cm_0_1_15_40 = {
+	
+}
+modi_eudb_cm_0_1_15_41 = {
+	
+}
+modi_eudb_cm_0_1_15_42 = {
+	
+}
+modi_eudb_cm_0_1_15_43 = {
+	
+}
+modi_eudb_cm_0_1_15_44 = {
+	
+}
+modi_eudb_cm_0_1_15_45 = {
+	
+}
+modi_eudb_cm_0_1_15_46 = {
+	
+}
+modi_eudb_cm_0_1_15_47 = {
+	
+}
+modi_eudb_cm_0_1_15_48 = {
+	
+}
+modi_eudb_cm_0_1_15_49 = {
+	
+}
+modi_eudb_cm_0_1_15_50 = {
+	
+}
+modi_eudb_cm_0_1_15_51 = {
+	
+}
+modi_eudb_cm_0_1_15_52 = {
+	
+}
+modi_eudb_cm_0_1_15_53 = {
+	
+}
+modi_eudb_cm_0_1_15_54 = {
+	
+}
+modi_eudb_cm_0_1_15_55 = {
+	
+}
+modi_eudb_cm_0_1_15_56 = {
+	
+}
+modi_eudb_cm_0_1_15_57 = {
+	
+}
+modi_eudb_cm_0_1_15_58 = {
+	
+}
+modi_eudb_cm_0_1_15_59 = {
+	
+}
+modi_eudb_cm_0_1_15_60 = {
+	
+}
+modi_eudb_cm_0_1_15_61 = {
+	
+}
+modi_eudb_cm_0_1_15_62 = {
+	
+}
+modi_eudb_cm_0_1_15_63 = {
+	
+}
+modi_eudb_cm_0_1_15_64 = {
+	
+}
+modi_eudb_cm_0_1_15_65 = {
+	
+}
+modi_eudb_cm_0_1_15_66 = {
+	
+}
+modi_eudb_cm_0_1_15_67 = {
+	
+}
+modi_eudb_cm_0_1_15_68 = {
+	
+}
+modi_eudb_cm_0_1_15_69 = {
+	
+}
+modi_eudb_cm_0_1_15_70 = {
+	
+}
+modi_eudb_cm_0_1_15_71 = {
+	
+}
+modi_eudb_cm_0_1_15_72 = {
+	
+}
+modi_eudb_cm_0_1_15_73 = {
+	
+}
+modi_eudb_cm_0_1_15_74 = {
+	
+}
+modi_eudb_cm_0_1_15_75 = {
+	
+}
+modi_eudb_cm_0_1_15_76 = {
+	
+}
+modi_eudb_cm_0_1_15_77 = {
+	
+}
+modi_eudb_cm_0_1_15_78 = {
+	
+}
+modi_eudb_cm_0_1_15_79 = {
+	
+}
+modi_eudb_cm_0_1_15_80 = {
+	
+}
+modi_eudb_cm_0_1_15_81 = {
+	
+}
+modi_eudb_cm_0_1_15_82 = {
+	
+}
+modi_eudb_cm_0_1_15_83 = {
+	
+}
+modi_eudb_cm_0_1_15_84 = {
+	
+}
+modi_eudb_cm_0_1_15_85 = {
+	
+}
+modi_eudb_cm_0_1_15_86 = {
+	
+}
+modi_eudb_cm_0_1_15_87 = {
+	
+}
+modi_eudb_cm_0_1_15_88 = {
+	
+}
+modi_eudb_cm_0_1_15_89 = {
+	
+}
+modi_eudb_cm_0_1_15_90 = {
+	
+}
+modi_eudb_cm_0_1_15_91 = {
+	
+}
+modi_eudb_cm_0_1_15_92 = {
+	
+}
+modi_eudb_cm_0_1_15_93 = {
+	
+}
+modi_eudb_cm_0_1_15_94 = {
+	
+}
+modi_eudb_cm_0_1_15_95 = {
+	
+}
+modi_eudb_cm_0_1_15_96 = {
+	
+}
+modi_eudb_cm_0_1_15_97 = {
+	
+}
+modi_eudb_cm_0_1_15_98 = {
+	
+}
+modi_eudb_cm_0_1_15_99 = {
+	
+}
