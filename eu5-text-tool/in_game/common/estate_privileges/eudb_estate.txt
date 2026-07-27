@@ -1,0 +1,23 @@
+eudb_estate = {
+    estate = peasants_estate
+
+    potential = { is_ai = no }
+
+    country_modifier = {
+        global_estate_target_satisfaction = 5
+        global_estate_satisfaction_decay = -5
+        global_estate_satisfaction_recovery = 5
+        parliament_base_support = 5
+        parliament_request_issue_support_needed = -0.5
+    }
+}
+
+eudb_estate_tax = {
+    estate = peasants_estate
+
+    potential = { is_ai = no }
+
+    country_modifier = {
+        global_estate_max_tax = 5
+    }
+}

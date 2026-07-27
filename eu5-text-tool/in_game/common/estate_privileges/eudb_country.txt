@@ -1,0 +1,18 @@
+eudb_country = {
+    estate = peasants_estate
+
+   	potential = { is_ai = no }
+
+    country_modifier = {
+        monthly_legitimacy = 500
+        monthly_republican_tradition = 500
+        monthly_devotion = 500
+        monthly_horde_unity = 500
+        monthly_tribal_cohesion = 500
+        stability_cost = -5
+        stability_investment = 5
+        stability_decay = -5
+        monthly_prestige = 5
+        prestige_decay = -5
+    }
+}

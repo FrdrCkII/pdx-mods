@@ -1,0 +1,30 @@
+eudb_location = {
+    estate = peasants_estate
+
+    potential = { is_ai = no }
+
+    location_modifier = {
+        local_disease_resistance = 5
+        local_devastation_recovery = 5
+        local_monthly_development = 5
+        local_monthly_control = 0.5
+        local_maritime_presence = 5
+
+        local_food_capacity = 5
+        local_monthly_food = 5
+        local_monthly_food_modifier = 5
+        local_pop_food_consumption = -5
+    }
+}
+
+eudb_location_pop = {
+    estate = peasants_estate
+
+    potential = { is_ai = no }
+
+    location_modifier = {
+        local_population_capacity = 0.5
+        local_population_capacity_modifier = 0.5
+        local_population_growth = 0.05
+    }
+}
