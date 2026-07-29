@@ -1,0 +1,27 @@
+﻿cmct_rmPerk = {
+	if = {
+		limit = { has_perk = $VALUE$ }
+		remove_perk = $VALUE$
+	}
+}
+
+cmct_addPerk = {
+	if = {
+		limit = { NOT = { has_perk = $VALUE$ } }
+		add_perk = $VALUE$
+	}
+}
+
+cmct_rmTrait = {
+	if = {
+		limit = { has_trait = $VALUE$ }
+		remove_trait = $VALUE$
+	}
+}
+
+cmct_addTrait = {
+	if = {
+		limit = { NOT = { has_trait = $VALUE$ } }
+		add_trait = $VALUE$
+	}
+}

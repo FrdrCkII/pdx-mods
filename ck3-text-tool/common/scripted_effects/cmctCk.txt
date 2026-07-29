@@ -1,0 +1,428 @@
+﻿cmctCk_gainAll_perks = {
+	#Intrigue: Seduction
+	cmct_addPerk = { VALUE = like_weed_in_a_garden_perk } # "芜生庭中，宜室之丰"
+	cmct_addPerk = { VALUE = unshackled_lust_perk } # "桎梏已释，色念滔天"
+	cmct_addPerk = { VALUE = subtle_desire_perk } # "伦常所束，微妙情欲"
+	cmct_addPerk = { VALUE = mortal_adoration_perk } # "吾之挚爱，身心俱献"
+	cmct_addPerk = { VALUE = enticing_opportunity_perk } # "引诱人心，机会难得"
+	cmct_addPerk = { VALUE = home_advantage_perk } # "于吾山水，攻守自如"
+	cmct_addPerk = { VALUE = graceful_recovery_perk } # "优雅收手，另觅猎物"
+	cmct_addPerk = { VALUE = smooth_operator_perk } # "百炼成熟，妙手摘花"
+	cmct_addPerk = { VALUE = seducer_perk } # "勾引者"
+	#Intrigue: Schemer
+	cmct_addPerk = { VALUE = truth_is_relative_perk } # "相对事实"
+	cmct_addPerk = { VALUE = digging_for_dirt_perk } # "深挖黑料"
+	cmct_addPerk = { VALUE = kidnapper_perk } # "绑票大师"
+	cmct_addPerk = { VALUE = court_of_shadows_perk } # "宫廷诡影"
+	cmct_addPerk = { VALUE = prepared_for_anything_perk } # "以应万变"
+	cmct_addPerk = { VALUE = swift_execution_perk } # "迅速执行"
+	cmct_addPerk = { VALUE = a_job_done_right_perk } # "行动无误"
+	cmct_addPerk = { VALUE = twice_schemed_perk } # "计中计"
+	cmct_addPerk = { VALUE = schemer_perk } # "阴谋家"
+	#Intrigue: Dread
+	cmct_addPerk = { VALUE = dark_insights_perk } # "黑暗洞察"
+	cmct_addPerk = { VALUE = divine_retribution_perk } # "神意报应"
+	cmct_addPerk = { VALUE = dreadful_perk } # "可畏可惧"
+	cmct_addPerk = { VALUE = thriving_in_chaos_perk } # "浑中求进"
+	cmct_addPerk = { VALUE = malice_implicit_perk } # "暗含恶意"
+	cmct_addPerk = { VALUE = fear_tax_perk } # "恐惧税"
+	cmct_addPerk = { VALUE = forever_infamous_perk } # "终生恶名"
+	cmct_addPerk = { VALUE = prison_feudal_complex_perk } # "封监建狱"
+	cmct_addPerk = { VALUE = torturer_perk } # "拷打者"
+	#Learning_name: Theology Tree
+	cmct_addPerk = { VALUE = faithful_perk } # "虔信者"
+	cmct_addPerk = { VALUE = zealous_proselytizer_perk } # "热忱宣教"
+	cmct_addPerk = { VALUE = religious_icon_perk } # "宗教楷模"
+	cmct_addPerk = { VALUE = apostate_perk } # "叛教者"
+	cmct_addPerk = { VALUE = clerical_justifications_perk } # "教权辩护"
+	cmct_addPerk = { VALUE = church_and_state_perk } # "教与国"
+	cmct_addPerk = { VALUE = radiant_perk } # "圣光普照"
+	cmct_addPerk = { VALUE = defender_of_the_faith_perk } # "信仰守护者"
+	cmct_addPerk = { VALUE = theologian_perk } # "神学家"
+	#Learning: Medicine Tree
+	cmct_addPerk = { VALUE = anatomical_studies_perk } # "解剖研究"
+	cmct_addPerk = { VALUE = carefree_perk } # "无忧无虑"
+	cmct_addPerk = { VALUE = mental_resilience_perk } # "坚忍不拔"
+	cmct_addPerk = { VALUE = restraint_perk } # "克己"
+	cmct_addPerk = { VALUE = know_thyself_perk } # "知天命"
+	cmct_addPerk = { VALUE = wash_your_hands_perk } # "勤洗手"
+	cmct_addPerk = { VALUE = iron_constitution_perk } # "身似铁打"
+	cmct_addPerk = { VALUE = healthy_perk } # "心裨体健"
+	cmct_addPerk = { VALUE = whole_of_body_perk } # "身心俱悉"
+	#Learning: Scholarship Tree
+	cmct_addPerk = { VALUE = pedagogy_perk } # "亦师亦友"
+	cmct_addPerk = { VALUE = open_minded_perk } # "思想开明"
+	cmct_addPerk = { VALUE = prophet_perk } # "先知"
+	cmct_addPerk = { VALUE = scientific_perk } # "科学思想"
+	cmct_addPerk = { VALUE = planned_cultivation_perk } # "规划开发"
+	cmct_addPerk = { VALUE = scholarly_circles_perk } # "学术圈"
+	cmct_addPerk = { VALUE = learn_on_the_job_perk } # "用以致学"
+	cmct_addPerk = { VALUE = sanctioned_loopholes_perk } # "圣许漏洞"
+	cmct_addPerk = { VALUE = scholar_perk } # "学者"
+	#Stewardship: Domain Tree
+	cmct_addPerk = { VALUE = tax_man_perk } # "税吏"
+	cmct_addPerk = { VALUE = defensive_measures_perk } # "防御措施"
+	cmct_addPerk = { VALUE = organized_muster_rolls_perk } # "有序官兵名册"
+	cmct_addPerk = { VALUE = cutting_corners_perk } # "节约成本"
+	cmct_addPerk = { VALUE = professional_workforce_perk } # "专业劳工"
+	cmct_addPerk = { VALUE = centralization_perk } # "集中资源"
+	cmct_addPerk = { VALUE = popular_figurehead_perk } # "大众领袖"
+	cmct_addPerk = { VALUE = divided_attention_perk } # "分配精力"
+	cmct_addPerk = { VALUE = architect_perk } # "建筑家"
+	#Stewardship: Vassal & Liege Tree
+	cmct_addPerk = { VALUE = meritocracy_perk } # "能者居之"
+	cmct_addPerk = { VALUE = chains_of_loyalty_perk } # "层层效忠"
+	cmct_addPerk = { VALUE = likable_perk } # "人见人爱"
+	cmct_addPerk = { VALUE = positions_of_power_perk } # "实权职位"
+	cmct_addPerk = { VALUE = large_levies_perk } # "大规模征召兵"
+	cmct_addPerk = { VALUE = soon_forgiven_perk } # "翌日宽谅"
+	cmct_addPerk = { VALUE = toe_the_line_perk } # "服从上级"
+	cmct_addPerk = { VALUE = honored_to_serve_perk } # "倍感荣幸"
+	cmct_addPerk = { VALUE = administrator_perk } # "行政家"
+	#Stewardship: Wealth Tree
+	cmct_addPerk = { VALUE = golden_obligations_perk } # "金钱义务"
+	cmct_addPerk = { VALUE = heregeld_perk } # "佣兵税款"
+	cmct_addPerk = { VALUE = detailed_ledgers_perk } # "细分账簿"
+	cmct_addPerk = { VALUE = war_profiteer_perk } # "战争投机商"
+	cmct_addPerk = { VALUE = fearful_troops_perk } # "以怖治军"
+	cmct_addPerk = { VALUE = it_is_my_domain_perk } # "吾之治下"
+	cmct_addPerk = { VALUE = golden_aplomb_perk } # "沉着是金"
+	cmct_addPerk = { VALUE = at_any_cost_perk } # "待价而沽"
+	cmct_addPerk = { VALUE = avaricious_perk } # "爱财如命"
+	#Diplomacy: Foreign Affairs Tree
+	cmct_addPerk = { VALUE = thoughtful_perk } # "体贴周到"
+	cmct_addPerk = { VALUE = ducal_conquest_perk } # "公国征服"
+	cmct_addPerk = { VALUE = forced_vassalage_perk } # "强制附庸"
+	cmct_addPerk = { VALUE = adaptive_traditions_perk } # "因俗简礼"
+	cmct_addPerk = { VALUE = flexible_truces_perk } # "灵便停战"
+	cmct_addPerk = { VALUE = defensive_negotiations_perk } # "自卫谈判"
+	cmct_addPerk = { VALUE = embassies_perk } # "外交特使"
+	cmct_addPerk = { VALUE = accomplished_forger_perk } # "熟练伪造"
+	cmct_addPerk = { VALUE = diplomat_perk } # "外交家"
+	#Diplomacy: Family Tree
+	cmct_addPerk = { VALUE = befriend_perk } # "交个朋友"
+	cmct_addPerk = { VALUE = confidants_perk } # "难得知己"
+	cmct_addPerk = { VALUE = flatterer_perk } # "阿谀奉承"
+	cmct_addPerk = { VALUE = groomed_to_rule_perk } # "培养治才"
+	cmct_addPerk = { VALUE = familial_familiar_perk } # "亲族之心"
+	cmct_addPerk = { VALUE = thicker_than_water_perk } # "血脉相连"
+	cmct_addPerk = { VALUE = friendly_counsel_perk } # "从善于友"
+	cmct_addPerk = { VALUE = sound_foundations_perk } # "源深流远"
+	cmct_addPerk = { VALUE = family_man_perk } # "顾家男人"
+	#Diplomacy: Majesty Tree
+	cmct_addPerk = { VALUE = benevolent_intent_perk } # "意在仁善"
+	cmct_addPerk = { VALUE = inspiring_rule_perk } # "激励统治"
+	cmct_addPerk = { VALUE = firm_hand_perk } # "铁腕治国"
+	cmct_addPerk = { VALUE = praetorian_guard_perk } # "直隶禁卫"
+	cmct_addPerk = { VALUE = true_ruler_perk } # "真命领主"
+	cmct_addPerk = { VALUE = writing_history_perk } # "撰写历史"
+	cmct_addPerk = { VALUE = a_life_of_glory_perk } # "荣耀人生"
+	cmct_addPerk = { VALUE = dignitas_perk } # "尊名远扬"
+	cmct_addPerk = { VALUE = august_perk } # "贵不可言"
+	#Martial: Strategy Tree
+	cmct_addPerk = { VALUE = bellum_justum_perk } # "正义之战"
+	cmct_addPerk = { VALUE = parthian_tactics_perk } # "帕提亚战术"
+	cmct_addPerk = { VALUE = envelopment_perk } # "见招拆招"
+	cmct_addPerk = { VALUE = organized_retreat_perk } # "有序行军"
+	cmct_addPerk = { VALUE = hit_and_run_perk } # "一击脱离"
+	cmct_addPerk = { VALUE = engineered_for_destruction_perk } # "破城工造"
+	cmct_addPerk = { VALUE = living_off_the_land_perk } # "荒野求生"
+	cmct_addPerk = { VALUE = sappers_perk } # "工兵"
+	cmct_addPerk = { VALUE = strategist_perk } # "军事家"
+	#Martial: Control
+	cmct_addPerk = { VALUE = serve_the_crown_perk } # "服从权冠"
+	cmct_addPerk = { VALUE = a_mans_home_perk }
+	cmct_addPerk = { VALUE = enduring_hardships_perk } # "持久工事"
+	cmct_addPerk = { VALUE = prepared_conscription_perk } # "有备征召"
+	cmct_addPerk = { VALUE = strict_organization_perk } # "严明行政"
+	cmct_addPerk = { VALUE = hard_rule_perk } # "强硬统治"
+	cmct_addPerk = { VALUE = soldiers_of_lesser_fortune_perk } # "小利驱兵"
+	cmct_addPerk = { VALUE = absolute_control_perk } # "绝对控制"
+	cmct_addPerk = { VALUE = overseer_perk } # "监督者"
+	#Martial: Chivalry
+	cmct_addPerk = { VALUE = stalwart_leader_perk } # "不动如山"
+	cmct_addPerk = { VALUE = courtship_perk } # "宫廷生活"
+	cmct_addPerk = { VALUE = promising_prospects_perk } # "前途无量"
+	cmct_addPerk = { VALUE = loyalty_and_respect_perk } # "相敬如宾"
+	cmct_addPerk = { VALUE = chivalric_dominance_perk } # "骑士统御"
+	cmct_addPerk = { VALUE = never_back_down_perk } # "绝不退却"
+	cmct_addPerk = { VALUE = kingsguard_perk } # "亲族近卫"
+	cmct_addPerk = { VALUE = peacemaker_perk } # "和平缔造者"
+	cmct_addPerk = { VALUE = gallant_perk } # "侠义骑士"
+	#Wanderer Tree
+	cmct_addPerk = { VALUE = well_prepared_perk } # "准备充分"
+	cmct_addPerk = { VALUE = far_and_wide_perk } # "八方旅人"
+	cmct_addPerk = { VALUE = just_one_more_hill_perk } # "复越高山"
+	cmct_addPerk = { VALUE = roaming_perk } # "娓娓道来"
+	cmct_addPerk = { VALUE = of_the_people_perk } # "行走人间"
+	cmct_addPerk = { VALUE = local_hero_perk } # "一方英雄"
+	cmct_addPerk = { VALUE = travel_companion_perk } # "提同携伴"
+	cmct_addPerk = { VALUE = the_home_away_from_home_perk } # "异乡如故"
+	cmct_addPerk = { VALUE = wayfarer_perk } # "旅人"
+	#Voyager Tree
+	cmct_addPerk = { VALUE = power_at_home_perk } # "家中为大"
+	cmct_addPerk = { VALUE = journey_planner_perk } # "旅行规划"
+	cmct_addPerk = { VALUE = finally_there_perk } # "终抵远方"
+	cmct_addPerk = { VALUE = journey_perk } # "行于路上"
+	cmct_addPerk = { VALUE = mercenary_contacts_perk } # "佣兵合同"
+	cmct_addPerk = { VALUE = souvenirs_aplenty_perk } # "伴手好礼"
+	cmct_addPerk = { VALUE = gracious_host_impeccable_guest_perk } # "宾主尽欢"
+	cmct_addPerk = { VALUE = been_there_done_that_perk } # "到此一游"
+	cmct_addPerk = { VALUE = voyager_perk } # "远行者"
+	#Inspector Tree
+	cmct_addPerk = { VALUE = mustering_the_troops_perk } # "集合"
+	cmct_addPerk = { VALUE = know_your_land_know_your_people_perk } # "地利人和"
+	cmct_addPerk = { VALUE = no_stone_unturned_perk } # "不留死角"
+	cmct_addPerk = { VALUE = personal_touch_perk } # "体恤疾苦"
+	cmct_addPerk = { VALUE = local_inspection_perk } # "视察"
+	cmct_addPerk = { VALUE = local_arbitration_perk } # "仲裁调解"
+	cmct_addPerk = { VALUE = travel_logs_perk } # "旅途手账"
+	cmct_addPerk = { VALUE = realm_charts_perk } # "图表旅记"
+	cmct_addPerk = { VALUE = surveyor_perk } # "视察者"
+}
+
+cmctCk_gainAll_geneticTraits = {
+	cmct_rmTrait = { VALUE = beauty_bad_1 }
+	cmct_rmTrait = { VALUE = beauty_bad_2 }
+	cmct_rmTrait = { VALUE = beauty_bad_3 }
+	cmct_rmTrait = { VALUE = beauty_good_1 }
+	cmct_rmTrait = { VALUE = beauty_good_2 }
+	cmct_addTrait = { VALUE = beauty_good_3 }
+
+	cmct_rmTrait = { VALUE = intellect_bad_1 }
+	cmct_rmTrait = { VALUE = intellect_bad_2 }
+	cmct_rmTrait = { VALUE = intellect_bad_3 }
+	cmct_rmTrait = { VALUE = intellect_good_1 }
+	cmct_rmTrait = { VALUE = intellect_good_2 }
+	cmct_addTrait = { VALUE = intellect_good_3 }
+
+	cmct_rmTrait = { VALUE = physique_bad_1 }
+	cmct_rmTrait = { VALUE = physique_bad_2 }
+	cmct_rmTrait = { VALUE = physique_bad_3 }
+	cmct_rmTrait = { VALUE = physique_good_1 }
+	cmct_rmTrait = { VALUE = physique_good_2 }
+	cmct_addTrait = { VALUE = physique_good_3 }
+
+	cmct_addTrait = { VALUE = pure_blooded }
+	cmct_addTrait = { VALUE = fecund }
+	cmct_addTrait = { VALUE = strong }
+	cmct_addTrait = { VALUE = shrewd }
+}
+
+cmctCk_gainAll_educationTraits = {
+	cmct_rmTrait = { VALUE = education_intrigue_1 }
+	cmct_rmTrait = { VALUE = education_intrigue_2 }
+	cmct_rmTrait = { VALUE = education_intrigue_3 }
+	cmct_rmTrait = { VALUE = education_intrigue_4 }
+	cmct_addTrait = { VALUE = education_intrigue_5 }
+
+	cmct_rmTrait = { VALUE = education_diplomacy_1 }
+	cmct_rmTrait = { VALUE = education_diplomacy_2 }
+	cmct_rmTrait = { VALUE = education_diplomacy_3 }
+	cmct_rmTrait = { VALUE = education_diplomacy_4 }
+	cmct_addTrait = { VALUE = education_diplomacy_5 }
+
+	cmct_rmTrait = { VALUE = education_stewardship_1 }
+	cmct_rmTrait = { VALUE = education_stewardship_2 }
+	cmct_rmTrait = { VALUE = education_stewardship_3 }
+	cmct_rmTrait = { VALUE = education_stewardship_4 }
+	cmct_addTrait = { VALUE = education_stewardship_5 }
+
+	cmct_rmTrait = { VALUE = education_martial_1 }
+	cmct_rmTrait = { VALUE = education_martial_2 }
+	cmct_rmTrait = { VALUE = education_martial_3 }
+	cmct_rmTrait = { VALUE = education_martial_4 }
+	cmct_addTrait = { VALUE = education_martial_5 }
+
+	cmct_rmTrait = { VALUE = education_learning_1 }
+	cmct_rmTrait = { VALUE = education_learning_2 }
+	cmct_rmTrait = { VALUE = education_learning_3 }
+	cmct_rmTrait = { VALUE = education_learning_4 }
+	cmct_addTrait = { VALUE = education_learning_5 }
+}
+
+cmctCk_gainAll_commanderTraits = {
+	cmct_addTrait = { VALUE = logistician }
+	cmct_addTrait = { VALUE = military_engineer }
+	cmct_addTrait = { VALUE = aggressive_attacker }
+	cmct_addTrait = { VALUE = unyielding_defender }
+	cmct_addTrait = { VALUE = forder }
+	cmct_addTrait = { VALUE = flexible_leader }
+	cmct_addTrait = { VALUE = desert_warrior }
+	cmct_addTrait = { VALUE = jungle_stalker }
+	cmct_addTrait = { VALUE = reaver }
+	cmct_addTrait = { VALUE = reckless }
+	cmct_addTrait = { VALUE = holy_warrior }
+	cmct_addTrait = { VALUE = open_terrain_expert }
+	cmct_addTrait = { VALUE = rough_terrain_expert }
+	cmct_addTrait = { VALUE = forest_fighter }
+	cmct_addTrait = { VALUE = cautious_leader }
+	cmct_addTrait = { VALUE = organizer }
+	cmct_addTrait = { VALUE = winter_soldier }
+	add_trait_xp = {
+		trait = logistician
+		value = 500
+	}
+	add_trait_xp = {
+		trait = military_engineer
+		value = 500
+	}
+	add_trait_xp = {
+		trait = aggressive_attacker
+		value = 500
+	}
+	add_trait_xp = {
+		trait = unyielding_defender
+		value = 500
+	}
+	add_trait_xp = {
+		trait = forder
+		value = 500
+	}
+	add_trait_xp = {
+		trait = flexible_leader
+		value = 500
+	}
+	add_trait_xp = {
+		trait = desert_warrior
+		value = 500
+	}
+	add_trait_xp = {
+		trait = jungle_stalker
+		value = 500
+	}
+	add_trait_xp = {
+		trait = reaver
+		value = 500
+	}
+	add_trait_xp = {
+		trait = reckless
+		value = 500
+	}
+	add_trait_xp = {
+		trait = holy_warrior
+		value = 500
+	}
+	add_trait_xp = {
+		trait = open_terrain_expert
+		value = 500
+	}
+	add_trait_xp = {
+		trait = rough_terrain_expert
+		value = 500
+	}
+	add_trait_xp = {
+		trait = forest_fighter
+		value = 500
+	}
+	add_trait_xp = {
+		trait = cautious_leader
+		value = 500
+	}
+	add_trait_xp = {
+		trait = organizer
+		value = 500
+	}
+	add_trait_xp = {
+		trait = winter_soldier
+		value = 500
+	}
+}
+
+cmctCk_gainAll_lifeTraits = {
+	cmct_addTrait = { VALUE = lifestyle_reveler }
+	add_trait_xp = {
+		trait = lifestyle_reveler
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_blademaster }
+	add_trait_xp = {
+		trait = lifestyle_blademaster
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_hunter }
+	add_trait_xp = {
+		trait = lifestyle_hunter
+		track = hunter
+		value = 500
+	}
+	add_trait_xp = {
+		trait = lifestyle_hunter
+		track = falconer
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_mystic }
+	add_trait_xp = {
+		trait = lifestyle_mystic
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_physician }
+	add_trait_xp = {
+		trait = lifestyle_physician
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_herbalist }
+
+	cmct_addTrait = { VALUE = lifestyle_gardener }
+
+	cmct_addTrait = { VALUE = lifestyle_poet }
+	add_trait_xp = {
+		trait = lifestyle_poet
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_traveler }
+	add_trait_xp = {
+		trait = lifestyle_traveler
+		track = travel
+		value = 500
+	}
+	add_trait_xp = {
+		trait = lifestyle_traveler
+		track = danger
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = lifestyle_wayfarer }
+
+	cmct_addTrait = { VALUE = lifestyle_voyager }
+
+	cmct_addTrait = { VALUE = lifestyle_surveyor }
+
+	cmct_addTrait = { VALUE = nomadic_philosophy }
+	cmct_addTrait = { VALUE = lifestyle_seasoned_pastor }
+
+	cmct_addTrait = { VALUE = tourney_participant }
+	add_trait_xp = {
+		trait = tourney_participant
+		track = foot
+		value = 500
+	}
+	add_trait_xp = {
+		trait = tourney_participant
+		track = bow
+		value = 500
+	}
+	add_trait_xp = {
+		trait = tourney_participant
+		track = horse
+		value = 500
+	}
+	add_trait_xp = {
+		trait = tourney_participant
+		track = wit
+		value = 500
+	}
+
+	cmct_addTrait = { VALUE = pilgrim }
+	cmct_addTrait = { VALUE = hajjaj }
+	add_trait_xp = {
+		trait = pilgrim
+		value = 500
+	}
+}

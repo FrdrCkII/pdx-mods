@@ -1,0 +1,72 @@
+﻿cmctCk = {
+	category = interaction_category_vassal
+	icon = icon_vassal
+	desc = cmctCkDesc
+	common_interaction = yes
+
+	is_shown = {
+		scope:actor = { is_ai = no }
+	}
+
+	send_options_exclusive = no
+	auto_accept = yes
+
+	send_option = {
+		flag = cmctCk_cheatTrait
+		localization = "cmctCk_cheatTrait"
+	}
+	send_option = {
+		flag = cmctCk_gainAll_perks
+		localization = "cmctCk_gainAll_perks"
+	}
+	send_option = {
+		flag = cmctCk_gainAll_geneticTraits
+		localization = "cmctCk_gainAll_geneticTraits"
+	}
+	send_option = {
+		flag = cmctCk_gainAll_educationTraits
+		localization = "cmctCk_gainAll_educationTraits"
+	}
+	send_option = {
+		flag = cmctCk_gainAll_commanderTraits
+		localization = "cmctCk_gainAll_commanderTraits"
+	}
+	send_option = {
+		flag = cmctCk_gainAll_lifeTraits
+		localization = "cmctCk_gainAll_lifeTraits"
+	}
+
+	on_accept = {
+		scope:actor = {hidden_effect = {
+			if = {
+				limit = { scope:cmctCk_cheatTrait = yes }
+				if = {
+					limit = { has_trait = cmctCk_cheatTrait }
+					remove_trait = cmctCk_cheatTrait
+				} else = {
+					add_trait = cmctCk_cheatTrait
+				}
+			}
+			if = {
+				limit = { scope:cmctCk_gainAll_perks = yes }
+				cmctCk_gainAll_perks = yes
+			}
+			if = {
+				limit = { scope:cmctCk_gainAll_geneticTraits = yes }
+				cmctCk_gainAll_geneticTraits = yes
+			}
+			if = {
+				limit = { scope:cmctCk_gainAll_educationTraits = yes }
+				cmctCk_gainAll_educationTraits = yes
+			}
+			if = {
+				limit = { scope:cmctCk_gainAll_commanderTraits = yes }
+				cmctCk_gainAll_commanderTraits = yes
+			}
+			if = {
+				limit = { scope:cmctCk_gainAll_lifeTraits = yes }
+				cmctCk_gainAll_lifeTraits = yes
+			}
+		}}
+	}
+}

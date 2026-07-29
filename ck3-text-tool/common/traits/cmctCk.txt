@@ -1,0 +1,63 @@
+﻿cmctCk_cheatTrait = {
+	category = fame
+	icon = "divine_blood.dds"
+	desc = trait_cmctCk_cheatTrait_desc
+
+	opposites = { incapable }
+	shown_in_ruler_designer = no
+
+	flag = is_immortal
+	flag = immortal_visuals
+	flag = immortal_fertility
+	flag = immortal_incapability
+	flag = conqueror_bonuses_modifier
+
+	immortal = yes
+	no_prowess_loss_from_age = yes
+
+	diplomacy = 500
+	intrigue = 500
+	stewardship = 500
+	martial = 500
+	learning = 500
+	prowess = 500
+	general_opinion = 500
+	health = 500
+
+	monthly_income = 50
+	monthly_prestige = 5
+	monthly_piety = 5
+	monthly_influence = 5
+	monthly_merit = 5
+	herd_gain_mult = 5
+	herd_capacity_mult = 5
+	monthly_legitimacy_add = 50
+	dread_baseline_add = 500
+	dread_gain_mult = 50
+	dread_loss_mult = -50
+	tyranny_gain_mult = -50
+	tyranny_loss_mult = 50
+	stress_gain_mult = -50
+	stress_loss_mult = 50
+
+	build_speed = -5
+	build_gold_cost = -5
+	build_piety_cost = -5
+	build_prestige_cost = -5
+	holding_build_speed = -50
+	holding_build_gold_cost = -50
+	holding_build_piety_cost = -50
+	holding_build_prestige_cost = -50
+	provisions_use_mult = -5
+	men_at_arms_maintenance = -5
+	army_maintenance_mult = -5
+
+	enemy_hostile_scheme_success_chance_max_add = -500
+
+	advantage = 50
+	supply_duration = 50
+	character_travel_safety = 50
+	hostile_county_attrition = -50
+	hard_casualty_modifier = -50
+	enemy_hard_casualty_modifier = 50
+}
