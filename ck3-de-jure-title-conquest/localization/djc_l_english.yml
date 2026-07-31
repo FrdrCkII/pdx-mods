@@ -1,4 +1,6 @@
 ﻿l_english:
+  djc_invasion: "invasion"
+
   # Kingdom Conquest
   KINGDOM_DE_JURE_CONQUEST_CB_NAME: "De Jure Kingdom Conquest"
   KINGDOM_DE_JURE_CONQUEST_WAR_NAME: "De Jure Conquest War for [TITLE.GetNameNoTier]"

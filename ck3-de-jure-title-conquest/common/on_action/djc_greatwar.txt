@@ -20,12 +20,12 @@ de_jure_greatwar_start = {
                     every_de_jure_county = {
                         limit = {
                             exists = holder
-					              }
-						            holder = {
-						                add_to_temporary_list = join_as_defender
+                        }
+                        holder = {
+                            add_to_temporary_list = join_as_defender
                         }
                     }
-    			      }
+                }
                 every_in_list = {
                     list = join_as_defender
                     scope:war = {

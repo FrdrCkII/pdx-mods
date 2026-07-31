@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+  djc_invasion: "入侵"
+
   # 王国级征服
   KINGDOM_DE_JURE_CONQUEST_CB_NAME: "王国法理征服"
   KINGDOM_DE_JURE_CONQUEST_WAR_NAME: "[TITLE.GetNameNoTier]王国法理征服战争"
