@@ -1,0 +1,25 @@
+cmctPoD_cheatTrait = {
+    category = fame
+    icon = "divine_blood.dds"
+    desc = trait_cmctPoD_cheatTrait_desc
+
+    opposites = { incapable }
+    shown_in_ruler_designer = no
+
+    flag = immortality
+    flag = elder_perk_flag
+    flag = hungerless_flag
+    flag = immune_to_frenzy_flag
+    flag = perks_for_piety_flag
+    flag = humanity_feast_flag
+    flag = bypass_mental_defenses
+    flag = immunity_to_the_delirium
+    flag = regeneration
+    flag = resurrection
+    flag = can_intensify_herd_resonance
+    flag = unlock_incorporeal_form
+    flag = capture_immunity
+    flag = avoid_combat_wound
+    flag = infinite_blood_flag
+    flag = fera_trait_healing
+}

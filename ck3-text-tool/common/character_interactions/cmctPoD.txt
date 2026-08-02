@@ -1,0 +1,40 @@
+cmctPoD = {
+	category = interaction_category_vassal
+	icon = icon_vassal
+	desc = cmctCkDesc
+	common_interaction = yes
+
+	is_shown = {
+		scope:actor = { is_ai = no }
+	}
+
+	send_options_exclusive = no
+	auto_accept = yes
+
+	send_option = {
+		flag = cmctPoD_cheatTrait
+		localization = "cmctCk_cheatTrait"
+	}
+	# send_option = {
+	# 	flag = cmctPoD_gainAll_perks
+	# 	localization = "cmctCk_gainAll_perks"
+	# }
+
+	on_accept = {
+		scope:actor = {hidden_effect = {
+			if = {
+				limit = { scope:cmctPoD_cheatTrait = yes }
+				if = {
+					limit = { has_trait = cmctPoD_cheatTrait }
+					remove_trait = cmctPoD_cheatTrait
+				} else = {
+					add_trait = cmctPoD_cheatTrait
+				}
+			}
+			if = {
+				limit = { scope:cmctPoD_gainAll_perks = yes }
+				cmctPoD_gainAll_perks = yes
+			}
+		}}
+	}
+}
