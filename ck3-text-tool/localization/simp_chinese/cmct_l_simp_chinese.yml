@@ -12,7 +12,4 @@
 
   cmctPoD: "*PoD作弊*"
   cmctPoDDesc: "获得关于PoD模组的增强"
-  cmctPoD_cheatTrait: "测试特质"
-  trait_cmctPoD_cheatTrait: "CMCT:黑暗亲王"
-  trait_cmctPoD_cheatTrait_desc: ""
-  cmctPoD_gainAll_perks: "获取全部技能"
+  cmctPoD_gainAll_perks_vampire: "获取全部技能(吸血鬼)"

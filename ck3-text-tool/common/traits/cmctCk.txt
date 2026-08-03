@@ -49,13 +49,4 @@
     provisions_use_mult = -50
     men_at_arms_maintenance = -50
     army_maintenance_mult = -50
-
-    enemy_hostile_scheme_success_chance_max_add = -500
-
-    advantage = 50
-    supply_duration = 50
-    character_travel_safety = 50
-    hostile_county_attrition = -50
-    hard_casualty_modifier = -50
-    enemy_hard_casualty_modifier = 50
 }

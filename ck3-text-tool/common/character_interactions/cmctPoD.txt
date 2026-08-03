@@ -12,28 +12,15 @@ cmctPoD = {
 	auto_accept = yes
 
 	send_option = {
-		flag = cmctPoD_cheatTrait
-		localization = "cmctCk_cheatTrait"
+		flag = cmctPoD_gainAll_perks_vampire
+		localization = "cmctPoD_gainAll_perks_vampire"
 	}
-	# send_option = {
-	# 	flag = cmctPoD_gainAll_perks
-	# 	localization = "cmctCk_gainAll_perks"
-	# }
 
 	on_accept = {
 		scope:actor = {hidden_effect = {
 			if = {
-				limit = { scope:cmctPoD_cheatTrait = yes }
-				if = {
-					limit = { has_trait = cmctPoD_cheatTrait }
-					remove_trait = cmctPoD_cheatTrait
-				} else = {
-					add_trait = cmctPoD_cheatTrait
-				}
-			}
-			if = {
-				limit = { scope:cmctPoD_gainAll_perks = yes }
-				cmctPoD_gainAll_perks = yes
+				limit = { scope:cmctPoD_gainAll_perks_vampire = yes }
+				cmctPoD_gainAll_perks_vampire = yes
 			}
 		}}
 	}
