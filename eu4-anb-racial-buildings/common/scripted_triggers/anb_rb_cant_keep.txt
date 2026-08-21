@@ -1,0 +1,76 @@
+elven_cant_keep = {
+    always = no #默认应当为否
+
+}
+halfling_cant_keep = {
+    always = no
+
+}
+dwarven_cant_keep = {
+    always = no
+
+}
+gnomish_cant_keep = {
+    always = no
+
+}
+orcish_cant_keep = {
+    always = no
+
+}
+kobold_cant_keep = {
+    always = no
+
+}
+half_orcish_cant_keep = {
+    always = no
+
+}
+human_cant_keep = {
+    always = no
+
+}
+gnollish_cant_keep = {
+    always = no
+
+}
+ruinborn_cant_keep = {
+    always = no
+
+}
+goblin_cant_keep = {
+    always = no
+
+}
+harpy_cant_keep = {
+    always = no
+
+}
+troll_cant_keep = {
+    always = no
+
+}
+half_elven_cant_keep = {
+    always = no
+
+}
+harimari_cant_keep = {
+    always = no
+
+}
+hobgoblin_cant_keep = {
+    always = no
+
+}
+centaur_cant_keep = {
+    always = no
+
+}
+ogre_cant_keep = {
+    always = no
+
+}
+lizardfolk_cant_keep = {
+    always = no
+
+}

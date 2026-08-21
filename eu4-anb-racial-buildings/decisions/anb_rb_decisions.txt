@@ -1,0 +1,93 @@
+country_decisions = {
+    anb_rb_recolony = {
+        potential = {
+            any_owned_province = {
+                OR = {
+                    anb_rb_can_recolony = { RACE = elven }
+                    anb_rb_can_recolony = { RACE = halfling }
+                    anb_rb_can_recolony = { RACE = dwarven }
+                    anb_rb_can_recolony = { RACE = gnomish }
+                    anb_rb_can_recolony = { RACE = orcish }
+                    anb_rb_can_recolony = { RACE = kobold }
+                    anb_rb_can_recolony = { RACE = half_orcish }
+                    anb_rb_can_recolony = { RACE = human }
+                    anb_rb_can_recolony = { RACE = gnollish }
+                    anb_rb_can_recolony = { RACE = ruinborn }
+                    anb_rb_can_recolony = { RACE = goblin }
+                    anb_rb_can_recolony = { RACE = harpy }
+                    anb_rb_can_recolony = { RACE = troll }
+                    anb_rb_can_recolony = { RACE = half_elven }
+                    anb_rb_can_recolony = { RACE = harimari }
+                    anb_rb_can_recolony = { RACE = hobgoblin }
+                    anb_rb_can_recolony = { RACE = centaur }
+                    anb_rb_can_recolony = { RACE = ogre }
+                    anb_rb_can_recolony = { RACE = lizardfolk }
+                }
+            }
+        }
+        allow = {
+            custom_trigger_tooltip = {
+                tooltip = anb_rb_recolony_tt
+                always = yes
+            }
+        }
+        effect = {
+            custom_tooltip = anb_rb_recolony_tt
+            every_owned_province = {
+                limit = {
+                    OR = {
+                        anb_rb_can_recolony = { RACE = elven }
+                        anb_rb_can_recolony = { RACE = halfling }
+                        anb_rb_can_recolony = { RACE = dwarven }
+                        anb_rb_can_recolony = { RACE = gnomish }
+                        anb_rb_can_recolony = { RACE = orcish }
+                        anb_rb_can_recolony = { RACE = kobold }
+                        anb_rb_can_recolony = { RACE = half_orcish }
+                        anb_rb_can_recolony = { RACE = human }
+                        anb_rb_can_recolony = { RACE = gnollish }
+                        anb_rb_can_recolony = { RACE = ruinborn }
+                        anb_rb_can_recolony = { RACE = goblin }
+                        anb_rb_can_recolony = { RACE = harpy }
+                        anb_rb_can_recolony = { RACE = troll }
+                        anb_rb_can_recolony = { RACE = half_elven }
+                        anb_rb_can_recolony = { RACE = harimari }
+                        anb_rb_can_recolony = { RACE = hobgoblin }
+                        anb_rb_can_recolony = { RACE = centaur }
+                        anb_rb_can_recolony = { RACE = ogre }
+                        anb_rb_can_recolony = { RACE = lizardfolk }
+                    }
+                }
+                anb_rb_recolony = { RACE = elven }
+                anb_rb_recolony = { RACE = halfling }
+                anb_rb_recolony = { RACE = dwarven }
+                anb_rb_recolony = { RACE = gnomish }
+                anb_rb_recolony = { RACE = orcish }
+                anb_rb_recolony = { RACE = kobold }
+                anb_rb_recolony = { RACE = half_orcish }
+                anb_rb_recolony = { RACE = human }
+                anb_rb_recolony = { RACE = gnollish }
+                anb_rb_recolony = { RACE = ruinborn }
+                anb_rb_recolony = { RACE = goblin }
+                anb_rb_recolony = { RACE = harpy }
+                anb_rb_recolony = { RACE = troll }
+                anb_rb_recolony = { RACE = half_elven }
+                anb_rb_recolony = { RACE = harimari }
+                anb_rb_recolony = { RACE = hobgoblin }
+                anb_rb_recolony = { RACE = centaur }
+                anb_rb_recolony = { RACE = ogre }
+                anb_rb_recolony = { RACE = lizardfolk }
+            }
+        }
+        ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                NOT = { treasury = 1000 }
+            }
+            modifier = {
+                factor = 100
+                treasury = 5000
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+anb_rb_can_build = {
+    NOT = { has_province_modifier = $RACE$_building_modifier }
+    FROM = { high_tolerance_$RACE$_race_trigger = yes }
+    $RACE$_can_build = yes
+}
+anb_rb_can_keep = {
+    owner = { high_tolerance_$RACE$_race_trigger = yes }
+    has_any_$RACE$_pop_trigger = yes
+    $RACE$_can_keep = yes
+}
+anb_rb_can_recolony = {
+    has_province_modifier = $RACE$_building_modifier
+    OR = {
+        NOT = { has_any_$RACE$_pop_trigger = yes }
+        owner = { NOT = { high_tolerance_$RACE$_race_trigger = yes } }
+        $RACE$_cant_keep = yes
+    }
+}

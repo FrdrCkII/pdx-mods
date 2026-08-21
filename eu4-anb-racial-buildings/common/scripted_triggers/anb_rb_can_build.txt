@@ -1,0 +1,138 @@
+elven_can_build = {
+    OR = {
+        has_terrain = woods
+        has_terrain = ancient_forest
+        has_terrain = gladeway
+        has_terrain = forest
+        has_terrain = bloodgroves
+        development = 18
+        province_has_center_of_trade_of_level = 1
+    }
+}
+halfling_can_build = {
+    OR = {
+        has_terrain = farmlands
+        has_terrain = grasslands
+        development = 12
+    }
+}
+dwarven_can_build = {
+    OR = {
+        has_fort_building_trigger = yes
+        has_terrain = dwarven_hold
+        has_terrain = dwarven_hold_surface
+        AND = {has_terrain = dwarven_road development = 12}
+        development = 18
+    }
+}
+gnomish_can_build = {
+    OR = {
+        has_terrain = city_terrain
+        AND = { base_production = 8 has_production_building_trigger = yes}
+    }
+}
+orcish_can_build = {
+    OR = {
+        AND = { has_manpower_building_trigger = yes development = 15}
+        has_terrain = city_terrain
+    }
+}
+kobold_can_build = {
+    OR = {
+        has_terrain = cavern
+        has_terrain = dwarven_hold
+        has_terrain = dwarven_hold_surface
+        has_terrain = city_terrain
+        AND = {has_terrain = hills development = 10}
+        AND = {has_terrain = mountain development = 12}
+        development = 20
+    }
+}
+half_orcish_can_build = {
+    OR = {
+        development = 15
+        province_has_center_of_trade_of_level = 1
+    }
+}
+human_can_build = {
+    OR = {
+        has_terrain = city_terrain
+        development = 18
+        province_has_center_of_trade_of_level = 1
+    }
+}
+gnollish_can_build = {
+    OR = {
+        development = 15
+        trade_goods = slaves
+    }
+}
+ruinborn_can_build = {
+    OR = {
+        has_terrain = city_terrain
+        development = 18
+        province_has_center_of_trade_of_level = 1
+    }
+}
+goblin_can_build = {
+    OR = {
+        has_terrain = cavern
+        has_terrain = dwarven_hold
+        has_terrain = dwarven_hold_surface
+        has_terrain = city_terrain
+        AND = {has_terrain = hills development = 10}
+        AND = {has_terrain = mountain development = 12}
+        development = 20
+    }
+}
+harpy_can_build = {
+    OR = {
+        base_manpower = 6
+        has_trade_building_trigger = yes
+        has_terrain = city_terrain
+        province_has_center_of_trade_of_level = 1
+    }
+}
+troll_can_build = {
+    development = 12
+}
+half_elven_can_build = {
+    OR = {
+        has_terrain = city_terrain
+        development = 18
+        province_has_center_of_trade_of_level = 1
+    }
+}
+harimari_can_build = {
+    OR = {
+        has_terrain = city_terrain
+        AND = {has_tax_building_trigger = yes development = 15}
+        province_has_center_of_trade_of_level = 1
+    }
+}
+hobgoblin_can_build = {
+    OR = {
+        AND = { has_forcelimit_building_trigger = yes development = 10}
+        has_terrain = city_terrain
+    }
+}
+centaur_can_build = {
+    OR = {
+        development = 15
+        has_terrain = steppe
+        has_terrain = grasslands
+        has_terrain = savannah
+    }
+}
+ogre_can_build = {
+    OR = {
+        AND = {has_fort_building_trigger = yes development = 8}
+        development = 12
+    }
+}
+lizardfolk_can_build = {
+    OR = {
+        has_terrain = jungle
+        development = 12
+    }
+}

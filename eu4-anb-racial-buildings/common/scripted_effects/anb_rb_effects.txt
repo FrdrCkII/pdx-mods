@@ -1,0 +1,48 @@
+anb_rb_on_built = {
+    [[RACE]
+        add_$RACE$_minority_size_effect = yes
+        add_province_triggered_modifier = $RACE$_building_modifier
+        remove_building = $RACE$_building
+    ]
+}
+anb_rb_on_destroyed = {
+    [[RACE]
+        remove_$RACE$_minority_size_effect = yes
+        if = {
+            limit = {
+                OR = {
+                    owner = {
+                        NOT = { high_tolerance_$RACE$_race_trigger = yes }
+                    }
+                    $RACE$_cant_keep = yes
+                }
+            }
+            remove_province_triggered_modifier = $RACE$_building_modifier
+        }
+    ]
+}
+anb_rb_recolony = {
+    [[RACE]
+        if = {
+            limit = {
+                has_province_modifier = $RACE$_building_modifier
+                owner = { high_tolerance_$RACE$_race_trigger = yes }
+                NOT = { has_any_$RACE$_pop_trigger = yes }
+            }
+            add_$RACE$_minority_size_effect = yes
+            owner = {
+                add_treasury = -50
+            }
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = $RACE$_building_modifier
+                NOT = { owner = { high_tolerance_$RACE$_race_trigger = yes } }
+            }
+            remove_province_triggered_modifier = $RACE$_building_modifier
+            owner = {
+                add_treasury = 50
+            }
+        }
+    ]
+}

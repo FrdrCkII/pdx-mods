@@ -1,0 +1,109 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_elven_building"
+        texturefile = "gfx//interface//buildings//elven_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_halfling_building"
+        texturefile = "gfx//interface//buildings//halfling_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_dwarven_building"
+        texturefile = "gfx//interface//buildings//dwarven_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_gnomish_building"
+        texturefile = "gfx//interface//buildings//gnomish_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_orcish_building"
+        texturefile = "gfx//interface//buildings//orcish_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_kobold_building"
+        texturefile = "gfx//interface//buildings//kobold_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_half_orcish_building"
+        texturefile = "gfx//interface//buildings//half_orcish_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_human_building"
+        texturefile = "gfx//interface//buildings//human_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_gnollish_building"
+        texturefile = "gfx//interface//buildings//gnollish_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_ruinborn_building"
+        texturefile = "gfx//interface//buildings//ruinborn_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_goblin_building"
+        texturefile = "gfx//interface//buildings//goblin_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_harpy_building"
+        texturefile = "gfx//interface//buildings//harpy_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_troll_building"
+        texturefile = "gfx//interface//buildings//troll_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_half_elven_building"
+        texturefile = "gfx//interface//buildings//half_elven_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_harimari_building"
+        texturefile = "gfx//interface//buildings//harimari_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_hobgoblin_building"
+        texturefile = "gfx//interface//buildings//hobgoblin_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_centaur_building"
+        texturefile = "gfx//interface//buildings//centaur_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_ogre_building"
+        texturefile = "gfx//interface//buildings//ogre_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_lizardfolk_building"
+        texturefile = "gfx//interface//buildings//lizardfolk_building.tga"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_modifiers_bg"
+        texturefile = "gfx//interface//modifiers_bg.png"
+    }
+    spriteType = {
+        name = "GFX_modifiera_bg_state"
+        texturefile = "gfx//interface//modifiera_bg_state.png"
+    }
+    spriteType = {
+        name = "GFX_modifiers_bg_building"
+        texturefile = "gfx//interface//modifiers_bg_building.png"
+    }
+}

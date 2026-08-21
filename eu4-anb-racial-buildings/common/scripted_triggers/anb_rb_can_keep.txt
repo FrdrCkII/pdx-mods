@@ -1,0 +1,57 @@
+elven_can_keep = {
+
+}
+halfling_can_keep = {
+
+}
+dwarven_can_keep = {
+
+}
+gnomish_can_keep = {
+
+}
+orcish_can_keep = {
+
+}
+kobold_can_keep = {
+
+}
+half_orcish_can_keep = {
+
+}
+human_can_keep = {
+
+}
+gnollish_can_keep = {
+
+}
+ruinborn_can_keep = {
+
+}
+goblin_can_keep = {
+
+}
+harpy_can_keep = {
+
+}
+troll_can_keep = {
+
+}
+half_elven_can_keep = {
+
+}
+harimari_can_keep = {
+
+}
+hobgoblin_can_keep = {
+
+}
+centaur_can_keep = {
+
+}
+ogre_can_keep = {
+
+}
+lizardfolk_can_keep = {
+
+}

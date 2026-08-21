@@ -1,0 +1,133 @@
+elven_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = elven } }
+    on_built = { anb_rb_on_built = { RACE = elven } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+halfling_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = halfling } }
+    on_built = { anb_rb_on_built = { RACE = halfling } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+dwarven_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = dwarven } }
+    on_built = { anb_rb_on_built = { RACE = dwarven } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+gnomish_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = gnomish } }
+    on_built = { anb_rb_on_built = { RACE = gnomish } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+orcish_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = orcish } }
+    on_built = { anb_rb_on_built = { RACE = orcish } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+kobold_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = kobold } }
+    on_built = { anb_rb_on_built = { RACE = kobold } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+half_orcish_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = half_orcish } }
+    on_built = { anb_rb_on_built = { RACE = half_orcish } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+human_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = human } }
+    on_built = { anb_rb_on_built = { RACE = human } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+gnollish_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = gnollish } }
+    on_built = { anb_rb_on_built = { RACE = gnollish } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+ruinborn_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = ruinborn } }
+    on_built = { anb_rb_on_built = { RACE = ruinborn } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+goblin_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = goblin } }
+    on_built = { anb_rb_on_built = { RACE = goblin } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+harpy_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = harpy } }
+    on_built = { anb_rb_on_built = { RACE = harpy } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+troll_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = troll } }
+    on_built = { anb_rb_on_built = { RACE = troll } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+half_elven_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = half_elven } }
+    on_built = { anb_rb_on_built = { RACE = half_elven } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+harimari_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = harimari } }
+    on_built = { anb_rb_on_built = { RACE = harimari } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+hobgoblin_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = hobgoblin } }
+    on_built = { anb_rb_on_built = { RACE = hobgoblin } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+centaur_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = centaur } }
+    on_built = { anb_rb_on_built = { RACE = centaur } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+ogre_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = ogre } }
+    on_built = { anb_rb_on_built = { RACE = ogre } }
+    modifier = { allowed_num_of_buildings = 10 }
+}
+lizardfolk_building = {
+    cost = 500 time = 24
+    ai_will_do = { factor = 1 }
+    build_trigger = { anb_rb_can_build = { RACE = lizardfolk } }
+    on_built = { anb_rb_on_built = { RACE = lizardfolk } }
+    modifier = { allowed_num_of_buildings = 10 }
+}

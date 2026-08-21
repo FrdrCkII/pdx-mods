@@ -1,0 +1,190 @@
+elven_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = elven } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = elven } }
+    trade_value_modifier = 0.2
+    local_production_efficiency = 0.2
+    local_tax_modifier = 0.5
+    local_defensiveness = 0.2
+}
+halfling_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = halfling } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = halfling } }
+    trade_goods_size_modifier = 0.15
+    local_development_cost = -0.10
+    local_production_efficiency = 0.15
+}
+dwarven_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = dwarven } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = dwarven } }
+    local_defensiveness = 0.25
+    trade_goods_size_modifier = 0.15
+    local_production_efficiency = 0.1
+    local_fort_maintenance_modifier = -0.25
+    local_build_time = -0.1
+}
+gnomish_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = gnomish } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = gnomish } }
+    institution_growth = 1.8
+    local_institution_spread = 1
+    local_production_efficiency = 0.5
+
+    local_unrest = 1
+    local_monthly_devastation = 0.05
+}
+orcish_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = orcish } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = orcish } }
+    local_tax_modifier = 0.5
+    trade_goods_size_modifier = 0.2
+    local_manpower_modifier = 0.5
+    land_forcelimit = 1
+
+    local_unrest = 1
+}
+kobold_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = kobold } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = kobold } }
+    trade_goods_size = 0.25
+    local_manpower_modifier = 0.25
+    local_production_efficiency = 0.25
+    local_build_cost = -0.2
+    local_development_cost = -0.1
+    allowed_num_of_buildings = 2
+}
+half_orcish_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = half_orcish } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = half_orcish } }
+    local_tax_modifier = 0.5
+    trade_goods_size_modifier = 0.2
+    local_manpower = 0.5
+    local_sailors_modifier = 0.5
+
+    local_unrest = 1
+}
+human_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = human } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = human } }
+    local_manpower_modifier = 0.33
+    local_sailors_modifier = 0.33
+    local_development_cost = -0.15
+}
+gnollish_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = gnollish } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = gnollish } }
+    local_unrest = -1
+    trade_goods_size_modifier = 0.5
+    local_production_efficiency = 0.5
+
+    local_institution_spread = -0.5
+    local_manpower_modifier = -0.5
+    local_tax_modifier = -0.5
+}
+ruinborn_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = ruinborn } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = ruinborn } }
+    tax_income = 3
+    trade_value = 3
+    province_trade_power_value = 3
+    local_institution_spread = 0.2
+}
+goblin_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = goblin } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = goblin } }
+    trade_goods_size = 0.2
+    local_production_efficiency = 0.2
+    local_build_time = -0.2
+    allowed_num_of_buildings = 2
+
+    local_unrest = 1
+    local_monthly_devastation = 0.05
+}
+harpy_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = harpy } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = harpy } }
+    local_unrest = -4
+    tax_income = 3
+    trade_value = 1
+    province_trade_power_value = 1
+
+    local_manpower_modifier = -0.2
+}
+troll_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = troll } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = troll } }
+    trade_goods_size = 0.25
+    local_production_efficiency = 0.25
+    local_development_cost = -0.25
+    local_monthly_devastation = -0.25
+    
+    local_unrest = 1
+    local_tax_modifier = -0.2
+}
+half_elven_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = half_elven } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = half_elven } }
+    tax_income = 3
+    local_development_cost = -0.5
+    local_development_cost = -0.25
+}
+harimari_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = harimari } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = harimari } }
+    tax_income = 3
+    local_autonomy = -0.10
+    local_governing_cost_increase = -5
+}
+hobgoblin_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = hobgoblin } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = hobgoblin } }
+    local_tax_modifier = 0.2
+    local_production_efficiency = 0.2
+    land_forcelimit = 1
+    local_manpower_modifier = 1
+    local_development_cost = -0.1
+    regiment_recruit_speed = -0.1
+}
+centaur_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = centaur } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = centaur } }
+    local_manpower = 0.5
+    land_forcelimit = 0.5
+    province_trade_power_value = 5
+    province_trade_power_modifier = 0.5
+}
+ogre_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = ogre } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = ogre } }
+    local_build_cost = -0.2
+    local_build_time = -0.2
+    local_fort_maintenance_modifier = -1
+    
+    local_unrest = 1
+    local_monthly_devastation = 0.05
+}
+lizardfolk_building_modifier = {
+    potential = { always = yes }
+    trigger = { anb_rb_can_keep = { RACE = lizardfolk } }
+    on_deactivation = { anb_rb_on_destroyed = { RACE = lizardfolk } }
+    local_production_efficiency = 0.2
+    local_manpower_modifier = 0.5
+    trade_goods_size = 0.5
+}
