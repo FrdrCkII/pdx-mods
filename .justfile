@@ -1,5 +1,6 @@
 alias ia := install-all
 alias io := install-old
+alias fc := fmt-chmod
     
 install-all:
     cd ck3-de-jure-title-conquest && just install
@@ -13,4 +14,9 @@ install-all:
 
 install-old:
     cd stellaris-auto-build-starbase-old && just install
+
+fmt-chmod:
+    @find . -type d | xargs chmod 755
+    @find . -type f | xargs chmod 644
+    @chmod +x merge.py utf8.py
 
