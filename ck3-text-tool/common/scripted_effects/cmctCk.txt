@@ -58,7 +58,7 @@
 	cmct_addPerk = { VALUE = scholarly_circles_perk } # "学术圈"
 	cmct_addPerk = { VALUE = learn_on_the_job_perk } # "用以致学"
 	cmct_addPerk = { VALUE = sanctioned_loopholes_perk } # "圣许漏洞"
-	cmct_addPerk = { VALUE = scholar_perk } # "学者"
+	cmct_addPerk = { VALUE = erudite_perk } # "博学者"
 	#Stewardship: Domain Tree
 	cmct_addPerk = { VALUE = tax_man_perk } # "税吏"
 	cmct_addPerk = { VALUE = defensive_measures_perk } # "防御措施"
@@ -423,6 +423,18 @@ cmctCk_gainAll_lifeTraits = {
 	cmct_addTrait = { VALUE = hajjaj }
 	add_trait_xp = {
 		trait = pilgrim
+		value = 500
+	}
+
+  cmct_addTrait = { VALUE = confucian_education }
+	add_trait_xp = {
+		trait = confucian_education
+		value = 500
+	}
+
+  cmct_addTrait = { VALUE = track_lifestyle_scholar }
+	add_trait_xp = {
+		trait = track_lifestyle_scholar
 		value = 500
 	}
 }
